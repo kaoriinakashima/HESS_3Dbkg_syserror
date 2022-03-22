@@ -1,5 +1,6 @@
 Before you start: in general_config you need to change the path to the repository, and where the FITS files are stored for you. 
 The bkg model considering muoneff, is stored in ECAP cluster, so mainly people in ECAP have access to it. However, the error estimation is independent of it. 
+If it is the whole folder is too big, you can delete in folder HESS_3Dbkg_syserror/2-error_in_dataset/ the source folders. It is there for testing and showing that the method is reliable, if you dont need it, you can delete it.
 
 If you just want to calculate the error level for a given runlist, go to: folder2, scrip2, that is HESS_3Dbkg_syserror/2-error_in_dataset/2-estimating_error.ipynb and follow the instructions there.
 
