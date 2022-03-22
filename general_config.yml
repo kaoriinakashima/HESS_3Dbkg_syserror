@@ -1,0 +1,28 @@
+# this section one need to change accordingly to your settings
+repo_path: '/home/vault/caph/mppi062h/repositories/confluence' #path to this repository
+
+# this section you might want to change often:
+conf: 'zeta'
+N_ebins: 24 #number of energy bins the analysis will be done. Note, this is a very important parameter. So far we did not change it
+binsz: 0.08 #spatial size in units of deg for the spatial maps in gammapy
+offset_cut: 2.5 #maximum radius you want to include in the analysis in units of deg, parameter used for safe_mask
+width: 5 #width of the individual dataset, parameter in gammapy, units in deg
+
+# this section you might NOT want to change
+FITS_PROD: '/home/vault/caph/shared/data/FITS/HAP/fits_prod05' #for ECAP
+excl_regions_stars: 'fixed_material/datafiles_ExcludedRegions-stars.dat'
+excl_regions_sources: 'fixed_material/datafiles_bgmodel_excluded_regions.dat'
+
+# addition for muoneff model
+muoneff_path: '/home/saturn/caph/sn0533/shared/hess/fits/bgmodel_3d/prod05/std_zeta_fullEnclosure/'
+muoneff_flag: True # if it is true, the error will be considering the bkg model binned in muoneff, it is not very reliable for hess1u
+
+# these are masks for the runs used in the error estimation
+mask_ntels: 4 # runs with 3 telescopes requires a different bkg model
+mask_zenpnt: 60 # there is no bkg model produced for runs above 60 deg
+mask_eventcount: 1500 # this cut is important because low events might lead to negative normalization of bkg model
+mask_ontime: 1500 # same as previous point
+
+zen_bins: [ 0. , 15. , 25. , 35. , 42.5, 47.5, 52.5, 60. ]
+bdt_edges: [0.1, 0.3, 0.5, 1, 2, 5, 100]
+model_str: ['B', 'D', 'C']
