@@ -1,0 +1,45 @@
+components:
+- name: main source
+  spatial:
+    frame: icrs
+    parameters:
+    - error: 0.011260046887178033
+      name: lon_0
+      unit: deg
+      value: 11.892937361674376
+    - error: 0.010406841973481988
+      name: lat_0
+      unit: deg
+      value: -25.304658695315275
+    type: PointSpatialModel
+  spectral:
+    parameters:
+    - error: 0.17114773707547393
+      name: index
+      value: 2.5810527538467016
+    - error: 2.325756605642589e-14
+      name: amplitude
+      unit: cm-2 s-1 TeV-1
+      value: 1.4752454108999557e-13
+    - frozen: true
+      name: reference
+      unit: TeV
+      value: 1.0
+    type: PowerLawSpectralModel
+  type: SkyModel
+- datasets_names:
+  - nDFriQj9
+  spectral:
+    parameters:
+    - error: 0.0015905645672265691
+      name: norm
+      value: 0.9993112012017822
+    - frozen: true
+      name: tilt
+      value: 0.0
+    - frozen: true
+      name: reference
+      unit: TeV
+      value: 1.0
+    type: PowerLawNormSpectralModel
+  type: FoVBackgroundModel
