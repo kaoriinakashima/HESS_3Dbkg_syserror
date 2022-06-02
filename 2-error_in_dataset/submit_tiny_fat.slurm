@@ -18,7 +18,7 @@ source ~/anaconda3/etc/profile.d/conda.sh
 conda activate gammapy-0.19
 conda info
 
-srun --mpi=pmi2 python /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5a-Tutorial_Nui_Par_Fitting_Crab.py
+srun --mpi=pmi2 python /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5a-Tutorial_Nui_Par_Fitting.py
 
 #sbatch.tinyfat submit_tiny_fat.slurm
 #squeue.tinyfat

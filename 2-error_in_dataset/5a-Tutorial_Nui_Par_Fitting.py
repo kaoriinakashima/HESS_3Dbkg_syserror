@@ -13,7 +13,7 @@
 # - Fitting the model and the nuisance parameters to the data
 # - Compare the results to the standard 3D fit
 
-# In[19]:
+# In[42]:
 
 
 #get_ipython().system('jupyter nbconvert --to script 5a-Tutorial_Nui_Par_Fitting_Crab.ipynb')
@@ -47,7 +47,7 @@ from gammapy.modeling.models import (
     FoVBackgroundModel,
 )
 from regions import CircleSkyRegion
-
+import yaml
 import sys
 
 sys.path.append(
@@ -60,32 +60,30 @@ from  my_fit_19 import Fit
 # ## Standard Analysis
 # Setting up the model
 
-# In[2]:
+# In[5]:
 
 
 source = 'Crab'
 path = '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/2-error_in_dataset'
-# here the dataset with the fine binning is saved
-dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
-# This is for now the binning of 0.08 deg
-#dataset_standard = MapDataset.read(f'{source}/stacked.fits')
 
+if source == "Crab":
 
-#TODO read the best fit standard model in not like this ...
+    # here the dataset with the fine binning is saved
+    #dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
+    # This is for now the binning of 0.08 deg
+    dataset_standard = MapDataset.read(f'{source}/stacked.fits')
 
-from gammapy.modeling.models import GaussianSpatialModel, LogParabolaSpectralModel
-spatial=GaussianSpatialModel(lon_0=83.6333313*u.deg, lat_0=22.01444435*u.deg, sigma=0.016*u.deg, reference='1 TeV', frame='icrs')
-spectral=LogParabolaSpectralModel(amplitude='3.84e-11 cm-2 s-1 TeV-1', alpha=2.5, beta=0.105, reference='1TeV')
-main_source= SkyModel(spatial_model=spatial, spectral_model=spectral, name='main source')
-
-models = Models([main_source])
-
-
-
-bkg_model = FoVBackgroundModel(dataset_name=dataset_standard.name)
-bkg_model.parameters["tilt"].frozen = False
-models.append(bkg_model)
-dataset_standard.models = models
+    models = Models.read(f"{source}/standard_model.yml")
+    
+    with open(f"{source}/nui_bgmodel.yml", "r") as ymlfile:
+        best_fit_bgmodel = yaml.load(ymlfile, Loader=yaml.FullLoader)
+    bkg_model = FoVBackgroundModel(dataset_name=dataset_standard.name)
+    bkg_model.parameters['norm'].value = best_fit_bgmodel['spectral']['parameters'][0]['value']
+    bkg_model.parameters['tilt'].value = best_fit_bgmodel['spectral']['parameters'][1]['value']
+    bkg_model.parameters['norm'].error = best_fit_bgmodel['spectral']['parameters'][0]['error']
+    bkg_model.parameters['tilt'].error = best_fit_bgmodel['spectral']['parameters'][1]['error']
+    models.append(bkg_model)
+    dataset_standard.models = models
 
 
 dataset_standard.counts.sum_over_axes().plot(add_cbar=1)
@@ -97,19 +95,9 @@ print(
 
 
 
-# Performing the standard fit. 
-
-# In[3]:
-
-
-fit_standarad = Fit(store_trace=False)
-result_standarad = fit_standarad.run([dataset_standard])
-print(result_standarad)
-
-
 # The first two energybins of the dataset are not fitted well ...
 
-# In[4]:
+# In[7]:
 
 
 res_standard = (
@@ -117,7 +105,7 @@ res_standard = (
     .slice_by_idx(dict(energy=slice(6, 16)))
     .smooth(0.1 * u.deg)
 )
-vmax = 1
+vmax = np.nanmax(np.abs(res_standard.data))
 res_standard.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 
@@ -134,7 +122,7 @@ res_standard.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 # ### Systematic Amplitude
 
-# In[5]:
+# In[8]:
 
 
 bg = (
@@ -182,7 +170,7 @@ for i, e in enumerate(dataset_standard.geoms['geom'].axes[0].center.value):
 
 # ### Downsampling Factor
 
-# In[6]:
+# In[9]:
 
 
 angular_size_file = f'{source}/angular_size.txt'
@@ -219,7 +207,7 @@ geom_down = dataset_standard.downsample(downsampling_factor).geoms['geom']
 # #### Option 1:
 # define start and stop by hand
 
-# In[7]:
+# In[10]:
 
 
 i_start, i_end = 6,9
@@ -236,7 +224,7 @@ nuisance_mask_hand = (
 # #### Option 2:
 # Read in the sysamplitudes and only fit the nuisance parameters where sys amplitude >0
 
-# In[8]:
+# In[11]:
 
 
 print('Creating Mask for Nuisance Parameters where sysamplitude==0')
@@ -253,7 +241,7 @@ print(emask)
 
 # ### Nuisance Parameters
 
-# In[9]:
+# In[24]:
 
 
 threshold = 1
@@ -266,10 +254,9 @@ for i in range(len(bg_map_eaxis)):
     sys = np.round(np.abs(sigma[i]*bg_map_eaxis[i]))
     print(f"BG: {np.round(bg_map_eaxis[i]):<10} pm {stat:<14}   |  {sys}")
     print(f" { ((sys * threshold) < stat):>60}")
-bg
 
 
-# In[10]:
+# In[25]:
 
 
 # new way to compute correlation matrix to make it symmetric/ invertible
@@ -291,7 +278,7 @@ for ii in np.arange(len(sigma)):
         e+=1
 
 
-# In[11]:
+# In[26]:
 
 
 # Freeze Nuisance parameters at the edges of the analysis
@@ -333,7 +320,7 @@ Nuisance_parameters = Parameters( Nuisance_parameters)
 # - `l_corr`: the spatial correlation length in deg. For instance, a Fourier transformation of the residual map of the standard analysis can be used to estimate the correlation length. Generally, it is important to choose a correaltion length greater than the bin size of the counts cube to avoid fitting the nuisance parameters without any correlation which can lead to overfitting the data. 
 # - `sysamplitude`: list of correlation amplitudes for the different energybins. The strength of the systematics can be estimated of the spectral residual points when taking only the OFF regions of all runs into account. Here, these obtained values are divided by the amount of spatial bins they were computed for.   
 
-# In[12]:
+# In[27]:
 
 
 l_corr = 0.08
@@ -341,7 +328,7 @@ l_corr = 0.08
 
 # The spatial correlation matrix is computed with two helper maps to compute the separation angle between two spatial bins. Afterwards, the systematic amplitude is set as the diagonal of the spectral correlation matrix and the kroneker product of the two is returned as the overall correlation matrix. 
 
-# In[13]:
+# In[28]:
 
 
 geom_down = nuisance_mask.geom
@@ -376,7 +363,7 @@ def compute_K_matrix(l_deg):
     return np.kron(corr_matrix_spectral, corr_matrix_spatial)
 
 
-# In[14]:
+# In[29]:
 
 
 correlation_matrix = compute_K_matrix(l_corr)
@@ -393,7 +380,7 @@ fig.colorbar(cax);
 # - ` N_parameters`: The nuisance parameters
 # - `nuisance_mask`: Mask to help evaluating the nuisance parameters in the background prediction
 
-# In[15]:
+# In[30]:
 
 
 dataset_N = MapDatasetNuisance(
@@ -411,14 +398,15 @@ dataset_N = MapDatasetNuisance(
 
 bkg_model = FoVBackgroundModel(dataset_name=dataset_N.name)
 bkg_model.parameters["tilt"].frozen = False
-models.append(bkg_model)
-dataset_N.models = models
+models_N = models.copy()
+models_N.append(bkg_model)
+dataset_N.models = models_N
 print(dataset_N)
 
 
 # ## Running the Fit
 
-# In[16]:
+# In[31]:
 
 
 fit_N = Fit(store_trace=False)
@@ -427,13 +415,7 @@ result_N = fit_N.run([dataset_N])
 
 # The method `N_map()` is a map in the origial geometry with the nuisance parameters as the data. It is used in npred_background() and visualises the best fit nuisance parameters.
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
+# In[32]:
 
 
 vmax = np.max(np.abs(dataset_N.N_map().data))
@@ -446,7 +428,7 @@ dataset_N.N_map().plot_grid(
 
 # The spectral residual points show again how especially the first two energybins are not fitted well
 
-# In[ ]:
+# In[33]:
 
 
 kwargs_spectral = dict()
@@ -459,19 +441,19 @@ dataset_standard.plot_residuals(kwargs_spectral=kwargs_spectral);
 
 # After including the nuisance parameters the model description is much better in the first two energy bins. This indicates that the method worked and has improved out analysis.
 
-# In[ ]:
+# In[34]:
 
 
 res_N = (
     dataset_N.residuals("diff/sqrt(model)")
-    .slice_by_idx(dict(energy=slice(4, 6)))
+    .slice_by_idx(dict(energy=slice(6, 8)))
     .smooth(0.1 * u.deg)
 )
 vmax = np.max(np.abs(res_standard.data))
 res_N.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 
-# In[ ]:
+# In[35]:
 
 
 dataset_N.plot_residuals(kwargs_spectral=kwargs_spectral);
@@ -479,7 +461,7 @@ dataset_N.plot_residuals(kwargs_spectral=kwargs_spectral);
 
 # Her a comparison of the distribution of the significance maps in the first two energy bins is shown. With the nuisance parameters the mean of the distribution $\mu$ got closer to zero and the standard deviation $\sigma$ is closer to the expected $1$.
 
-# In[ ]:
+# In[36]:
 
 
 res_standard = (
@@ -498,7 +480,7 @@ _, bins, _ = plt.hist(
     bins=50,
     alpha=0.4,
     label="Standard: \n$\mu$ = {:.3} \n$\sigma$ = {:.3}".format(
-        np.mean(res_standard), np.std(res_standard)
+        np.nanmean(res_standard), np.nanstd(res_standard)
     ),
 )
 plt.hist(
@@ -506,7 +488,7 @@ plt.hist(
     bins=bins,
     alpha=0.4,
     label="Nuisance: \n$\mu$ = {:.3} \n$\sigma$ = {:.3}".format(
-        np.mean(res_N), np.std(res_N)
+        np.nanmean(res_N), np.nanstd(res_N)
     ),
 )
 plt.yscale("log")
@@ -519,7 +501,7 @@ plt.ylabel("Amount");
 # 
 # The model errors of the Nuisance dataset have for now to be set by hand. 
 
-# In[ ]:
+# In[37]:
 
 
 import my_dataset_core_19, my_fit_19
@@ -545,7 +527,7 @@ for par in dataset_N.models.parameters:
     par.error = np.sqrt(variance)
 
 
-# In[ ]:
+# In[40]:
 
 
 print(" with nuisance")
@@ -557,12 +539,12 @@ for p_N, p_stand in zip(dataset_N.models.parameters,dataset_standard.models.para
     print('='*50)
     print(p_N.name, p_stand.name)
     print('-'*50)
-    print(' {:.3} pm {:.3}'.format(p_N.value, p_N.error) )    
-    print('({:.3} pm {:.3})'.format(p_stand.value, p_stand.error) )
+    print(' {:.3} pm {:.3}'.format(p_N.value, float(p_N.error) )   ) 
+    print('({:.3} pm {:.3})'.format(p_stand.value, float(p_stand.error) ))
 
 
 
-# In[ ]:
+# In[41]:
 
 
 import yaml
@@ -576,5 +558,11 @@ if save:
             yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False)
     with open(f'{source}/nui_model.yml', 'w') as outfile:
             yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
+
+
+
+# In[ ]:
+
+
 
 
