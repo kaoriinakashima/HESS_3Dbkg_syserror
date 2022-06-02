@@ -1,0 +1,16 @@
+datasets_names:
+- 045qe2fm
+spectral:
+  parameters:
+  - error: 0.0018411979427560292
+    name: norm
+    value: 0.9983854059430181
+  - error: 0.0019170810655828028
+    name: tilt
+    value: -0.00011275559948598132
+  - frozen: true
+    name: reference
+    unit: TeV
+    value: 1.0
+  type: PowerLawNormSpectralModel
+type: FoVBackgroundModel
