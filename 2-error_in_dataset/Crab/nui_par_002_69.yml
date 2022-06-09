@@ -143,86 +143,86 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db16
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0010683689432024618
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db17
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 2.9614660727021237e-05
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db18
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.000435246048031064
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db19
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.00039115816415178246
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db20
   scale_method: scale10
   unit: ''
-  value: -7.337147709733775e-05
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db21
   scale_method: scale10
   unit: ''
-  value: 0.0005724549903788119
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db22
   scale_method: scale10
   unit: ''
-  value: 0.00012902180578919822
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db23
   scale_method: scale10
   unit: ''
-  value: 6.516146735905376e-05
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db24
   scale_method: scale10
   unit: ''
-  value: -6.595703177914441e-05
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -242,59 +242,59 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db27
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.00036801728200442133
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db28
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.001060187488338327
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db29
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0017946030865553
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db30
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0009918804766856837
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db31
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.000585545943702777
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db32
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0009332415089275676
 - error: 0
   frozen: true
   interp: lin
@@ -305,41 +305,41 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db34
   scale_method: scale10
   unit: ''
-  value: -6.350068394645058e-05
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db35
   scale_method: scale10
   unit: ''
-  value: 0.0006803389894669571
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db36
   scale_method: scale10
   unit: ''
-  value: -0.00036805647178604194
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db37
   scale_method: scale10
   unit: ''
-  value: -0.001427592515006388
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -348,7 +348,7 @@
   name: db38
   scale_method: scale10
   unit: ''
-  value: 0.0010681884010356117
+  value: 0.0003163991260358898
 - error: 0
   frozen: false
   interp: lin
@@ -357,7 +357,7 @@
   name: db39
   scale_method: scale10
   unit: ''
-  value: 5.624698792567892e-05
+  value: -0.0007906466838806006
 - error: 0
   frozen: false
   interp: lin
@@ -366,52 +366,52 @@
   name: db40
   scale_method: scale10
   unit: ''
-  value: 0.0004633886253742771
+  value: -0.0029716572068602906
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db41
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.004221767614776956
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db42
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0007197328420670024
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db43
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.005860661930477634
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db44
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0009907793256783688
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db45
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.000302958487700246
 - error: 0
   frozen: true
   interp: lin
@@ -447,7 +447,7 @@
   name: db49
   scale_method: scale10
   unit: ''
-  value: 0.0002772922954956172
+  value: -0.0002074109277988358
 - error: 0
   frozen: false
   interp: lin
@@ -456,7 +456,7 @@
   name: db50
   scale_method: scale10
   unit: ''
-  value: -0.0008167332755475874
+  value: 0.00018010887328621922
 - error: 0
   frozen: false
   interp: lin
@@ -465,7 +465,7 @@
   name: db51
   scale_method: scale10
   unit: ''
-  value: -0.0008863770025719256
+  value: -0.005364062373010025
 - error: 0
   frozen: false
   interp: lin
@@ -474,7 +474,7 @@
   name: db52
   scale_method: scale10
   unit: ''
-  value: -0.0007150553341088172
+  value: -0.014178980643291155
 - error: 0
   frozen: false
   interp: lin
@@ -483,7 +483,7 @@
   name: db53
   scale_method: scale10
   unit: ''
-  value: -0.0001088245746179632
+  value: -0.00975854359686822
 - error: 0
   frozen: false
   interp: lin
@@ -492,7 +492,7 @@
   name: db54
   scale_method: scale10
   unit: ''
-  value: -0.001243040612163377
+  value: 0.004213908076595353
 - error: 0
   frozen: false
   interp: lin
@@ -501,34 +501,34 @@
   name: db55
   scale_method: scale10
   unit: ''
-  value: 0.000326287956754545
+  value: 0.002818909255431429
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db56
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.006308740009088455
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db57
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.00023343884120364438
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db58
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0008351701240600514
 - error: 0
   frozen: true
   interp: lin
@@ -548,14 +548,14 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db61
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0003018627390724423
 - error: 0
   frozen: false
   interp: lin
@@ -564,7 +564,7 @@
   name: db62
   scale_method: scale10
   unit: ''
-  value: -0.00012231126250699488
+  value: -0.002378928514488402
 - error: 0
   frozen: false
   interp: lin
@@ -573,7 +573,7 @@
   name: db63
   scale_method: scale10
   unit: ''
-  value: 0.0006596482819914371
+  value: -0.011552718154235985
 - error: 0
   frozen: false
   interp: lin
@@ -582,7 +582,7 @@
   name: db64
   scale_method: scale10
   unit: ''
-  value: -0.000838950342313266
+  value: -0.008213904788421057
 - error: 0
   frozen: false
   interp: lin
@@ -591,7 +591,7 @@
   name: db65
   scale_method: scale10
   unit: ''
-  value: -0.00041840584063343987
+  value: 0.004634321744160277
 - error: 0
   frozen: false
   interp: lin
@@ -600,7 +600,7 @@
   name: db66
   scale_method: scale10
   unit: ''
-  value: 0.0030547273249269605
+  value: 0.008556057273514477
 - error: 0
   frozen: false
   interp: lin
@@ -609,7 +609,7 @@
   name: db67
   scale_method: scale10
   unit: ''
-  value: 0.0015001118523311973
+  value: 0.009012347902699603
 - error: 0
   frozen: false
   interp: lin
@@ -618,7 +618,7 @@
   name: db68
   scale_method: scale10
   unit: ''
-  value: -0.0012117250433156482
+  value: -0.013869509075106416
 - error: 0
   frozen: false
   interp: lin
@@ -627,7 +627,7 @@
   name: db69
   scale_method: scale10
   unit: ''
-  value: -0.004060209644282346
+  value: -0.00041995551099510567
 - error: 0
   frozen: false
   interp: lin
@@ -636,52 +636,52 @@
   name: db70
   scale_method: scale10
   unit: ''
-  value: -0.0008843432467048364
+  value: -0.0004395597867599578
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db71
   scale_method: scale10
   unit: ''
-  value: -0.00012666505755792312
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db72
   scale_method: scale10
   unit: ''
-  value: -9.19158817625008e-05
+  value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db73
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.001821053716569234
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db74
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.004563607451081114
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db75
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.004383027166561492
 - error: 0
   frozen: false
   interp: lin
@@ -690,7 +690,7 @@
   name: db76
   scale_method: scale10
   unit: ''
-  value: -0.00020710884893407423
+  value: -0.01262008896708371
 - error: 0
   frozen: false
   interp: lin
@@ -699,7 +699,7 @@
   name: db77
   scale_method: scale10
   unit: ''
-  value: 0.0009151140742386423
+  value: 0.01075130345441578
 - error: 0
   frozen: false
   interp: lin
@@ -708,7 +708,7 @@
   name: db78
   scale_method: scale10
   unit: ''
-  value: 3.928590983777545e-05
+  value: 0.016378523313678135
 - error: 0
   frozen: false
   interp: lin
@@ -717,7 +717,7 @@
   name: db79
   scale_method: scale10
   unit: ''
-  value: -0.00297975791182378
+  value: 0.0076109677031469345
 - error: 0
   frozen: false
   interp: lin
@@ -726,7 +726,7 @@
   name: db80
   scale_method: scale10
   unit: ''
-  value: 0.004742003474295104
+  value: -0.01237218605393965
 - error: 0
   frozen: false
   interp: lin
@@ -735,7 +735,7 @@
   name: db81
   scale_method: scale10
   unit: ''
-  value: -0.007034575140426354
+  value: 0.0008575182479939042
 - error: 0
   frozen: false
   interp: lin
@@ -744,25 +744,25 @@
   name: db82
   scale_method: scale10
   unit: ''
-  value: 0.0020354275004053203
+  value: -0.0005770707772012847
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db83
   scale_method: scale10
   unit: ''
-  value: 0.0017527088173080736
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db84
   scale_method: scale10
   unit: ''
-  value: 0.0069536225857836104
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -771,7 +771,7 @@
   name: db85
   scale_method: scale10
   unit: ''
-  value: 0.00250115873237671
+  value: -0.0006760439999428018
 - error: 0
   frozen: false
   interp: lin
@@ -780,7 +780,7 @@
   name: db86
   scale_method: scale10
   unit: ''
-  value: -0.0014507254373433308
+  value: 0.0019778730741006148
 - error: 0
   frozen: false
   interp: lin
@@ -789,7 +789,7 @@
   name: db87
   scale_method: scale10
   unit: ''
-  value: 0.001370735317685874
+  value: -0.009299532831842105
 - error: 0
   frozen: false
   interp: lin
@@ -798,25 +798,25 @@
   name: db88
   scale_method: scale10
   unit: ''
-  value: -0.00013467402848499533
+  value: -0.001009295520555771
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db89
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0018434182614206307
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db90
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.02334924199004148
 - error: 0
   frozen: false
   interp: lin
@@ -825,7 +825,7 @@
   name: db91
   scale_method: scale10
   unit: ''
-  value: 0.00045550550780316067
+  value: 0.007378126598674536
 - error: 0
   frozen: false
   interp: lin
@@ -834,7 +834,7 @@
   name: db92
   scale_method: scale10
   unit: ''
-  value: -0.0009812071515287956
+  value: -0.005495778450030617
 - error: 0
   frozen: false
   interp: lin
@@ -843,7 +843,7 @@
   name: db93
   scale_method: scale10
   unit: ''
-  value: -0.0032344525333072804
+  value: 0.0005148290012120248
 - error: 0
   frozen: false
   interp: lin
@@ -852,25 +852,25 @@
   name: db94
   scale_method: scale10
   unit: ''
-  value: 0.0013901027937559957
+  value: 4.3233153596686454e-05
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db95
   scale_method: scale10
   unit: ''
-  value: -0.007654231294027669
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db96
   scale_method: scale10
   unit: ''
-  value: -0.004187200253928975
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -879,7 +879,7 @@
   name: db97
   scale_method: scale10
   unit: ''
-  value: -0.004768190531317566
+  value: -9.326706468206693e-07
 - error: 0
   frozen: false
   interp: lin
@@ -888,7 +888,7 @@
   name: db98
   scale_method: scale10
   unit: ''
-  value: 0.0014175649613079216
+  value: 0.0005061310652367157
 - error: 0
   frozen: false
   interp: lin
@@ -897,7 +897,7 @@
   name: db99
   scale_method: scale10
   unit: ''
-  value: 0.0002965411405115419
+  value: -0.0038200401293526855
 - error: 0
   frozen: false
   interp: lin
@@ -906,7 +906,7 @@
   name: db100
   scale_method: scale10
   unit: ''
-  value: -0.006691106715599386
+  value: 0.004722511987223046
 - error: 0
   frozen: false
   interp: lin
@@ -915,7 +915,7 @@
   name: db101
   scale_method: scale10
   unit: ''
-  value: 0.0012376427117417215
+  value: 0.01925226782163138
 - error: 0
   frozen: false
   interp: lin
@@ -924,7 +924,7 @@
   name: db102
   scale_method: scale10
   unit: ''
-  value: -0.00034102171709819376
+  value: 0.012581018853178791
 - error: 0
   frozen: false
   interp: lin
@@ -933,25 +933,25 @@
   name: db103
   scale_method: scale10
   unit: ''
-  value: -0.00021547384621247245
+  value: 0.013064158564582592
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db104
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.001641581629934469
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db105
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0008341460039026492
 - error: 0
   frozen: false
   interp: lin
@@ -960,43 +960,43 @@
   name: db106
   scale_method: scale10
   unit: ''
-  value: 0.0002909007349814986
+  value: -8.47760513114204e-07
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db107
   scale_method: scale10
   unit: ''
-  value: -0.002224309334368727
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db108
   scale_method: scale10
   unit: ''
-  value: -0.0018025975128397715
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db109
   scale_method: scale10
   unit: ''
-  value: -0.0005870221904794144
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db110
   scale_method: scale10
   unit: ''
-  value: -0.012094683754741249
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -1005,7 +1005,7 @@
   name: db111
   scale_method: scale10
   unit: ''
-  value: -0.004854277660495983
+  value: -0.00041461407998329413
 - error: 0
   frozen: false
   interp: lin
@@ -1014,7 +1014,7 @@
   name: db112
   scale_method: scale10
   unit: ''
-  value: -0.004548309886459826
+  value: 0.00414951331843487
 - error: 0
   frozen: false
   interp: lin
@@ -1023,7 +1023,7 @@
   name: db113
   scale_method: scale10
   unit: ''
-  value: -0.01758071577351092
+  value: 0.020034122423604157
 - error: 0
   frozen: false
   interp: lin
@@ -1032,7 +1032,7 @@
   name: db114
   scale_method: scale10
   unit: ''
-  value: -0.0039582234046384975
+  value: 0.00791403929496773
 - error: 0
   frozen: false
   interp: lin
@@ -1041,7 +1041,7 @@
   name: db115
   scale_method: scale10
   unit: ''
-  value: -0.0037904007646964145
+  value: 0.005115361643697622
 - error: 0
   frozen: false
   interp: lin
@@ -1050,25 +1050,25 @@
   name: db116
   scale_method: scale10
   unit: ''
-  value: 0.0005408734766746817
+  value: -0.0007541514302298649
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db117
   scale_method: scale10
   unit: ''
-  value: 0.0004676243456008329
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db118
   scale_method: scale10
   unit: ''
-  value: -0.0008790504845510448
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -1088,32 +1088,32 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db121
   scale_method: scale10
   unit: ''
-  value: -0.0008623372137070758
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db122
   scale_method: scale10
   unit: ''
-  value: 0.0013523398778365924
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db123
   scale_method: scale10
   unit: ''
-  value: 0.004370796960178938
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -1122,7 +1122,7 @@
   name: db124
   scale_method: scale10
   unit: ''
-  value: -0.003927783718640834
+  value: 0.00026260174169618396
 - error: 0
   frozen: false
   interp: lin
@@ -1131,7 +1131,7 @@
   name: db125
   scale_method: scale10
   unit: ''
-  value: -0.008051580198059443
+  value: 0.002013998562973063
 - error: 0
   frozen: false
   interp: lin
@@ -1140,7 +1140,7 @@
   name: db126
   scale_method: scale10
   unit: ''
-  value: -0.00607234964162803
+  value: 0.003180204748137385
 - error: 0
   frozen: false
   interp: lin
@@ -1149,61 +1149,61 @@
   name: db127
   scale_method: scale10
   unit: ''
-  value: 0.0014723253739903877
+  value: 0.00019850366761394532
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db128
   scale_method: scale10
   unit: ''
-  value: 0.003926770306359879
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db129
   scale_method: scale10
   unit: ''
-  value: -0.0005768158305308455
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db130
   scale_method: scale10
   unit: ''
-  value: -0.005691608763297085
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db131
   scale_method: scale10
   unit: ''
-  value: 0.0010502266317613466
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db132
   scale_method: scale10
   unit: ''
-  value: -0.0002645140895595032
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db133
   scale_method: scale10
   unit: ''
-  value: 0.0003125769796628701
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -1223,122 +1223,122 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db136
   scale_method: scale10
   unit: ''
-  value: -0.00020389568722901631
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db137
   scale_method: scale10
   unit: ''
-  value: -0.00017724770014722083
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db138
   scale_method: scale10
   unit: ''
-  value: 0.0003096987509010978
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db139
   scale_method: scale10
   unit: ''
-  value: -0.0028978091171454443
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db140
   scale_method: scale10
   unit: ''
-  value: -0.0005247521107855636
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db141
   scale_method: scale10
   unit: ''
-  value: -0.008249908926107798
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db142
   scale_method: scale10
   unit: ''
-  value: -0.0010593296058571862
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db143
   scale_method: scale10
   unit: ''
-  value: 0.007549365338317395
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db144
   scale_method: scale10
   unit: ''
-  value: 0.00395513385744654
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db145
   scale_method: scale10
   unit: ''
-  value: -0.007607817728031738
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db146
   scale_method: scale10
   unit: ''
-  value: 0.0006390048420075067
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db147
   scale_method: scale10
   unit: ''
-  value: 0.000665476880918899
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db148
   scale_method: scale10
   unit: ''
-  value: -0.00017664269394221632
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -1367,77 +1367,77 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db152
   scale_method: scale10
   unit: ''
-  value: 0.00032534298964144887
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db153
   scale_method: scale10
   unit: ''
-  value: 8.651806651948861e-05
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db154
   scale_method: scale10
   unit: ''
-  value: -0.0023448649192187483
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db155
   scale_method: scale10
   unit: ''
-  value: 0.001173276963875786
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db156
   scale_method: scale10
   unit: ''
-  value: 0.014569182090542546
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db157
   scale_method: scale10
   unit: ''
-  value: 0.014610141783116119
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db158
   scale_method: scale10
   unit: ''
-  value: 0.014172967826696456
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db159
   scale_method: scale10
   unit: ''
-  value: 0.005555091377979697
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -1446,7 +1446,7 @@
   name: db160
   scale_method: scale10
   unit: ''
-  value: -0.0017155605666222115
+  value: 0.002401346740945805
 - error: 0
   frozen: false
   interp: lin
@@ -1455,7 +1455,7 @@
   name: db161
   scale_method: scale10
   unit: ''
-  value: 0.0008526694001044831
+  value: 0.002080336408816237
 - error: 0
   frozen: false
   interp: lin
@@ -1464,16 +1464,16 @@
   name: db162
   scale_method: scale10
   unit: ''
-  value: -0.00016536353474622427
+  value: 0.008010879468958948
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db163
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0033686530276032176
 - error: 0
   frozen: true
   interp: lin
@@ -1520,23 +1520,23 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db169
   scale_method: scale10
   unit: ''
-  value: -0.0015659116322189845
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db170
   scale_method: scale10
   unit: ''
-  value: 0.0015544136388514517
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -1545,7 +1545,7 @@
   name: db171
   scale_method: scale10
   unit: ''
-  value: 0.017189498767042365
+  value: -0.0011349433345674773
 - error: 0
   frozen: false
   interp: lin
@@ -1554,7 +1554,7 @@
   name: db172
   scale_method: scale10
   unit: ''
-  value: 0.013795333007253358
+  value: 0.0029867340076328943
 - error: 0
   frozen: false
   interp: lin
@@ -1563,7 +1563,7 @@
   name: db173
   scale_method: scale10
   unit: ''
-  value: 0.00829397498864008
+  value: 0.0035445646956753403
 - error: 0
   frozen: false
   interp: lin
@@ -1572,7 +1572,7 @@
   name: db174
   scale_method: scale10
   unit: ''
-  value: 0.003049815130115132
+  value: 0.008536302148150654
 - error: 0
   frozen: false
   interp: lin
@@ -1581,16 +1581,16 @@
   name: db175
   scale_method: scale10
   unit: ''
-  value: -0.0008131619133201006
+  value: 0.004731936077978601
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db176
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0012658072383342558
 - error: 0
   frozen: true
   interp: lin
@@ -1637,23 +1637,23 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db182
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -1.2676121598691997e-05
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db183
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.006293024637743789
 - error: 0
   frozen: false
   interp: lin
@@ -1662,7 +1662,7 @@
   name: db184
   scale_method: scale10
   unit: ''
-  value: -0.00020326001312226017
+  value: 0.007506839837740384
 - error: 0
   frozen: false
   interp: lin
@@ -1671,7 +1671,7 @@
   name: db185
   scale_method: scale10
   unit: ''
-  value: 0.00019383661157597226
+  value: 0.014706351519347481
 - error: 0
   frozen: false
   interp: lin
@@ -1680,7 +1680,7 @@
   name: db186
   scale_method: scale10
   unit: ''
-  value: 0.0038083488107519938
+  value: 0.04161513256675598
 - error: 0
   frozen: false
   interp: lin
@@ -1689,7 +1689,7 @@
   name: db187
   scale_method: scale10
   unit: ''
-  value: 0.0038521528506678983
+  value: 0.007654282771556749
 - error: 0
   frozen: false
   interp: lin
@@ -1698,7 +1698,7 @@
   name: db188
   scale_method: scale10
   unit: ''
-  value: 0.00508001067797954
+  value: 0.00028032044739498496
 - error: 0
   frozen: false
   interp: lin
@@ -1707,16 +1707,16 @@
   name: db189
   scale_method: scale10
   unit: ''
-  value: 0.0008829580761535655
+  value: 0.00023651439126018103
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db190
   scale_method: scale10
   unit: ''
-  value: -0.00021254426955130272
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -1736,68 +1736,68 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db193
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0007470840918539537
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db194
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.00012300308524171343
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db195
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.002753600794489989
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db196
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.02720379715763064
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db197
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.006570624907778543
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db198
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.027060428640862836
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db199
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.01741738700877042
 - error: 0
   frozen: false
   interp: lin
@@ -1806,7 +1806,7 @@
   name: db200
   scale_method: scale10
   unit: ''
-  value: -0.00027436825057236373
+  value: -0.015265435384702541
 - error: 0
   frozen: false
   interp: lin
@@ -1815,7 +1815,7 @@
   name: db201
   scale_method: scale10
   unit: ''
-  value: -0.00040212522081335775
+  value: 0.002442419755532126
 - error: 0
   frozen: false
   interp: lin
@@ -1824,115 +1824,115 @@
   name: db202
   scale_method: scale10
   unit: ''
-  value: 0.0002935790248904166
+  value: -0.0013263922122936608
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db203
   scale_method: scale10
   unit: ''
-  value: 0.0012102454304386604
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db204
   scale_method: scale10
   unit: ''
-  value: 0.00027637452925545887
+  value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db205
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0010092224492239314
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db206
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0008349667623219625
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db207
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0003040680111386118
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db208
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.002466377529955209
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db209
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0007704694913310008
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db210
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.012541733435090626
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db211
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0017767870645679538
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db212
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0019311618624401543
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db213
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.006044107840068217
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db214
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0006812650649912152
 - error: 0
   frozen: true
   interp: lin
@@ -1952,95 +1952,95 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db217
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0024171943007992584
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db218
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0018116503818948774
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db219
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0006593356462192905
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db220
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0358471833727381
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db221
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.030001207639602567
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db222
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.03192206961419174
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db223
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.037330478581731934
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db224
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.020814418829626816
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db225
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.007390739821312584
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db226
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.001964936116094241
 - error: 0
   frozen: true
   interp: lin
@@ -2060,95 +2060,95 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db229
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.002570423571986659
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db230
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 2.907371471345135e-05
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db231
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.004762971062384882
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db232
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.05122420551015011
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db233
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.05973583754906631
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db234
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.05865780708725775
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db235
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.01948134122805522
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db236
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0050638110238252505
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db237
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.002586699775189147
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db238
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0004840247656285112
 - error: 0
   frozen: true
   interp: lin
@@ -2168,41 +2168,41 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db241
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -1.3681019946200776e-06
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db242
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0011629551168349712
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db243
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0011333458310581574
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db244
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0027570807713309677
 - error: 0
   frozen: false
   interp: lin
@@ -2211,7 +2211,7 @@
   name: db245
   scale_method: scale10
   unit: ''
-  value: 9.493634626317365e-05
+  value: 0.038895655467232136
 - error: 0
   frozen: false
   interp: lin
@@ -2220,7 +2220,7 @@
   name: db246
   scale_method: scale10
   unit: ''
-  value: -0.00044944916703796146
+  value: 0.042976393266042356
 - error: 0
   frozen: false
   interp: lin
@@ -2229,7 +2229,7 @@
   name: db247
   scale_method: scale10
   unit: ''
-  value: 0.001280061483348741
+  value: 0.004291297722159906
 - error: 0
   frozen: false
   interp: lin
@@ -2238,7 +2238,7 @@
   name: db248
   scale_method: scale10
   unit: ''
-  value: 0.003756386838331672
+  value: -0.0034149793672956412
 - error: 0
   frozen: false
   interp: lin
@@ -2247,16 +2247,16 @@
   name: db249
   scale_method: scale10
   unit: ''
-  value: -0.0004401260427855738
+  value: -0.0006688921903872039
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db250
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -1.2034474083907795e-06
 - error: 0
   frozen: true
   interp: lin
@@ -2294,41 +2294,41 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db255
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0024226509632547977
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db256
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.005194267254082711
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db257
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.007736020999937008
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db258
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.02280249574623446
 - error: 0
   frozen: false
   interp: lin
@@ -2337,7 +2337,7 @@
   name: db259
   scale_method: scale10
   unit: ''
-  value: -0.0003145416920562558
+  value: 0.00657785088264828
 - error: 0
   frozen: false
   interp: lin
@@ -2346,52 +2346,52 @@
   name: db260
   scale_method: scale10
   unit: ''
-  value: -0.00033769728189051525
+  value: -0.0023098847355085455
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db261
   scale_method: scale10
   unit: ''
-  value: 0.0008800201608383999
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db262
   scale_method: scale10
   unit: ''
-  value: 0.003202408934553174
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db263
   scale_method: scale10
   unit: ''
-  value: 0.0032707089828824553
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db264
   scale_method: scale10
   unit: ''
-  value: 0.0032424146824901394
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db265
   scale_method: scale10
   unit: ''
-  value: -0.0003511221566193726
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -2411,41 +2411,41 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db268
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.00122155996961431
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db269
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.004810499215621408
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db270
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.006328411733762991
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db271
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.0003658552673075861
 - error: 0
   frozen: true
   interp: lin
@@ -2465,68 +2465,68 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db274
   scale_method: scale10
   unit: ''
-  value: 0.0006819721847375207
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db275
   scale_method: scale10
   unit: ''
-  value: 0.004454956690171934
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db276
   scale_method: scale10
   unit: ''
-  value: -0.0038117469748475616
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db277
   scale_method: scale10
   unit: ''
-  value: 0.014844229978814677
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db278
   scale_method: scale10
   unit: ''
-  value: 0.006898125767970991
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db279
   scale_method: scale10
   unit: ''
-  value: 0.0007592527985903405
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db280
   scale_method: scale10
   unit: ''
-  value: -0.0007986331839876315
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -2582,104 +2582,104 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db287
   scale_method: scale10
   unit: ''
-  value: -0.0001788150582376017
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db288
   scale_method: scale10
   unit: ''
-  value: -0.0005816605914137283
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db289
   scale_method: scale10
   unit: ''
-  value: 0.006222813464427337
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db290
   scale_method: scale10
   unit: ''
-  value: 0.005344981262237481
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db291
   scale_method: scale10
   unit: ''
-  value: 0.010207570383021992
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db292
   scale_method: scale10
   unit: ''
-  value: 0.02867005139397224
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db293
   scale_method: scale10
   unit: ''
-  value: 0.03627291468297359
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db294
   scale_method: scale10
   unit: ''
-  value: -0.004769416273499259
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db295
   scale_method: scale10
   unit: ''
-  value: -0.00124767038327531
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db296
   scale_method: scale10
   unit: ''
-  value: 0.0020436098533174176
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db297
   scale_method: scale10
   unit: ''
-  value: -0.00013871171966923268
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -2708,32 +2708,32 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db301
   scale_method: scale10
   unit: ''
-  value: 0.00014625547511928848
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db302
   scale_method: scale10
   unit: ''
-  value: 0.001955728157167537
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db303
   scale_method: scale10
   unit: ''
-  value: -0.0027499008333023416
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -2742,7 +2742,7 @@
   name: db304
   scale_method: scale10
   unit: ''
-  value: -0.005195349902262519
+  value: 0.00018587822645823104
 - error: 0
   frozen: false
   interp: lin
@@ -2751,7 +2751,7 @@
   name: db305
   scale_method: scale10
   unit: ''
-  value: -0.014584928129190667
+  value: -0.015715179196670166
 - error: 0
   frozen: false
   interp: lin
@@ -2760,7 +2760,7 @@
   name: db306
   scale_method: scale10
   unit: ''
-  value: -0.009297910566656239
+  value: -0.017529364574237
 - error: 0
   frozen: false
   interp: lin
@@ -2769,61 +2769,61 @@
   name: db307
   scale_method: scale10
   unit: ''
-  value: 0.016835874880323207
+  value: 0.03468212414940455
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db308
   scale_method: scale10
   unit: ''
-  value: 0.024537555105370583
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db309
   scale_method: scale10
   unit: ''
-  value: 0.013607642581780113
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db310
   scale_method: scale10
   unit: ''
-  value: -0.006031432167668639
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db311
   scale_method: scale10
   unit: ''
-  value: 0.0019157481254558127
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db312
   scale_method: scale10
   unit: ''
-  value: -0.001098358314559517
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db313
   scale_method: scale10
   unit: ''
-  value: -0.000190574961981407
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -2834,14 +2834,14 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db315
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.004381415428133814
 - error: 0
   frozen: false
   interp: lin
@@ -2850,7 +2850,7 @@
   name: db316
   scale_method: scale10
   unit: ''
-  value: 0.0002828272198502568
+  value: -0.005253503320951509
 - error: 0
   frozen: false
   interp: lin
@@ -2859,7 +2859,7 @@
   name: db317
   scale_method: scale10
   unit: ''
-  value: 0.0023025916211228746
+  value: -0.0006165993783890189
 - error: 0
   frozen: false
   interp: lin
@@ -2868,7 +2868,7 @@
   name: db318
   scale_method: scale10
   unit: ''
-  value: -0.0005381246323029478
+  value: -0.11179714149843674
 - error: 0
   frozen: false
   interp: lin
@@ -2877,7 +2877,7 @@
   name: db319
   scale_method: scale10
   unit: ''
-  value: 0.001621699274276413
+  value: -0.03140242573445486
 - error: 0
   frozen: false
   interp: lin
@@ -2886,52 +2886,52 @@
   name: db320
   scale_method: scale10
   unit: ''
-  value: -0.00449096048009999
+  value: -0.00897722904204455
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db321
   scale_method: scale10
   unit: ''
-  value: 0.0040868291636086615
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db322
   scale_method: scale10
   unit: ''
-  value: 0.004162310937339986
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db323
   scale_method: scale10
   unit: ''
-  value: 0.016174200855104088
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db324
   scale_method: scale10
   unit: ''
-  value: 0.016160354237576918
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db325
   scale_method: scale10
   unit: ''
-  value: -0.011545299960228364
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -2940,7 +2940,7 @@
   name: db326
   scale_method: scale10
   unit: ''
-  value: 0.0012389935583123248
+  value: 0.0219031509676792
 - error: 0
   frozen: false
   interp: lin
@@ -2949,7 +2949,7 @@
   name: db327
   scale_method: scale10
   unit: ''
-  value: 0.0006870376142688065
+  value: 0.06072142349272417
 - error: 0
   frozen: false
   interp: lin
@@ -2958,25 +2958,25 @@
   name: db328
   scale_method: scale10
   unit: ''
-  value: -0.0001635762690871456
+  value: -0.014554679536715291
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db329
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.04706130188225389
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db330
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.07689297032536982
 - error: 0
   frozen: false
   interp: lin
@@ -2985,7 +2985,7 @@
   name: db331
   scale_method: scale10
   unit: ''
-  value: -0.000563014682464586
+  value: -0.07932993922509946
 - error: 0
   frozen: false
   interp: lin
@@ -2994,7 +2994,7 @@
   name: db332
   scale_method: scale10
   unit: ''
-  value: 0.0019033414931449357
+  value: 0.05036586836757755
 - error: 0
   frozen: false
   interp: lin
@@ -3003,34 +3003,34 @@
   name: db333
   scale_method: scale10
   unit: ''
-  value: -0.0022984744040298547
+  value: 0.04834619539004998
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db334
   scale_method: scale10
   unit: ''
-  value: 0.009938096869403982
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db335
   scale_method: scale10
   unit: ''
-  value: 0.022060780517834788
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db336
   scale_method: scale10
   unit: ''
-  value: 0.006414465201461494
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3039,7 +3039,7 @@
   name: db337
   scale_method: scale10
   unit: ''
-  value: 0.006724898144427155
+  value: 0.02581019248396288
 - error: 0
   frozen: false
   interp: lin
@@ -3048,7 +3048,7 @@
   name: db338
   scale_method: scale10
   unit: ''
-  value: 0.01710643500443112
+  value: 0.006342323900486572
 - error: 0
   frozen: false
   interp: lin
@@ -3057,7 +3057,7 @@
   name: db339
   scale_method: scale10
   unit: ''
-  value: 0.01703987253394613
+  value: -0.08387876141476142
 - error: 0
   frozen: false
   interp: lin
@@ -3066,7 +3066,7 @@
   name: db340
   scale_method: scale10
   unit: ''
-  value: -0.006295166501332297
+  value: -0.16101541914459064
 - error: 0
   frozen: false
   interp: lin
@@ -3075,7 +3075,7 @@
   name: db341
   scale_method: scale10
   unit: ''
-  value: -0.0044794415951629005
+  value: -0.11194335508679212
 - error: 0
   frozen: false
   interp: lin
@@ -3084,7 +3084,7 @@
   name: db342
   scale_method: scale10
   unit: ''
-  value: -0.00398403775546183
+  value: -0.09373028329260037
 - error: 0
   frozen: false
   interp: lin
@@ -3093,25 +3093,25 @@
   name: db343
   scale_method: scale10
   unit: ''
-  value: -0.0008512858161962372
+  value: -0.07906919995257043
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db344
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.1602209144896859
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db345
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.017150469143768794
 - error: 0
   frozen: false
   interp: lin
@@ -3120,25 +3120,25 @@
   name: db346
   scale_method: scale10
   unit: ''
-  value: -0.0006643633704719829
+  value: -0.004684618252992574
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db347
   scale_method: scale10
   unit: ''
-  value: 0.0026195307968954907
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db348
   scale_method: scale10
   unit: ''
-  value: -0.0032972779671245826
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3147,7 +3147,7 @@
   name: db349
   scale_method: scale10
   unit: ''
-  value: 0.005199699904681699
+  value: -0.05286165786125203
 - error: 0
   frozen: false
   interp: lin
@@ -3156,7 +3156,7 @@
   name: db350
   scale_method: scale10
   unit: ''
-  value: 0.03673581102927085
+  value: -0.10095146126156661
 - error: 0
   frozen: false
   interp: lin
@@ -3165,7 +3165,7 @@
   name: db351
   scale_method: scale10
   unit: ''
-  value: 0.04608319615246245
+  value: -0.16269789242269558
 - error: 0
   frozen: false
   interp: lin
@@ -3174,7 +3174,7 @@
   name: db352
   scale_method: scale10
   unit: ''
-  value: 0.03908967480049049
+  value: -0.13775923028451562
 - error: 0
   frozen: false
   interp: lin
@@ -3183,7 +3183,7 @@
   name: db353
   scale_method: scale10
   unit: ''
-  value: 0.03349339222883056
+  value: -0.0626305263614875
 - error: 0
   frozen: false
   interp: lin
@@ -3192,7 +3192,7 @@
   name: db354
   scale_method: scale10
   unit: ''
-  value: 0.031568351040577196
+  value: -0.10785823250591256
 - error: 0
   frozen: false
   interp: lin
@@ -3201,7 +3201,7 @@
   name: db355
   scale_method: scale10
   unit: ''
-  value: -0.010062830338117812
+  value: -0.1055603756698678
 - error: 0
   frozen: false
   interp: lin
@@ -3210,7 +3210,7 @@
   name: db356
   scale_method: scale10
   unit: ''
-  value: -0.008389843301580846
+  value: -0.14436838215689982
 - error: 0
   frozen: false
   interp: lin
@@ -3219,7 +3219,7 @@
   name: db357
   scale_method: scale10
   unit: ''
-  value: -0.000223647541876255
+  value: 0.03720003632847345
 - error: 0
   frozen: false
   interp: lin
@@ -3228,7 +3228,7 @@
   name: db358
   scale_method: scale10
   unit: ''
-  value: -0.0009799784208719912
+  value: 0.01460351617196682
 - error: 0
   frozen: true
   interp: lin
@@ -3255,7 +3255,7 @@
   name: db361
   scale_method: scale10
   unit: ''
-  value: -0.0002856397442793734
+  value: -0.03260324066871165
 - error: 0
   frozen: false
   interp: lin
@@ -3264,7 +3264,7 @@
   name: db362
   scale_method: scale10
   unit: ''
-  value: -0.0026496695183002824
+  value: 0.005968315202135678
 - error: 0
   frozen: false
   interp: lin
@@ -3273,7 +3273,7 @@
   name: db363
   scale_method: scale10
   unit: ''
-  value: -0.001595511959987954
+  value: -0.12538730469793097
 - error: 0
   frozen: false
   interp: lin
@@ -3282,7 +3282,7 @@
   name: db364
   scale_method: scale10
   unit: ''
-  value: 0.00421950227629987
+  value: -0.09359971387517982
 - error: 0
   frozen: false
   interp: lin
@@ -3291,7 +3291,7 @@
   name: db365
   scale_method: scale10
   unit: ''
-  value: 0.03873458920718075
+  value: -0.06886264216286371
 - error: 0
   frozen: false
   interp: lin
@@ -3300,7 +3300,7 @@
   name: db366
   scale_method: scale10
   unit: ''
-  value: 0.0428772097001353
+  value: -0.07160011020902385
 - error: 0
   frozen: false
   interp: lin
@@ -3309,7 +3309,7 @@
   name: db367
   scale_method: scale10
   unit: ''
-  value: 0.04586073363810849
+  value: -0.09437788134318958
 - error: 0
   frozen: false
   interp: lin
@@ -3318,7 +3318,7 @@
   name: db368
   scale_method: scale10
   unit: ''
-  value: 0.04010632837083579
+  value: -0.10517629733364947
 - error: 0
   frozen: false
   interp: lin
@@ -3327,7 +3327,7 @@
   name: db369
   scale_method: scale10
   unit: ''
-  value: 0.01677575580773182
+  value: -0.08730346278658534
 - error: 0
   frozen: false
   interp: lin
@@ -3336,25 +3336,25 @@
   name: db370
   scale_method: scale10
   unit: ''
-  value: -0.007274103681322905
+  value: -0.033230425177269284
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db371
   scale_method: scale10
   unit: ''
-  value: 0.0013299770562548476
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db372
   scale_method: scale10
   unit: ''
-  value: -0.0005501249173373329
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3363,34 +3363,34 @@
   name: db373
   scale_method: scale10
   unit: ''
-  value: 0.00023246771668604827
+  value: -0.00766422272361101
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db374
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: 0.06176330069880094
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db375
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.060778012794286164
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db376
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.06395784323227467
 - error: 0
   frozen: false
   interp: lin
@@ -3399,7 +3399,7 @@
   name: db377
   scale_method: scale10
   unit: ''
-  value: 0.000186944253170566
+  value: -0.051125948687442656
 - error: 0
   frozen: false
   interp: lin
@@ -3408,7 +3408,7 @@
   name: db378
   scale_method: scale10
   unit: ''
-  value: 0.0017118945305204935
+  value: -0.07261147327844907
 - error: 0
   frozen: false
   interp: lin
@@ -3417,7 +3417,7 @@
   name: db379
   scale_method: scale10
   unit: ''
-  value: -0.0008764839596105107
+  value: -0.08233064416274151
 - error: 0
   frozen: false
   interp: lin
@@ -3426,7 +3426,7 @@
   name: db380
   scale_method: scale10
   unit: ''
-  value: 0.003001773092196318
+  value: -0.05328884460430729
 - error: 0
   frozen: false
   interp: lin
@@ -3435,7 +3435,7 @@
   name: db381
   scale_method: scale10
   unit: ''
-  value: 0.02545291719103587
+  value: -0.060679062380262355
 - error: 0
   frozen: false
   interp: lin
@@ -3444,25 +3444,25 @@
   name: db382
   scale_method: scale10
   unit: ''
-  value: 0.037508025795184634
+  value: 0.019192457996392714
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db383
   scale_method: scale10
   unit: ''
-  value: 0.028957973264960236
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db384
   scale_method: scale10
   unit: ''
-  value: -0.0017764510288718763
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3471,7 +3471,7 @@
   name: db385
   scale_method: scale10
   unit: ''
-  value: -0.00413063766549528
+  value: -1.9793498692029147e-05
 - error: 0
   frozen: false
   interp: lin
@@ -3480,7 +3480,7 @@
   name: db386
   scale_method: scale10
   unit: ''
-  value: -0.000814706810794176
+  value: -0.002237591890747054
 - error: 0
   frozen: false
   interp: lin
@@ -3489,61 +3489,61 @@
   name: db387
   scale_method: scale10
   unit: ''
-  value: -0.0002318892735217879
+  value: -0.08357215426337657
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db388
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.09808495043712044
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db389
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.006815788621123353
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db390
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.0441087650721629
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db391
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.016464116798050463
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db392
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.00683688077630658
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db393
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.013031518168236049
 - error: 0
   frozen: false
   interp: lin
@@ -3552,43 +3552,43 @@
   name: db394
   scale_method: scale10
   unit: ''
-  value: -0.0026156008088774273
+  value: -1.7306116657449905e-05
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db395
   scale_method: scale10
   unit: ''
-  value: -0.009801076125787745
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db396
   scale_method: scale10
   unit: ''
-  value: -0.004143621234745236
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db397
   scale_method: scale10
   unit: ''
-  value: 0.013923155907275405
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db398
   scale_method: scale10
   unit: ''
-  value: 0.019517603813288383
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3597,7 +3597,7 @@
   name: db399
   scale_method: scale10
   unit: ''
-  value: 0.00224712696538201
+  value: -0.06700243532007472
 - error: 0
   frozen: false
   interp: lin
@@ -3606,43 +3606,43 @@
   name: db400
   scale_method: scale10
   unit: ''
-  value: -0.0004164458740003135
+  value: -0.024937287830320534
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db401
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.056372773243952366
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db402
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.056316201917181924
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db403
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.01992049792236411
 - error: 0
-  frozen: true
+  frozen: false
   interp: lin
   max: .nan
   min: .nan
   name: db404
   scale_method: scale10
   unit: ''
-  value: 0.0
+  value: -0.022285864031841466
 - error: 0
   frozen: true
   interp: lin
@@ -3680,32 +3680,32 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db409
   scale_method: scale10
   unit: ''
-  value: -0.0004035527355029603
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db410
   scale_method: scale10
   unit: ''
-  value: -0.0010314326209177919
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db411
   scale_method: scale10
   unit: ''
-  value: 0.00568688744466408
+  value: 0.0
 - error: 0
   frozen: false
   interp: lin
@@ -3714,7 +3714,7 @@
   name: db412
   scale_method: scale10
   unit: ''
-  value: 0.014816354658577174
+  value: 0.04922775048111125
 - error: 0
   frozen: false
   interp: lin
@@ -3723,7 +3723,7 @@
   name: db413
   scale_method: scale10
   unit: ''
-  value: 0.006553416161832919
+  value: 0.0998151450919545
 - error: 0
   frozen: false
   interp: lin
@@ -3732,7 +3732,7 @@
   name: db414
   scale_method: scale10
   unit: ''
-  value: 0.0014144753959258586
+  value: 0.0191425532163822
 - error: 0
   frozen: false
   interp: lin
@@ -3741,7 +3741,7 @@
   name: db415
   scale_method: scale10
   unit: ''
-  value: -0.0004180584187649413
+  value: 0.020974741950699538
 - error: 0
   frozen: true
   interp: lin
@@ -3824,50 +3824,50 @@
   unit: ''
   value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db425
   scale_method: scale10
   unit: ''
-  value: -0.0005490062709947516
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db426
   scale_method: scale10
   unit: ''
-  value: -0.0002005681278203531
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db427
   scale_method: scale10
   unit: ''
-  value: 0.0015829787049401747
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db428
   scale_method: scale10
   unit: ''
-  value: -3.822952780704558e-05
+  value: 0.0
 - error: 0
-  frozen: false
+  frozen: true
   interp: lin
   max: .nan
   min: .nan
   name: db429
   scale_method: scale10
   unit: ''
-  value: 0.0003855800692148622
+  value: 0.0
 - error: 0
   frozen: true
   interp: lin
@@ -3883,2193 +3883,6 @@
   max: .nan
   min: .nan
   name: db431
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db432
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db433
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db434
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db435
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db436
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db437
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db438
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db439
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db440
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db441
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db442
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db443
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db444
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db445
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db446
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db447
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db448
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db449
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db450
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db451
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db452
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db453
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db454
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db455
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db456
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db457
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db458
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db459
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db460
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db461
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db462
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db463
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db464
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db465
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db466
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db467
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db468
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db469
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db470
-  scale_method: scale10
-  unit: ''
-  value: 0.01045877846955115
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db471
-  scale_method: scale10
-  unit: ''
-  value: -0.005419307260222322
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db472
-  scale_method: scale10
-  unit: ''
-  value: 0.02541054848296349
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db473
-  scale_method: scale10
-  unit: ''
-  value: 0.031328902729721046
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db474
-  scale_method: scale10
-  unit: ''
-  value: -0.006091458796312593
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db475
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db476
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db477
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db478
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db479
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db480
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db481
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db482
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db483
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db484
-  scale_method: scale10
-  unit: ''
-  value: -0.00504376831744218
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db485
-  scale_method: scale10
-  unit: ''
-  value: 0.03482089811848247
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db486
-  scale_method: scale10
-  unit: ''
-  value: -0.04860605290409297
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db487
-  scale_method: scale10
-  unit: ''
-  value: -0.058618231923726526
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db488
-  scale_method: scale10
-  unit: ''
-  value: -0.01390237203929035
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db489
-  scale_method: scale10
-  unit: ''
-  value: -0.0045591628015294655
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db490
-  scale_method: scale10
-  unit: ''
-  value: 0.0030620085300920594
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db491
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db492
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db493
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db494
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db495
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db496
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db497
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db498
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db499
-  scale_method: scale10
-  unit: ''
-  value: 0.02438246779055474
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db500
-  scale_method: scale10
-  unit: ''
-  value: -0.06669425740300111
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db501
-  scale_method: scale10
-  unit: ''
-  value: -0.005301307118940498
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db502
-  scale_method: scale10
-  unit: ''
-  value: 0.10365301538773362
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db503
-  scale_method: scale10
-  unit: ''
-  value: -0.1459710054408687
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db504
-  scale_method: scale10
-  unit: ''
-  value: 0.0022474334831426145
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db505
-  scale_method: scale10
-  unit: ''
-  value: -0.00987430362675254
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db506
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db507
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db508
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db509
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db510
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db511
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db512
-  scale_method: scale10
-  unit: ''
-  value: -0.0027359700271080197
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db513
-  scale_method: scale10
-  unit: ''
-  value: 0.024248581741342607
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db514
-  scale_method: scale10
-  unit: ''
-  value: 0.05835690006361232
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db515
-  scale_method: scale10
-  unit: ''
-  value: -0.02683518080698649
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db516
-  scale_method: scale10
-  unit: ''
-  value: 0.016978612982418276
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db517
-  scale_method: scale10
-  unit: ''
-  value: 0.025730593847327163
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db518
-  scale_method: scale10
-  unit: ''
-  value: -0.10362264970339947
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db519
-  scale_method: scale10
-  unit: ''
-  value: -0.07389609407767986
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db520
-  scale_method: scale10
-  unit: ''
-  value: 0.04434162391527103
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db521
-  scale_method: scale10
-  unit: ''
-  value: 0.030210350265128843
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db522
-  scale_method: scale10
-  unit: ''
-  value: 0.013978535315931361
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db523
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db524
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db525
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db526
-  scale_method: scale10
-  unit: ''
-  value: 0.003514682890773953
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db527
-  scale_method: scale10
-  unit: ''
-  value: 0.02235398411780652
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db528
-  scale_method: scale10
-  unit: ''
-  value: -0.009567579614126038
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db529
-  scale_method: scale10
-  unit: ''
-  value: -0.0707803257235648
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db530
-  scale_method: scale10
-  unit: ''
-  value: -0.17273070102107166
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db531
-  scale_method: scale10
-  unit: ''
-  value: -0.11102821997793359
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db532
-  scale_method: scale10
-  unit: ''
-  value: -0.11202166126848241
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db533
-  scale_method: scale10
-  unit: ''
-  value: -0.08243532367089747
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db534
-  scale_method: scale10
-  unit: ''
-  value: -0.0786643848754618
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db535
-  scale_method: scale10
-  unit: ''
-  value: -0.1719548909423829
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db536
-  scale_method: scale10
-  unit: ''
-  value: -0.013329154988530642
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db537
-  scale_method: scale10
-  unit: ''
-  value: 0.01805004744033652
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db538
-  scale_method: scale10
-  unit: ''
-  value: 0.005299430342337163
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db539
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db540
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db541
-  scale_method: scale10
-  unit: ''
-  value: -0.009952424965899003
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db542
-  scale_method: scale10
-  unit: ''
-  value: -0.010965758646039894
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db543
-  scale_method: scale10
-  unit: ''
-  value: -0.0838153377895366
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db544
-  scale_method: scale10
-  unit: ''
-  value: -0.1471904278439766
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db545
-  scale_method: scale10
-  unit: ''
-  value: -0.15824192387359345
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db546
-  scale_method: scale10
-  unit: ''
-  value: -0.055072598358660345
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db547
-  scale_method: scale10
-  unit: ''
-  value: -0.10923385841818935
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db548
-  scale_method: scale10
-  unit: ''
-  value: -0.09585400982194206
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db549
-  scale_method: scale10
-  unit: ''
-  value: -0.08751477132858164
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db550
-  scale_method: scale10
-  unit: ''
-  value: -0.144614218686768
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db551
-  scale_method: scale10
-  unit: ''
-  value: 0.016750726140474608
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db552
-  scale_method: scale10
-  unit: ''
-  value: -0.014249678236518971
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db553
-  scale_method: scale10
-  unit: ''
-  value: 0.01176455657015231
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db554
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db555
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db556
-  scale_method: scale10
-  unit: ''
-  value: -0.022284648896240877
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db557
-  scale_method: scale10
-  unit: ''
-  value: -0.07352989174675802
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db558
-  scale_method: scale10
-  unit: ''
-  value: -0.03391304096142971
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db559
-  scale_method: scale10
-  unit: ''
-  value: -0.13367444743110876
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db560
-  scale_method: scale10
-  unit: ''
-  value: -0.08743195428281918
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db561
-  scale_method: scale10
-  unit: ''
-  value: -0.07690444029911189
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db562
-  scale_method: scale10
-  unit: ''
-  value: -0.09195376800690627
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db563
-  scale_method: scale10
-  unit: ''
-  value: -0.08375675064544719
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db564
-  scale_method: scale10
-  unit: ''
-  value: -0.09397734486100993
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db565
-  scale_method: scale10
-  unit: ''
-  value: -0.11990616669052347
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db566
-  scale_method: scale10
-  unit: ''
-  value: -0.08772105200503987
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db567
-  scale_method: scale10
-  unit: ''
-  value: -0.013066425267420006
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db568
-  scale_method: scale10
-  unit: ''
-  value: -0.030289721787142967
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db569
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db570
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db571
-  scale_method: scale10
-  unit: ''
-  value: -0.0029064469322219047
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db572
-  scale_method: scale10
-  unit: ''
-  value: -0.023446726154134456
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db573
-  scale_method: scale10
-  unit: ''
-  value: -0.04590274393583321
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db574
-  scale_method: scale10
-  unit: ''
-  value: -0.11370680159419032
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db575
-  scale_method: scale10
-  unit: ''
-  value: -0.07243739956687145
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db576
-  scale_method: scale10
-  unit: ''
-  value: -0.07403701122064149
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db577
-  scale_method: scale10
-  unit: ''
-  value: -0.09173839176896571
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db578
-  scale_method: scale10
-  unit: ''
-  value: -0.0744252366094151
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db579
-  scale_method: scale10
-  unit: ''
-  value: -0.08540498409142135
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db580
-  scale_method: scale10
-  unit: ''
-  value: -0.08787329740739287
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db581
-  scale_method: scale10
-  unit: ''
-  value: -0.05085735962714808
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db582
-  scale_method: scale10
-  unit: ''
-  value: -0.02719863773151833
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db583
-  scale_method: scale10
-  unit: ''
-  value: -0.0021203408244161535
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db584
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db585
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db586
-  scale_method: scale10
-  unit: ''
-  value: -0.004049884404233492
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db587
-  scale_method: scale10
-  unit: ''
-  value: 0.04605557800535824
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db588
-  scale_method: scale10
-  unit: ''
-  value: 0.0029199079628720657
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db589
-  scale_method: scale10
-  unit: ''
-  value: -0.052755364615759325
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db590
-  scale_method: scale10
-  unit: ''
-  value: -0.08155381200366306
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db591
-  scale_method: scale10
-  unit: ''
-  value: -0.029318585005249687
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db592
-  scale_method: scale10
-  unit: ''
-  value: -0.08055952261846766
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db593
-  scale_method: scale10
-  unit: ''
-  value: -0.05887964305135153
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db594
-  scale_method: scale10
-  unit: ''
-  value: -0.07009642973103433
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db595
-  scale_method: scale10
-  unit: ''
-  value: -0.04972191527629404
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db596
-  scale_method: scale10
-  unit: ''
-  value: 0.05890918438038097
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db597
-  scale_method: scale10
-  unit: ''
-  value: -0.016934325100259044
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db598
-  scale_method: scale10
-  unit: ''
-  value: -0.00304646684122823
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db599
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db600
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db601
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db602
-  scale_method: scale10
-  unit: ''
-  value: -0.0037669368781323427
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db603
-  scale_method: scale10
-  unit: ''
-  value: -0.0037524809450204333
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db604
-  scale_method: scale10
-  unit: ''
-  value: -0.05888585894718198
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db605
-  scale_method: scale10
-  unit: ''
-  value: -0.1259457377327033
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db606
-  scale_method: scale10
-  unit: ''
-  value: -0.025110668763439564
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db607
-  scale_method: scale10
-  unit: ''
-  value: -0.032606132777221165
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db608
-  scale_method: scale10
-  unit: ''
-  value: -0.01765955522941011
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db609
-  scale_method: scale10
-  unit: ''
-  value: -0.012044232790314998
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db610
-  scale_method: scale10
-  unit: ''
-  value: -0.006982259619441712
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db611
-  scale_method: scale10
-  unit: ''
-  value: 0.01912792656085627
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db612
-  scale_method: scale10
-  unit: ''
-  value: -0.0031658205003239604
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db613
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db614
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db615
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db616
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db617
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db618
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db619
-  scale_method: scale10
-  unit: ''
-  value: -0.09505028740745662
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db620
-  scale_method: scale10
-  unit: ''
-  value: 0.015414486810454363
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db621
-  scale_method: scale10
-  unit: ''
-  value: -0.022524625696262415
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db622
-  scale_method: scale10
-  unit: ''
-  value: 0.004860952887105947
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db623
-  scale_method: scale10
-  unit: ''
-  value: -0.1008153942998498
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db624
-  scale_method: scale10
-  unit: ''
-  value: -0.020254092429663244
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db625
-  scale_method: scale10
-  unit: ''
-  value: -0.02553119798466373
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db626
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db627
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db628
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db629
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db630
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db631
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db632
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db633
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db634
-  scale_method: scale10
-  unit: ''
-  value: -0.024742939842333736
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db635
-  scale_method: scale10
-  unit: ''
-  value: 0.017614993971699553
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db636
-  scale_method: scale10
-  unit: ''
-  value: 0.05365676097820791
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db637
-  scale_method: scale10
-  unit: ''
-  value: -0.018968587783806275
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db638
-  scale_method: scale10
-  unit: ''
-  value: -0.013801015854128554
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db639
-  scale_method: scale10
-  unit: ''
-  value: 0.02210481921054249
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db640
-  scale_method: scale10
-  unit: ''
-  value: -0.008589851139395992
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db641
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db642
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db643
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db644
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db645
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db646
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db647
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db648
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db649
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db650
-  scale_method: scale10
-  unit: ''
-  value: -0.015586354724117568
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db651
-  scale_method: scale10
-  unit: ''
-  value: 0.015322769267433964
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db652
-  scale_method: scale10
-  unit: ''
-  value: 0.03051614084583698
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db653
-  scale_method: scale10
-  unit: ''
-  value: -0.04407172586982552
-- error: 0
-  frozen: false
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db654
-  scale_method: scale10
-  unit: ''
-  value: 0.002999438465342121
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db655
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db656
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db657
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db658
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db659
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db660
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db661
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db662
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db663
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db664
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db665
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db666
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db667
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db668
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db669
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db670
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db671
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db672
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db673
-  scale_method: scale10
-  unit: ''
-  value: 0.0
-- error: 0
-  frozen: true
-  interp: lin
-  max: .nan
-  min: .nan
-  name: db674
   scale_method: scale10
   unit: ''
   value: 0.0

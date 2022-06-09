@@ -1,13 +1,13 @@
 datasets_names:
-- S-xbaYRY
+- SeCSGxbm
 spectral:
   parameters:
-  - error: 0.08130877414621948
+  - error: 0.029710131875605363
     name: norm
-    value: 1.0089194558316867
-  - error: 0.08830716993082077
+    value: 1.01077909671351
+  - error: 0.029882077395649895
     name: tilt
-    value: 0.003945131063824574
+    value: 0.00784885314640289
   - frozen: true
     name: reference
     unit: TeV
