@@ -15,4 +15,4 @@ export OMP_NUM_THREADS=4
 conda activate gammapy-0.19
 
 cd /home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/1-error_estimation
-python create_dataset_hess2_4.py
+python create_dataset.py
