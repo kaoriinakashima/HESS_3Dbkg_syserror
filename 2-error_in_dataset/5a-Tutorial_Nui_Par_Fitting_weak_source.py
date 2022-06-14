@@ -17,9 +17,9 @@
 
 
 #get_ipython().system('jupyter nbconvert --to script 5a-Tutorial_Nui_Par_Fitting_Crab.ipynb')
-import pyximport
+#import pyximport
 
-pyximport.install()
+#pyximport.install()
 import matplotlib.pyplot as plt
 import numpy as np
 import astropy.units as u
@@ -69,9 +69,10 @@ source_percentage = 5 # percent
 if source == "Crab":
 
     # here the dataset with the fine binning is saved
-    #dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
+    dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
+    dataset_standard = dataset_standard.downsample(4)
     # This is for now the binning of 0.08 deg
-    dataset_standard = MapDataset.read(f'{source}/stacked.fits')
+    #dataset_standard = MapDataset.read(f'{source}/stacked.fits')
 
     models = Models.read(f"{source}/standard_model.yml")
     
@@ -257,7 +258,7 @@ geom_down = dataset_standard.downsample(downsampling_factor).geoms['geom']
 # In[8]:
 
 
-i_start, i_end =6,7
+i_start, i_end =6,15
 nuisance_mask_hand = (
     dataset_standard.geoms["geom"]
     .energy_mask(

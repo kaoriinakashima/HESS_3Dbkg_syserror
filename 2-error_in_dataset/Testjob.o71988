@@ -1,0 +1,104 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+hi, this is bash
+# conda environments:
+#
+base                  *  /home/hpc/caph/mppi045h/anaconda3
+fermipy                  /home/hpc/caph/mppi045h/anaconda3/envs/fermipy
+gammapy-0.14             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.14
+gammapy-0.18.2           /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.18.2
+gammapy-0.19             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+gammapy-0.20             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20
+gammapy-dev              /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-dev
+ipykernel_py2            /home/hpc/caph/mppi045h/anaconda3/envs/ipykernel_py2
+testbug2                 /home/hpc/caph/mppi045h/anaconda3/envs/testbug2
+
+no change     /home/hpc/caph/mppi045h/anaconda3/condabin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda-env
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/activate
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/deactivate
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.sh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/Conda.psm1
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/hpc/caph/mppi045h/anaconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.csh
+no change     /home/hpc/caph/mppi045h/.bashrc
+No action taken.
+
+     active environment : gammapy-0.19
+    active env location : /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+            shell level : 2
+       user config file : /home/hpc/caph/mppi045h/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : 3.21.4
+         python version : 3.7.10.final.0
+       virtual packages : __linux=5.4.0=0
+                          __glibc=2.31=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/hpc/caph/mppi045h/anaconda3  (writable)
+      conda av data dir : /home/hpc/caph/mppi045h/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/hpc/caph/mppi045h/anaconda3/pkgs
+                          /home/hpc/caph/mppi045h/.conda/pkgs
+       envs directories : /home/hpc/caph/mppi045h/anaconda3/envs
+                          /home/hpc/caph/mppi045h/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.27.1 CPython/3.7.10 Linux/5.4.0-104-generic ubuntu/20.04.4 glibc/2.31
+                UID:GID : 363202:15615
+             netrc file : None
+           offline mode : False
+
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (260.8284149, -0.09373201)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (260.8284149, -0.09373201)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (182.49256128, 83.17582374)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (182.49256128, 83.17582374)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.5757686, -89.98414778)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.5757686, -89.98414778)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (84.41435213, 73.5279536)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (84.41435213, 73.5279536)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.77976771, 33.42375399)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.77976771, 33.42375399)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (60.90778542, -88.78309174)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (60.90778542, -88.78309174)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (172.49653081, 13.27337879)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (172.49653081, 13.27337879)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
