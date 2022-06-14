@@ -3,32 +3,32 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 0.202128966778316
+    - error: 0.0009169199465283306
       name: lon_0
       unit: deg
-      value: 359.94651311553423
-    - error: 2.023353690649654e-05
+      value: 359.94421892355774
+    - error: 0.000537442810087218
       name: lat_0
       unit: deg
-      value: -0.04736150492360653
+      value: -0.04312998846438951
     type: PointSpatialModel
   spectral:
     parameters:
-    - error: 0.0020054721765179256
+    - error: 0.03460486271671015
       name: index
-      value: 2.0401841764372817
-    - error: 2.019550717455781e-15
+      value: 2.077675763222024
+    - error: 5.345528149056356e-14
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: 2.122672879719235e-12
+      value: 1.8834083088582325e-12
     - frozen: true
       name: reference
       unit: TeV
       value: 1.0
-    - error: 2.0332870808629277e-05
+    - error: 0.011237611699914213
       name: lambda_
       unit: TeV-1
-      value: 0.09856692133988645
+      value: 0.08766698814082294
     - frozen: true
       name: alpha
       value: 1.0
@@ -38,24 +38,24 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 0.00020013364649659236
+    - error: 0.0022248807010221963
       name: lon_0
       unit: deg
-      value: 0.33024062135949905
-    - error: 2.0049226279487414e-05
+      value: 0.8683616396974213
+    - error: 0.0018961723200706727
       name: lat_0
       unit: deg
-      value: -0.851426193642679
+      value: 0.07340054581577894
     type: PointSpatialModel
   spectral:
     parameters:
-    - error: 0.00202418500227615
+    - error: 0.03569836095897436
       name: index
-      value: 2.183695861354854
-    - error: 2.023839556905815e-16
+      value: 2.3854333458205175
+    - error: 2.809739685570632e-14
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: -3.2886752866925406e-15
+      value: 6.266806023784313e-13
     - frozen: true
       name: reference
       unit: TeV
@@ -66,18 +66,18 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 0.20206580960244047
+    - error: 0.06775512130605103
       name: lon_0
       unit: deg
-      value: 358.80667793373726
-    - error: 0.00020011922476329322
+      value: 358.50030766890984
+    - error: 0.04690096401616551
       name: lat_0
       unit: deg
-      value: -12.732212591412045
-    - error: 0.0002009287081695036
+      value: -0.4068298140691451
+    - error: 0.029629949806936468
       name: sigma
       unit: deg
-      value: 0.7115311313526309
+      value: 0.5970832502522859
     - frozen: true
       name: e
       value: 0.0
@@ -88,13 +88,13 @@ components:
     type: GaussianSpatialModel
   spectral:
     parameters:
-    - error: 0.0020192635435946514
+    - error: 0.053482987414203265
       name: index
-      value: 5.956233454810301
-    - error: 2.0192928504332815e-15
+      value: 2.406654984264644
+    - error: 5.828220744191502e-13
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: 2.1621027726707547e-06
+      value: 6.717850647372666e-12
     - frozen: true
       name: reference
       unit: TeV
@@ -105,24 +105,24 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 2.043958991398611e-05
+    - error: 0.0052321863571091
       name: lon_0
       unit: deg
-      value: -0.5661751424532104
-    - error: 0.00020412586472877577
+      value: 0.1526841801989284
+    - error: 0.007552499906865984
       name: lat_0
       unit: deg
-      value: -0.8134915910265827
+      value: -0.12369025050058334
     type: PointSpatialModel
   spectral:
     parameters:
-    - error: 0.002022622205826193
+    - error: 0.10373266723229868
       name: index
-      value: 5.815901709912633
-    - error: 2.0462812825737397e-17
+      value: 2.0188423392860257
+    - error: 1.1119596488501162e-14
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: -1.048224143818567e-15
+      value: 5.921996959743154e-14
     - frozen: true
       name: reference
       unit: TeV
@@ -133,18 +133,18 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 0.20014720184106924
+    - error: 0.02077142424402751
       name: lon_0
       unit: deg
-      value: 358.4911190147563
-    - error: 0.0020241527587351957
+      value: 358.69417057726054
+    - error: 0.02441669336016908
       name: lat_0
       unit: deg
-      value: 81.6080252323478
-    - error: 0.00020271309492197938
+      value: -0.657418290006847
+    - error: 0.012777069521638634
       name: sigma
       unit: deg
-      value: 0.3265937014638405
+      value: 0.0774416520683541
     - frozen: true
       name: e
       value: 0.0
@@ -155,13 +155,13 @@ components:
     type: GaussianSpatialModel
   spectral:
     parameters:
-    - error: 0.0020215060366869193
+    - error: 0.10123307143930263
       name: index
-      value: 2.2359382051876606
-    - error: 2.0224117850016925e-16
+      value: 4.417701425464512
+    - error: 2.5253181881442883e-13
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: 8.500725284467121e-13
+      value: 1.508225065057202e-11
     - frozen: true
       name: reference
       unit: TeV
@@ -172,24 +172,24 @@ components:
   spatial:
     frame: galactic
     parameters:
-    - error: 0.2001038804391191
+    - error: 0.007495538504912571
       name: lon_0
       unit: deg
-      value: 321.5472606222619
-    - error: 2.023821693441323e-05
+      value: 358.47925862204266
+    - error: 0.0063155528202869125
       name: lat_0
       unit: deg
-      value: 0.06520637081035695
+      value: 0.20568078257702904
     type: PointSpatialModel
   spectral:
     parameters:
-    - error: 0.002023875807958247
+    - error: 0.07938111604201116
       name: index
-      value: 2.522780062493442
-    - error: 2.0235146244404376e-16
+      value: 7.6277586929868715
+    - error: 7.674218377456469e-17
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: 2.0721274351318348e-13
+      value: 8.85687137741738e-17
     - frozen: true
       name: reference
       unit: TeV
@@ -206,9 +206,9 @@ components:
     unit: 1 / (cm2 s sr TeV)
   spectral:
     parameters:
-    - error: 20.241146042800793
+    - error: 378.9718657818507
       name: norm
-      value: 23817.6117044075
+      value: 21998.656458170124
     - frozen: true
       name: tilt
       value: 0.0
@@ -219,15 +219,15 @@ components:
     type: PowerLawNormSpectralModel
   type: SkyModel
 - datasets_names:
-  - -kpOMrnx
+  - hSzy2vqD
   spectral:
     parameters:
-    - error: 0.002024031755451034
+    - error: 0.0012893318865758309
       name: norm
-      value: 1.0241274428849285
-    - error: 0.0020243878304729845
+      value: 1.008551457216823
+    - error: 0.0007398744133504348
       name: tilt
-      value: 0.0050309445103349495
+      value: -0.0022287275517375482
     - frozen: true
       name: reference
       unit: TeV

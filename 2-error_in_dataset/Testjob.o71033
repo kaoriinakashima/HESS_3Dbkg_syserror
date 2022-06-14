@@ -1069,12 +1069,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83327846, -43.27394075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (66.20270552, -0.14296582)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83327846, -43.27394075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (66.20270552, -0.14296582)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (66.20270552, -0.14296582)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (293.46397932, -0.14296582)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (293.46397932, -0.14296582)> is outside valid IRF map range, using nearest IRF defined within
@@ -1229,12 +1229,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83361346, -43.27282254)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (351.7623008, -0.14162238)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83361346, -43.27282254)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (351.7623008, -0.14162238)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (351.7623008, -0.14162238)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (7.9051157, -0.14162238)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (7.9051157, -0.14162238)> is outside valid IRF map range, using nearest IRF defined within
@@ -1261,12 +1261,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83370825, -43.27253039)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (329.4201757, -0.14129745)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83370825, -43.27253039)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (329.4201757, -0.14129745)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (329.4201757, -0.14129745)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (30.24742814, -0.14129745)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (30.24742814, -0.14129745)> is outside valid IRF map range, using nearest IRF defined within
@@ -1293,12 +1293,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83380192, -43.27224547)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (304.93368473, -0.14092711)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83380192, -43.27224547)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (304.93368473, -0.14092711)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (304.93368473, -0.14092711)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (54.73413692, -0.14092711)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (54.73413692, -0.14092711)> is outside valid IRF map range, using nearest IRF defined within
@@ -1323,14 +1323,14 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83391082, 43.0245704)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (277.21904956, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.21904956, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83391082, -43.27192075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83391082, -43.27192075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (277.21904956, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.21904956, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (82.44904029, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (82.44904029, -0.14048371)> is outside valid IRF map range, using nearest IRF defined within
@@ -1355,14 +1355,14 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83404493, 43.02495985)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (245.20334021, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (245.20334021, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83404493, -43.27153196)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83404493, -43.27153196)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (245.20334021, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (245.20334021, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (114.46506187, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (114.46506187, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
@@ -1382,22 +1382,22 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (114.46506187, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (114.46506187, -0.13997678)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83420104, 43.0254051)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83420104, 43.0254051)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83420104, -43.27108747)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83420104, -43.27108747)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (209.30468937, -0.13920073)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83420104, 43.0254051)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (209.30468937, -0.13920073)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (150.36420909, -0.13920073)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83420104, 43.0254051)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (150.36420909, -0.13920073)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83420104, -43.27108747)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (150.36420909, -0.13920073)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83420104, -43.27108747)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83444923, 40.47531934)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -1419,13 +1419,13 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83444923, 40.47531934)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83444923, -40.72378431)> is outside valid IRF map range, using nearest IRF defined within
+    (166.96051592, -0.13775278)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83444923, -40.72378431)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (166.96051592, -0.13775278)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (166.96051592, -0.13775278)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83444923, -40.72378431)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (192.70936952, -0.13775278)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -1485,12 +1485,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83435152, -25.26894075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (106.28182224, -0.13715109)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83435152, -25.26894075)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (106.28182224, -0.13715109)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (106.28182224, -0.13715109)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (253.39006569, -0.13715109)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (253.39006569, -0.13715109)> is outside valid IRF map range, using nearest IRF defined within
@@ -1514,14 +1514,14 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (359.83594397, 23.37824647)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83594397, 23.37824647)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83594397, -23.64302397)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83594397, -23.64302397)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (70.5554276, -0.13746932)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (70.5554276, -0.13746932)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83594397, -23.64302397)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83594397, -23.64302397)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (289.11612804, -0.13746932)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -1671,22 +1671,22 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (343.81082835, -0.13749918)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83574394, 3.50725264)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83574394, 3.50725264)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
+    (348.75222126, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
+    (348.75222126, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83574394, -3.78202542)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83574394, -3.78202542)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (348.75222126, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (348.75222126, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (10.91924218, -0.13739729)> is outside valid IRF map range, using nearest IRF defined within
@@ -1743,41 +1743,41 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (353.44167151, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (10.67247702, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (10.67247702, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (349.00124651, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
+    (0.91073506, 47.85499606)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.91073506, 47.85499606)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (349.00124651, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.91073506, 47.85499606)> is outside valid IRF map range, using nearest IRF defined within
+    (345.92062665, -7.44265344)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (6.23205203, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
+    (349.00124651, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (345.92062665, -7.44265344)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (6.23205203, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (345.92062665, -7.44265344)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83694507, -77.77498496)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (6.23205203, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83694507, -77.77498496)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (353.44167151, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83694507, -77.77498496)> is outside valid IRF map range, using nearest IRF defined within
+    (318.49316906, 88.80454422)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (353.44167151, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (318.49316906, 88.80454422)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (318.49316906, 88.80454422)> is outside valid IRF map range, using nearest IRF defined within
+    (353.44167151, -0.13576097)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (106.61681457, -20.8850039)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -1810,132 +1810,132 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (304.5140473, -86.86875109)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
+    (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
+    (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.91073506, 47.85499606)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.91073506, 47.85499606)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (345.92062665, -7.44265344)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (345.92062665, -7.44265344)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
+    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
+    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83694507, -77.77498496)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83694507, -77.77498496)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
+    (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
+    (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (318.49316906, 88.80454422)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (318.49316906, 88.80454422)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
+    (225.40119287, -50.55535775)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
+    (225.40119287, -50.55535775)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (106.61681457, -20.8850039)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (106.61681457, -20.8850039)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (225.40119287, -50.55535775)> is outside valid IRF map range, using nearest IRF defined within
+    (0.86832323, 18.5187732)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (225.40119287, -50.55535775)> is outside valid IRF map range, using nearest IRF defined within
+    (0.86832323, 18.5187732)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (143.27923761, 64.80074176)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (143.27923761, 64.80074176)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.86832323, 18.5187732)> is outside valid IRF map range, using nearest IRF defined within
+    (357.44451845, 6.92269968)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.86832323, 18.5187732)> is outside valid IRF map range, using nearest IRF defined within
+    (357.44451845, 6.92269968)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.87246832, 73.49868623)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.87246832, 73.49868623)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (357.44451845, 6.92269968)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83686182, -30.14767391)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (357.44451845, 6.92269968)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83686182, -30.14767391)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (145.21232725, -19.93461715)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (145.21232725, -19.93461715)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686182, -30.14767391)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686182, -30.14767391)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686995, -7.43945436)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686995, -7.43945436)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (248.39551097, 88.59254036)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (248.39551097, 88.59254036)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (2.61059877, 10.30956866)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (2.61059877, 10.30956866)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (321.27762169, -73.75189032)> is outside valid IRF map range, using nearest IRF defined within
+    (248.39551097, 88.59254036)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (321.27762169, -73.75189032)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (328.24718534, -12.64222055)> is outside valid IRF map range, using nearest IRF defined within
+    (248.39551097, 88.59254036)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (328.24718534, -12.64222055)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
+    (328.24718534, -12.64222055)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
+    (321.27762169, -73.75189032)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (321.27762169, -73.75189032)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86830289, 4.44757777)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86830289, 4.44757777)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (25.11306033, 89.92913042)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86850521, 89.89400468)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83686178, -7.33852126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83686178, -7.33852126)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (348.12700912, 51.96326368)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686178, -7.33852126)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686178, -7.33852126)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686218, -41.07588822)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
+    (355.78655432, -1.70585946)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (355.78655432, -1.70585946)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (352.98637529, 5.13023022)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (355.78655432, -1.70585946)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (32.40573155, 70.22651196)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -1985,24 +1985,24 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (101.23416906, 77.30297913)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (3.61153279, -0.13587925)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (101.23416906, 77.30297913)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (3.61153279, -0.13587925)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
+    (3.61153279, -0.13587925)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (356.06219075, -0.13587925)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (356.06219075, -0.13587925)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (359.83681586, 87.43844903)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83681586, 87.43844903)> is outside valid IRF map range, using nearest IRF defined within
@@ -2045,35 +2045,35 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86839362, 53.91413539)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (101.23416906, 77.30297913)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (0.86839362, 53.91413539)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (355.35578888, 39.59712182)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (101.23416906, 77.30297913)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (355.35578888, 39.59712182)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
+    (101.23416906, 77.30297913)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (355.35578888, 39.59712182)> is outside valid IRF map range, using nearest IRF defined within
+    (355.37580325, 2.17258301)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (355.37580325, 2.17258301)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (355.37580325, 2.17258301)> is outside valid IRF map range, using nearest IRF defined within
+    (0.90709435, -76.01500755)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83681586, 87.43844903)> is outside valid IRF map range, using nearest IRF defined within
+    (15.91754986, 38.49604454)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (58.43269608, 58.30820897)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (15.91754986, 38.49604454)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83681586, 87.43844903)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (15.91754986, 38.49604454)> is outside valid IRF map range, using nearest IRF defined within
+    (359.83681586, 87.43844903)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (192.35048943, 60.50053356)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2085,15 +2085,15 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (113.01031292, -60.23488203)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83686176, -6.18959252)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (113.01031292, -60.23488203)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.87023651, 23.53939592)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686176, -6.18959252)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.87023651, 23.53939592)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83686176, -6.18959252)> is outside valid IRF map range, using nearest IRF defined within
+    (0.87023651, 23.53939592)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (289.78802256, 24.92109421)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2191,37 +2191,37 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86839258, 16.17442343)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (84.59059407, 29.07215342)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (84.59059407, 29.07215342)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (354.89430305, 38.97294843)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (354.89430305, 38.97294843)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.90667935, 26.43171035)> is outside valid IRF map range, using nearest IRF defined within
+    (84.59059407, 29.07215342)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.90667935, 26.43171035)> is outside valid IRF map range, using nearest IRF defined within
+    (84.59059407, 29.07215342)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686214, -85.5340327)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686214, -85.5340327)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (0.90667935, 26.43171035)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.90667935, 26.43171035)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (355.86300141, 2.18498381)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (355.86300141, 2.18498381)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (233.84696765, -62.12489327)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (233.84696765, -62.12489327)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (355.86300141, 2.18498381)> is outside valid IRF map range, using nearest IRF defined within
+    (15.1039155, 37.09222692)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (355.86300141, 2.18498381)> is outside valid IRF map range, using nearest IRF defined within
+    (15.1039155, 37.09222692)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83701144, 89.63672299)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83701144, 89.63672299)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (15.1039155, 37.09222692)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (15.1039155, 37.09222692)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (27.23752437, 56.74358064)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2235,13 +2235,13 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (40.17816774, 73.64547506)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.87021576, -39.72112366)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (0.87021576, -39.72112366)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686179, -5.77086422)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686179, -5.77086422)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.87021576, -39.72112366)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.87021576, -39.72112366)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (280.55871565, 37.90980193)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2339,33 +2339,33 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (0.86839168, -15.40588063)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (170.14343528, 59.05470489)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (354.63326174, 38.51130427)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (170.14343528, 59.05470489)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (354.63326174, 38.51130427)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686233, -84.90973317)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (170.14343528, 59.05470489)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686233, -84.90973317)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (129.44020134, 89.84657598)> is outside valid IRF map range, using nearest IRF defined within
+    (170.14343528, 59.05470489)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (356.18152225, 2.18174255)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (356.18152225, 2.18174255)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (129.44020134, 89.84657598)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (356.18152225, 2.18174255)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83708523, -57.578432)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (359.83708523, -57.578432)> is outside valid IRF map range, using nearest IRF defined within
+    (129.44020134, 89.84657598)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (14.30929987, 35.6187481)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (14.30929987, 35.6187481)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83708523, -57.578432)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (359.83708523, -57.578432)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (154.65241208, 57.75077224)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2379,13 +2379,13 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (260.45571487, 88.3226002)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (0.87019768, 27.81173668)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (0.87019768, 27.81173668)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686179, -5.67458611)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (359.83686179, -5.67458611)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.87019768, 27.81173668)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (0.87019768, 27.81173668)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (275.3383541, 46.92677305)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2479,62 +2479,62 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (145.61375255, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (342.06795393, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (342.06795393, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
+    (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (17.60576961, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (17.60576961, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (177.52594018, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (177.52594018, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -18.54478873)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -18.54478873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (177.52594018, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (177.52594018, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 3.65003332)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -3.5197149)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+    (287.64456175, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (287.64456175, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -18.54478873)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, -18.54478873)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (287.64456175, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (287.64456175, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (72.02916178, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
@@ -2733,25 +2733,9 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2763,6 +2747,10 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
@@ -2771,6 +2759,10 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
@@ -2778,6 +2770,10 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2791,6 +2787,14 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
@@ -2803,13 +2807,13 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2825,19 +2829,11 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+    (182.14778335, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2889,12 +2885,12 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (23.92297229, 0.05118407)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (23.92297229, 0.05118407)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (97.81766816, -0.09356153)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (97.81766816, -0.09356153)> is outside valid IRF map range, using nearest IRF defined within
@@ -2916,10 +2912,14 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (206.96726609, -0.13677332)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (352.19338198, -0.13731295)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (352.19338198, -0.13731295)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (358.25481198, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.26724536, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (352.19338198, -0.13731295)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (358.26724536, 18.67239239)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2943,9 +2943,17 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (226.15579928, -0.13015615)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (150.49742871, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (150.49742871, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (206.96726609, -0.13677332)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (206.96726609, -0.13677332)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (209.17629482, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (209.17629482, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (352.19338198, -0.13731295)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -2959,14 +2967,6 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (209.17629482, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (150.49742871, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (150.49742871, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (209.17629482, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (209.17629482, -0.13734135)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
@@ -2979,21 +2979,21 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (8.57022358, -0.13739847)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (174.50409812, -0.13848368)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (174.50409812, -0.13848368)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (253.18158875, -0.16018796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (174.50409812, -0.13848368)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (174.50409812, -0.13848368)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (8.57022358, -0.13739847)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3015,10 +3015,6 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (59.90869348, -0.1516283)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (59.90869348, -0.1516283)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
@@ -3026,6 +3022,10 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (59.90869348, -0.1516283)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (59.90869348, -0.1516283)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (56.91242893, -0.13805617)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3035,17 +3035,21 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (55.26966194, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (304.55558914, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (304.55558914, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.12744355, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3058,14 +3062,6 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (304.55558914, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (304.55558914, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3191,10 +3187,6 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, 0.03304939)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (276.69780753, 0.03304939)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
@@ -3207,9 +3199,17 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (93.32540885, -0.54216628)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, 0.03304939)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, 0.03304939)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (29.87724246, -0.26720067)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (29.87724246, -0.26720067)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (276.69780753, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.52072766, -0.16164593)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3219,25 +3219,61 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (235.19346422, -1.15695839)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (93.32540885, -0.54216628)> is outside valid IRF map range, using nearest IRF defined within
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (93.32540885, -0.54216628)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (93.32540885, -0.54216628)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296731, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296731, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (29.87724246, -0.26720067)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (29.87724246, -0.26720067)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (320.98228377, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (320.98228377, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (5.52072766, -0.16164593)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.52072766, -0.16164593)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+    (69.56144325, -2.0538244)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (69.56144325, -2.0538244)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (38.84296731, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3251,109 +3287,37 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (69.56144325, -2.0538244)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296731, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296731, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (320.98228377, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (320.98228377, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (69.56144325, -2.0538244)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (69.56144325, -2.0538244)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (194.43786129, -1.00509692)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (83.58178676, -0.51058679)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (31.22196545, -0.27701224)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (69.56080338, -2.05382162)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (69.56080338, -2.05382162)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (194.43753864, -1.00509551)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (194.43753864, -1.00509551)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (83.58162475, -0.51058608)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (83.58162475, -0.51058608)> is outside valid IRF map range, using nearest IRF defined within
+    (8.30402847, -0.17477579)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (69.56080338, -2.05382162)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3369,19 +3333,51 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296687, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (320.9822842, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (69.56080338, -2.05382162)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (69.56080338, -2.05382162)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (194.43753864, -1.00509551)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (194.43753864, -1.00509551)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (83.58162475, -0.51058608)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (83.58162475, -0.51058608)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (31.22186953, -0.27701182)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (38.84296719, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3389,43 +3385,47 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.30398397, -0.17477559)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (69.56077933, -2.05382152)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (69.56077933, -2.05382152)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (194.43751941, -1.00509543)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (194.43751941, -1.00509543)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296719, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (38.84296719, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.58160695, -0.510586)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (83.58160695, -0.510586)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (31.22185943, -0.27701177)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (31.22185943, -0.27701177)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (8.3039814, -0.17477558)> is outside valid IRF map range, using nearest IRF defined within
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (82.04681531, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (8.3039814, -0.17477558)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (277.77843577, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (8.3039814, -0.17477558)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296719, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (38.84296719, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (320.98228389, -0.13734185)> is outside valid IRF map range, using nearest IRF defined within
 /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   return super().imshow(X, *args, origin=origin, **kwargs)
 /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
@@ -3450,6 +3450,7 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (8.3039814, -0.17477558)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (8.3039814, -0.17477558)> is outside valid IRF map range, using nearest IRF defined within
+energy_true
 spatial binsize =  [0.08] deg
 sysamplitude_percentage: [ 0.00000000e+00  0.00000000e+00 -6.61603142e-03  2.33244100e-02
  -7.28676827e-02  6.66322272e-02 -9.18429922e-03  7.92313646e-03
@@ -3491,9 +3492,9 @@ Resulting Binsize: [0.08, 0.16, 0.32, 0.4, 0.8, 1.6, 2.0, 4.0]
 Chosen Downsampling Factor: 
  10.
 This will result in a Binsize of the Nuisance Parameters of 
- 0.16 deg.
+ 0.4 deg.
 Which is smaller than the observed angular size of the systematics of 
- 0.3 deg.
+ 0.75 deg.
 Creating Mask for Nuisance Parameters where sysamplitude==0
 nui_mask: [False False  True  True  True  True  True  True  True  True  True  True
   True  True  True  True  True  True  True  True False False False False]
@@ -3557,6 +3558,7 @@ BG: 163.0      pm 13.0             |  0.0
   return super().imshow(X, *args, origin=origin, **kwargs)
 /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   return super().imshow(X, *args, origin=origin, **kwargs)
+energy_true
 spatial binsize =  [0.08] deg
 sysamplitude_percentage: [ 0.00000000e+00  0.00000000e+00 -6.61603142e-03  2.33244100e-02
  -7.28676827e-02  6.66322272e-02 -9.18429922e-03  7.92313646e-03
@@ -3598,9 +3600,9 @@ Resulting Binsize: [0.08, 0.16, 0.32, 0.4, 0.8, 1.6, 2.0, 4.0]
 Chosen Downsampling Factor: 
  10.
 This will result in a Binsize of the Nuisance Parameters of 
- 0.16 deg.
+ 0.4 deg.
 Which is smaller than the observed angular size of the systematics of 
- 0.3 deg.
+ 0.75 deg.
 Creating Mask for Nuisance Parameters where sysamplitude==0
 nui_mask: [False False  True  True  True  True  True  True  True  True  True  True
   True  True  True  True  True  True  True  True False False False False]
@@ -3775,9 +3777,9 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, -39.40919822)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, -78.40391835)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, -39.40919822)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (346.69841017, -78.40391835)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, -78.40391835)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3873,13 +3875,13 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, -13.46435539)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, -54.47879115)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, -54.47879115)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (19.71374428, 8.45892283)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (19.71374428, 8.45892283)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (346.69841017, -54.47879115)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (346.69841017, -54.47879115)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (231.30787736, -54.47879115)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -3929,21 +3931,21 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, 26.02066523)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, 86.55713481)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, 86.55713481)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, 89.90320072)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, 89.90320072)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, 64.14085975)> is outside valid IRF map range, using nearest IRF defined within
+    (7.12660581, -14.89535089)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (346.69841017, 64.14085975)> is outside valid IRF map range, using nearest IRF defined within
+    (346.69841017, 86.55713481)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (7.12660581, -14.89535089)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (7.12660581, -14.89535089)> is outside valid IRF map range, using nearest IRF defined within
+    (346.69841017, 86.55713481)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (346.69841017, 64.14085975)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (346.69841017, 64.14085975)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, 64.14085975)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -4045,21 +4047,21 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.17040071, -9.92536094)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (5.33450202, -9.7220152)> is outside valid IRF map range, using nearest IRF defined within
+    (5.40100503, -10.00311299)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (5.40100503, -10.00311299)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.33450202, -9.7220152)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (5.33450202, -10.12865539)> is outside valid IRF map range, using nearest IRF defined within
+    (5.33450202, -9.7220152)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (5.33450202, -9.92536094)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.33450202, -10.12865539)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.33450202, -9.92536094)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
-    (5.40100503, -10.00311299)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (5.33450202, -9.92536094)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (5.40100503, -10.00311299)> is outside valid IRF map range, using nearest IRF defined within
+    (5.33450202, -10.12865539)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.33450202, -9.92536094)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -4117,6 +4119,10 @@ Position <SkyCoord (Galactic): (l, b) in deg
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.3644233, -7.96272018)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
+    (5.39464903, -10.07166527)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
+    (5.39464903, -10.07166527)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (Galactic): (l, b) in deg
     (5.3644233, -12.02840691)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.3644233, -12.02840691)> is outside valid IRF map range, using nearest IRF defined within
@@ -4124,10 +4130,6 @@ Position <SkyCoord (Galactic): (l, b) in deg
     (5.3644233, -9.99814617)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (5.3644233, -9.99814617)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (5.39464903, -10.07166527)> is outside valid IRF map range, using nearest IRF defined within
-Position <SkyCoord (Galactic): (l, b) in deg
-    (5.39464903, -10.07166527)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
     (346.69841017, 40.68311375)> is outside valid IRF map range, using nearest IRF defined within
 Position <SkyCoord (Galactic): (l, b) in deg
@@ -5623,7 +5625,7 @@ Position <SkyCoord (Galactic): (l, b) in deg
 MapDatasetNuisance
 ------------------
 
-  Name                            : KIOQ0etB 
+  Name                            : Hbz3sryY 
 
   Total counts                    : 740337 
   Total background counts         : 709362.38
@@ -5752,8 +5754,8 @@ MapDatasetNuisance
   
   Component 7: FoVBackgroundModel
   
-    Name                      : KIOQ0etB-bkg
-    Datasets names            : ['KIOQ0etB']
+    Name                      : Hbz3sryY-bkg
+    Datasets names            : ['Hbz3sryY']
     Spectral model type       : PowerLawNormSpectralModel
     Parameters:
       norm                    :      1.000   +/-    0.00             
@@ -5854,6 +5856,9 @@ amplitude amplitude
 ==================================================
 reference reference
 --------------------------------------------------
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Template file already exits, and overwrite is False
  1.0 pm 0.0
 (1.0 pm 0.0)
 
@@ -6019,8 +6024,6 @@ norm norm
  1.02 pm 0.0729
 (1.0 pm 0.000362)
 
-Traceback (most recent call last):
-  File "/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5a-Tutorial_Nui_Par_Fitting.py", line 652, in <module>
 ==================================================
 tilt tilt
 --------------------------------------------------
@@ -6032,37 +6035,441 @@ reference reference
 --------------------------------------------------
  1.0 pm 0.0
 (1.0 pm 0.0)
-    yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
-  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/gammapy/modeling/models/core.py", line 490, in to_dict
-    model.spatial_model.write(overwrite=overwrite_templates)
-  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/gammapy/modeling/models/spatial.py", line 1147, in write
-    raise IOError("Missing filename")
-OSError: Missing filename
 /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   return super().imshow(X, *args, origin=origin, **kwargs)
-srun: error: tf079: task 1: Exited with exit code 1
-srun: launch/slurm: _step_signal: Terminating StepId=70900.0
-slurmstepd-tf079: error: *** STEP 70900.0 ON tf079 CANCELLED AT 2022-06-08T17:35:55 ***
-srun: error: tf079: task 0: Terminated
-srun: Force Terminated StepId=70900.0
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+MapDatasetNuisance
+------------------
+
+  Name                            : v7acxp32 
+
+  Total counts                    : 740337 
+  Total background counts         : 709362.38
+  Total excess counts             : 30974.62
+
+  Predicted counts                : 970443.79
+  Predicted background counts     : 941263.06
+  Predicted excess counts         : 29180.73
+
+  Exposure min                    : 1.11e-01 m2 s
+  Exposure max                    : 1.94e+11 m2 s
+
+  Number of total bins            : 240000 
+  Number of fit bins              : 116807 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : -1500302.50
+
+  Number of models                : 8 
+  Number of parameters            : 44
+  Number of free parameters       : 30
+
+  Component 0: SkyModel
+  
+    Name                      : src
+    Datasets names            : None
+    Spectral model type       : ExpCutoffPowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      2.041   +/-    0.01             
+      amplitude               :   2.22e-12   +/- 1.5e-14 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lambda_                 :      0.100   +/-    0.00 1 / TeV     
+      alpha        (frozen)   :      1.000                   
+      lon_0                   :    359.946   +/-    0.00 deg         
+      lat_0                   :     -0.048   +/-    0.00 deg         
+  
+  Component 1: SkyModel
+  
+    Name                      : g09
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      2.427   +/-    0.01             
+      amplitude               :   7.55e-13   +/- 1.1e-14 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lon_0                   :      0.868   +/-    0.00 deg         
+      lat_0                   :      0.072   +/-    0.00 deg         
+  
+  Component 2: SkyModel
+  
+    Name                      : 1745
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      2.475   +/-    0.02             
+      amplitude               :   6.08e-12   +/- 1.1e-13 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lon_0                   :    358.807   +/-    0.02 deg         
+      lat_0                   :     -0.156   +/-    0.02 deg         
+      sigma                   :      0.717   +/-    0.01 deg         
+      e            (frozen)   :      0.000                   
+      phi          (frozen)   :      0.000       deg         
+  
+  Component 3: SkyModel
+  
+    Name                      : 1746
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      4.147   +/-    2.74             
+      amplitude               :   1.41e-14   +/- 5.6e-14 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lon_0                   :     -0.087   +/-   94.37 deg         
+      lat_0                   :     -0.137   +/-    0.37 deg         
+  
+  Component 4: SkyModel
+  
+    Name                      : 1746308
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      2.236   +/-    0.03             
+      amplitude               :   8.35e-13   +/- 2.9e-14 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lon_0                   :    358.491   +/-    0.01 deg         
+      lat_0                   :     -1.199   +/-    0.01 deg         
+      sigma                   :      0.148   +/-    0.00 deg         
+      e            (frozen)   :      0.000                   
+      phi          (frozen)   :      0.000       deg         
+  
+  Component 5: SkyModel
+  
+    Name                      : 1741
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                   :      2.523   +/-    0.07             
+      amplitude               :   2.07e-13   +/- 1.2e-14 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      lon_0                   :    358.255   +/-    0.00 deg         
+      lat_0                   :      0.065   +/-    0.00 deg         
+  
+  Component 6: SkyModel
+  
+    Name                      : Diffuse Emission
+    Datasets names            : None
+    Spectral model type       : PowerLawNormSpectralModel
+    Spatial  model type       : TemplateSpatialModel
+    Temporal model type       : 
+    Parameters:
+      norm                    :  21616.466   +/-  138.10             
+      tilt         (frozen)   :      0.000                   
+      reference    (frozen)   :      1.000       TeV         
+  
+  Component 7: FoVBackgroundModel
+  
+    Name                      : v7acxp32-bkg
+    Datasets names            : ['v7acxp32']
+    Spectral model type       : PowerLawNormSpectralModel
+    Parameters:
+      norm                    :      1.000   +/-    0.00             
+      tilt                    :      0.000   +/-    0.00             
+      reference    (frozen)   :      1.000       TeV         
+  
+    Number of Nuisance parameters   : 300
+  Number of free Nuisance parameters: 200
+
+
+ with nuisance
+(without nuisance)
+
+==================================================
+index index
+--------------------------------------------------
+ 2.06 pm 0.0169
+(2.04 pm 0.00891)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ 2.22e-12 pm 1.72e-14
+(2.22e-12 pm 1.53e-14)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lambda_ lambda_
+--------------------------------------------------
+ 0.0953 pm 0.000185
+(0.0999 pm 0.00239)
+
+==================================================
+alpha alpha
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 3.6e+02 pm 3.09
+(3.6e+02 pm 0.000429)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ -0.048 pm 0.000527
+(-0.0478 pm 0.000456)
+
+==================================================
+index index
+--------------------------------------------------
+ 2.43 pm 0.0729
+(2.43 pm 0.0143)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ 7.33e-13 pm 6.73e-15
+(7.55e-13 pm 1.07e-14)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 0.868 pm 0.00396
+(0.868 pm 0.000971)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ 0.0721 pm 0.000267
+(0.0724 pm 0.000962)
+
+==================================================
+index index
+--------------------------------------------------
+ 2.48 pm 0.0174
+(2.48 pm 0.0173)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ 6.08e-12 pm 1.75e-14
+(6.08e-12 pm 1.06e-13)
+
+==================================================
+reference reference
+--------------------------------------------------
+Template file already exits, and overwrite is False
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 3.47e+02 pm 2.57
+(3.59e+02 pm 0.0173)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ 74.9 pm 0.0039
+(-0.156 pm 0.0168)
+
+==================================================
+sigma sigma
+--------------------------------------------------
+ 4.41 pm 0.0065
+(0.717 pm 0.00894)
+
+==================================================
+e e
+--------------------------------------------------
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+phi phi
+--------------------------------------------------
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+index index
+--------------------------------------------------
+ 25.3 pm 0.0728
+(4.15 pm 2.74)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ -1.75e-12 pm 5.99e-16
+(1.41e-14 pm 5.61e-14)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 5.35 pm 0.000406
+(-0.0874 pm 94.4)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ -9.98 pm 0.00334
+(-0.137 pm 0.365)
+
+==================================================
+index index
+--------------------------------------------------
+ 2.26 pm 0.0329
+(2.24 pm 0.0265)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ 1.03e-12 pm 4.16e-15
+(8.35e-13 pm 2.92e-14)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 3.58e+02 pm 5.81
+(3.58e+02 pm 0.00779)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ -1.18 pm 0.0721
+(-1.2 pm 0.00963)
+
+==================================================
+sigma sigma
+--------------------------------------------------
+ 0.161 pm 0.00725
+(0.148 pm 0.00424)
+
+==================================================
+e e
+--------------------------------------------------
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+phi phi
+--------------------------------------------------
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+index index
+--------------------------------------------------
+ 2.45 pm 0.0682
+(2.52 pm 0.0718)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+ 2.77e-13 pm 6.12e-15
+(2.07e-13 pm 1.22e-14)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+ 3.58e+02 pm 6.06
+(3.58e+02 pm 0.00421)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+ 0.0677 pm 0.000666
+(0.0652 pm 0.00416)
+
+==================================================
+norm norm
+--------------------------------------------------
+ 2.24e+04 pm 7.24e+02
+(2.16e+04 pm 1.38e+02)
+
+==================================================
+tilt tilt
+--------------------------------------------------
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+norm norm
+--------------------------------------------------
+ 1.02 pm 0.0729
+(1.0 pm 0.000362)
+
+==================================================
+tilt tilt
+--------------------------------------------------
+ 0.013 pm 0.0729
+(0.00362 pm 0.000417)
+
+==================================================
+reference reference
+--------------------------------------------------
+ 1.0 pm 0.0
+(1.0 pm 0.0)
 === JOB_STATISTICS ===
-=== current date     : Wed 08 Jun 2022 05:35:55 PM CEST
-= Job-ID             : 70900 on tinyfat
+=== current date     : Thu 09 Jun 2022 12:06:56 PM CEST
+= Job-ID             : 71033 on tinyfat
 = Job-Name           : Testjob
 = Job-Command        : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/submit_tiny_fat.slurm
 = Initial workdir    : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset
 = Queue/Partition    : work
 = Slurm account      : caph with QOS=normal
 = Requested resources: cpu=32,mem=62.50G,node=1,billing=32 for 06:00:00
-= Elapsed runtime    : 00:18:12
+= Elapsed runtime    : 00:16:30
 = Total RAM usage    : 1.2 GiB of requested 62.50 GiB (1.9%)   
-= Node list          : tf079
-= Subm/Elig/Start/End: 2022-06-08T17:08:48 / 2022-06-08T17:08:48 / 2022-06-08T17:17:43 / 2022-06-08T17:35:55
+= Node list          : tf088
+= Subm/Elig/Start/End: 2022-06-09T11:49:36 / 2022-06-09T11:49:36 / 2022-06-09T11:50:26 / 2022-06-09T12:06:56
 ======================
 === Quota infos ======
     Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
-    /home/hpc           16.5G    52.4G   104.9G        N/A  23,557      500K   1,000K        N/A    
-    /home/vault         30.9G   524.3G  1048.6G        N/A      32      200K     400K        N/A    
     /home/saturn       675.0G     0.0K     0.0K        N/A   9,161                           N/A    
+    /home/hpc           16.5G    52.4G   104.9G        N/A  23,685      500K   1,000K        N/A    
+    /home/vault         30.9G   524.3G  1048.6G        N/A      33      200K     400K        N/A    
     /home/woody         52.6G   500.0G   999.0G        N/A     990K                          N/A    
 ======================

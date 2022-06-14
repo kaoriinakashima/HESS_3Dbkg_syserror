@@ -1,0 +1,937 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+hi, this is bash
+# conda environments:
+#
+base                  *  /home/hpc/caph/mppi045h/anaconda3
+fermipy                  /home/hpc/caph/mppi045h/anaconda3/envs/fermipy
+gammapy-0.14             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.14
+gammapy-0.18.2           /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.18.2
+gammapy-0.19             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+gammapy-0.20             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20
+gammapy-dev              /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-dev
+ipykernel_py2            /home/hpc/caph/mppi045h/anaconda3/envs/ipykernel_py2
+testbug2                 /home/hpc/caph/mppi045h/anaconda3/envs/testbug2
+
+no change     /home/hpc/caph/mppi045h/anaconda3/condabin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda-env
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/activate
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/deactivate
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.sh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/Conda.psm1
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/hpc/caph/mppi045h/anaconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.csh
+no change     /home/hpc/caph/mppi045h/.bashrc
+No action taken.
+
+     active environment : gammapy-0.19
+    active env location : /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+            shell level : 2
+       user config file : /home/hpc/caph/mppi045h/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : 3.21.4
+         python version : 3.7.10.final.0
+       virtual packages : __linux=5.4.0=0
+                          __glibc=2.31=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/hpc/caph/mppi045h/anaconda3  (writable)
+      conda av data dir : /home/hpc/caph/mppi045h/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/hpc/caph/mppi045h/anaconda3/pkgs
+                          /home/hpc/caph/mppi045h/.conda/pkgs
+       envs directories : /home/hpc/caph/mppi045h/anaconda3/envs
+                          /home/hpc/caph/mppi045h/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.27.1 CPython/3.7.10 Linux/5.4.0-104-generic ubuntu/20.04.4 glibc/2.31
+                UID:GID : 363202:15615
+             netrc file : None
+           offline mode : False
+
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (105.2190992, 10.01251775)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (105.2190992, 10.01251775)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.18523841, 13.49055313)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.18523841, 13.49055313)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (48.94325355, -89.04094891)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (48.94325355, -89.04094891)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (18.33624535, -10.17749736)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (18.33624535, -10.17749736)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (122.99406754, -88.75800164)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (122.99406754, -88.75800164)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (85.60101855, -88.76032963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (85.60101855, -88.76032963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.90330804, 49.14489991)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.90330804, 49.14489991)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.7404037, 82.79453003)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.7404037, 82.79453003)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.67826956, 53.41949401)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.67826956, 53.41949401)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.65087873, 35.10857591)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.65087873, 35.10857591)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (140.97339141, -83.04656412)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (140.97339141, -83.04656412)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (39.9496742, -39.50026216)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (39.9496742, -39.50026216)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (323.16916456, 89.37623818)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (323.16916456, 89.37623818)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (65.17835215, -15.1387345)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (65.17835215, -15.1387345)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (82.71030402, -20.33691586)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (82.71030402, -20.33691586)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.24261231, -71.60143563)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.24261231, -71.60143563)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.45207428, 44.95969045)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.45207428, 44.95969045)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.54702463, 88.26829563)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.54702463, 88.26829563)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.59232804, 63.33797333)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.59232804, 63.33797333)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.61439525, 42.47601737)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.61439525, 42.47601737)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.62516753, 30.89049111)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.62516753, 30.89049111)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (90.70505414, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (90.70505414, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (76.56102251, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (76.56102251, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (154.35319649, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (154.35319649, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.91288016, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.91288016, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (96.43145667, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (96.43145667, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (96.43145667, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (96.43145667, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, -22.50914867)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (94.0140658, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (94.0140658, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.25201085, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.25201085, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (70.83461998, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.63303832, 61.16383692)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (156.11196969, 89.52138569)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (156.11196969, 89.52138569)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (68.34696407, -64.46244702)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (68.34696407, -64.46244702)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (234.86796128, 79.04164873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (234.86796128, 79.04164873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (145.22925831, 81.86181907)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (145.22925831, 81.86181907)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (102.04790822, 56.63039012)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (102.04790822, 56.63039012)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (261.05662818, 39.17865552)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (261.05662818, 39.17865552)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (161.32293079, 29.68963438)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (161.32293079, 29.68963438)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (112.94845872, 24.93993375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (112.94845872, 24.93993375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (91.49922176, 22.80855794)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (91.49922176, 22.80855794)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.01283012, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.01283012, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25324653, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25324653, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (216.9775563, 77.95815433)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (216.9775563, 77.95815433)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (206.74672655, -34.8957822)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (206.74672655, -34.8957822)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (186.38322698, -87.17635853)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (186.38322698, -87.17635853)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (276.55861256, -47.50362406)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (276.55861256, -47.50362406)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (348.70999675, 14.36310479)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (348.70999675, 14.36310479)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (211.66786773, 89.92381632)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (211.66786773, 89.92381632)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (324.7972803, 72.0439421)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (324.7972803, 72.0439421)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (21.72471663, 49.80133682)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (21.72471663, 49.80133682)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (50.25779186, 36.33229569)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (50.25779186, 36.33229569)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (244.54265851, 29.17609103)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (244.54265851, 29.17609103)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (161.71403578, 25.51619437)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (161.71403578, 25.51619437)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.00746867, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.00746867, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25860798, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25860798, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.37734178, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.37734178, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (249.88873487, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (249.88873487, 22.02339126)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (221.07607289, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (221.07607289, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (306.19000376, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (306.19000376, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.37734178, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (277.37734178, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (249.88873487, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (249.88873487, 22.0264411)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.00746867, 22.0267396)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (103.00746867, 22.0267396)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25860798, 22.0267396)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (64.25860798, 22.0267396)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.38984361, -21.45547052)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.38984361, -21.45547052)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (82.17105847, -89.63694005)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (82.17105847, -89.63694005)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.44537972, -63.42175384)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.44537972, -63.42175384)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.61001377, 10.78014316)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.61001377, 10.78014316)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+BG counts: 26879.081639187385
+Source counts: 30041.52709150879
+The Crab is 111.7654520149633 % of the BG!
+Setting new sources amplitude to ... 
+1.6401597486813483e-12
+This is in BG percentage: 
+4.956988417365895
+spatial binsize =  [0.08] deg
+sysamplitude_percentage: [ 0.          0.          0.          0.          0.          0.05364812
+  0.02510288  0.0238672  -0.09008346 -0.0232704  -0.00747471  0.00899063
+  0.01297704  0.08916167  0.02988208  0.03211004  0.03141786  0.0353519
+  0.04056004  0.04720887  0.          0.          0.          0.        ]
+Estimated systematic uncertainty: 
+
+Ebin               [Counts]    [% BG]
+0.1  : 0.1    TeV:  0.0         0.0    
+0.1  : 0.2    TeV:  0.0         0.0    
+0.2  : 0.2    TeV:  0.0         0.0    
+0.2  : 0.3    TeV:  0.0         0.0    
+0.3  : 0.4    TeV:  0.0         0.0    
+0.4  : 0.6    TeV:  0.0         0.054  
+0.6  : 0.7    TeV:  612.0       0.025  
+0.7  : 1.0    TeV:  2119.0      0.024  
+1.0  : 1.3    TeV:  -6438.0     -0.09  
+1.3  : 1.8    TeV:  -1354.0     -0.023  
+1.8  : 2.4    TeV:  -315.0      -0.007  
+2.4  : 3.2    TeV:  279.0       0.009  
+3.2  : 4.2    TeV:  315.0       0.013  
+4.2  : 5.6    TeV:  1324.0      0.089  
+5.6  : 7.5    TeV:  265.0       0.03   
+7.5  : 10.0   TeV:  218.0       0.032  
+10.0 : 13.3   TeV:  161.0       0.031  
+13.3 : 17.8   TeV:  134.0       0.035  
+17.8 : 23.7   TeV:  111.0       0.041  
+23.7 : 31.6   TeV:  91.0        0.047  
+31.6 : 42.2   TeV:  0.0         0.0    
+42.2 : 56.2   TeV:  0.0         0.0    
+56.2 : 75.0   TeV:  0.0         0.0    
+75.0 : 100.0  TeV:  0.0         0.0    
+Current Binning: 150
+Possible downsampling factors: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75]
+Resulting Binsize: [0.08, 0.16, 0.24, 0.4, 0.48, 0.8, 1.2, 2.0, 2.4, 4.0, 6.0]
+
+Chosen Downsampling Factor: 
+ 10.
+This will result in a Binsize of the Nuisance Parameters of 
+ 0.48 deg.
+Which is smaller than the observed angular size of the systematics of 
+ 0.75 deg.
+Creating Mask for Nuisance Parameters where sysamplitude==0
+nui_mask: [False False False False False  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True False False False False]
+[False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+                                     sys * thresh < stat:
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 24371.0    pm 156.0            |  612.0
+                                                            0
+BG: 88769.0    pm 298.0            |  2119.0
+                                                            0
+BG: 71462.0    pm 267.0            |  6438.0
+                                                            0
+BG: 58174.0    pm 241.0            |  1354.0
+                                                            0
+BG: 42134.0    pm 205.0            |  315.0
+                                                            0
+BG: 31035.0    pm 176.0            |  279.0
+                                                            0
+BG: 24276.0    pm 156.0            |  315.0
+                                                            0
+BG: 14851.0    pm 122.0            |  1324.0
+                                                            0
+BG: 8858.0     pm 94.0             |  265.0
+                                                            0
+BG: 6780.0     pm 82.0             |  218.0
+                                                            0
+BG: 5113.0     pm 72.0             |  161.0
+                                                            0
+BG: 3786.0     pm 62.0             |  134.0
+                                                            0
+BG: 2742.0     pm 52.0             |  111.0
+                                                            0
+BG: 1927.0     pm 44.0             |  91.0
+                                                            0
+BG: 1340.0     pm 37.0             |  0.0
+                                                            1
+BG: 982.0      pm 31.0             |  0.0
+                                                            1
+BG: 742.0      pm 27.0             |  0.0
+                                                            1
+BG: 541.0      pm 23.0             |  0.0
+                                                            1
+0.025102876215608482
+125  free Nuisance Parameters out of  225
+MapDatasetNuisance
+------------------
+
+  Name                            : RsG3fqvs 
+
+  Total counts                    : 392718 
+  Total background counts         : 387882.91
+  Total excess counts             : 4835.09
+
+  Predicted counts                : 389240.08
+  Predicted background counts     : 387882.89
+  Predicted excess counts         : 1357.19
+
+  Exposure min                    : 1.39e+00 m2 s
+  Exposure max                    : 2.25e+11 m2 s
+
+  Number of total bins            : 540000 
+  Number of fit bins              : 180540 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : -1015048.39
+
+  Number of models                : 2 
+  Number of parameters            : 12
+  Number of free parameters       : 8
+
+  Component 0: SkyModel
+  
+    Name                      : main source
+    Datasets names            : None
+    Spectral model type       : LogParabolaSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      amplitude               :   1.60e-12   +/- 1.0e-13 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      alpha                   :      2.706   +/-    0.09             
+      beta                    :     -0.024   +/-    0.04             
+      lon_0                   :     83.638   +/-    0.00 deg         
+      lat_0                   :     22.017   +/-    0.00 deg         
+      sigma                   :      0.020   +/-    0.01 deg         
+      e            (frozen)   :      0.000                   
+      phi          (frozen)   :      0.000       deg         
+  
+  Component 1: FoVBackgroundModel
+  
+    Name                      : RsG3fqvs-bkg
+    Datasets names            : ['RsG3fqvs']
+    Spectral model type       : PowerLawNormSpectralModel
+    Parameters:
+      norm                    :      1.000   +/-    0.00             
+      tilt                    :      0.000   +/-    0.00             
+      reference    (frozen)   :      1.000       TeV         
+  
+    Number of Nuisance parameters   : 225
+  Number of free Nuisance parameters: 125
+
+
+ with nuisance
+(without nuisance)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+=1.64e-12 pm 2.83e-13
+ 1.61e-12 pm 2.45e-14
+(1.6e-12 pm 1.01e-13)
+
+==================================================
+reference reference
+--------------------------------------------------
+=1.0 pm 0.0
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+alpha alpha
+--------------------------------------------------
+=2.51 pm 0.0183
+ 2.72 pm 0.0249
+(2.71 pm 0.0921)
+
+==================================================
+beta beta
+--------------------------------------------------
+=0.103 pm 0.00912
+ -0.0256 pm 0.000251
+(-0.0241 pm 0.0369)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+=83.6 pm 0.000635
+ 83.6 pm 0.251
+(83.6 pm 0.00405)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+=22.0 pm 0.000873
+ 22.0 pm 0.251
+(22.0 pm 0.00331)
+
+==================================================
+sigma sigma
+--------------------------------------------------
+=0.0192 pm 0.00427
+ 0.02 pm 0.00025
+(0.0201 pm 0.0143)
+
+==================================================
+e e
+--------------------------------------------------
+=0.0 pm 0.0
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+phi phi
+--------------------------------------------------
+=0.0 pm 0.0
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+norm norm
+--------------------------------------------------
+=1.01 pm 0.0813
+ 1.01 pm 0.025
+(1.01 pm 0.00162)
+
+==================================================
+tilt tilt
+--------------------------------------------------
+=0.00395 pm 0.0883
+ 0.00148 pm 0.0251
+(0.00395 pm 0.0)
+
+==================================================
+reference reference
+--------------------------------------------------
+=1.0 pm 0.0
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+BG counts: 26879.081639187385
+Source counts: 30041.52709150879
+The Crab is 111.7654520149633 % of the BG!
+Setting new sources amplitude to ... 
+1.6401597486813483e-12
+This is in BG percentage: 
+4.956988417365895
+spatial binsize =  [0.08] deg
+sysamplitude_percentage: [ 0.          0.          0.          0.          0.          0.05364812
+  0.02510288  0.0238672  -0.09008346 -0.0232704  -0.00747471  0.00899063
+  0.01297704  0.08916167  0.02988208  0.03211004  0.03141786  0.0353519
+  0.04056004  0.04720887  0.          0.          0.          0.        ]
+Estimated systematic uncertainty: 
+
+Ebin               [Counts]    [% BG]
+0.1  : 0.1    TeV:  0.0         0.0    
+0.1  : 0.2    TeV:  0.0         0.0    
+0.2  : 0.2    TeV:  0.0         0.0    
+0.2  : 0.3    TeV:  0.0         0.0    
+0.3  : 0.4    TeV:  0.0         0.0    
+0.4  : 0.6    TeV:  0.0         0.054  
+0.6  : 0.7    TeV:  612.0       0.025  
+0.7  : 1.0    TeV:  2119.0      0.024  
+1.0  : 1.3    TeV:  -6438.0     -0.09  
+1.3  : 1.8    TeV:  -1354.0     -0.023  
+1.8  : 2.4    TeV:  -315.0      -0.007  
+2.4  : 3.2    TeV:  279.0       0.009  
+3.2  : 4.2    TeV:  315.0       0.013  
+4.2  : 5.6    TeV:  1324.0      0.089  
+5.6  : 7.5    TeV:  265.0       0.03   
+7.5  : 10.0   TeV:  218.0       0.032  
+10.0 : 13.3   TeV:  161.0       0.031  
+13.3 : 17.8   TeV:  134.0       0.035  
+17.8 : 23.7   TeV:  111.0       0.041  
+23.7 : 31.6   TeV:  91.0        0.047  
+31.6 : 42.2   TeV:  0.0         0.0    
+42.2 : 56.2   TeV:  0.0         0.0    
+56.2 : 75.0   TeV:  0.0         0.0    
+75.0 : 100.0  TeV:  0.0         0.0    
+Current Binning: 150
+Possible downsampling factors: [1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75]
+Resulting Binsize: [0.08, 0.16, 0.24, 0.4, 0.48, 0.8, 1.2, 2.0, 2.4, 4.0, 6.0]
+
+Chosen Downsampling Factor: 
+ 10.
+This will result in a Binsize of the Nuisance Parameters of 
+ 0.48 deg.
+Which is smaller than the observed angular size of the systematics of 
+ 0.75 deg.
+Creating Mask for Nuisance Parameters where sysamplitude==0
+nui_mask: [False False False False False  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True False False False False]
+[False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+                                     sys * thresh < stat:
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 0.0        pm 0.0              |  0.0
+                                                            0
+BG: 24371.0    pm 156.0            |  612.0
+                                                            0
+BG: 88769.0    pm 298.0            |  2119.0
+                                                            0
+BG: 71462.0    pm 267.0            |  6438.0
+                                                            0
+BG: 58174.0    pm 241.0            |  1354.0
+                                                            0
+BG: 42134.0    pm 205.0            |  315.0
+                                                            0
+BG: 31035.0    pm 176.0            |  279.0
+                                                            0
+BG: 24276.0    pm 156.0            |  315.0
+                                                            0
+BG: 14851.0    pm 122.0            |  1324.0
+                                                            0
+BG: 8858.0     pm 94.0             |  265.0
+                                                            0
+BG: 6780.0     pm 82.0             |  218.0
+                                                            0
+BG: 5113.0     pm 72.0             |  161.0
+                                                            0
+BG: 3786.0     pm 62.0             |  134.0
+                                                            0
+BG: 2742.0     pm 52.0             |  111.0
+                                                            0
+BG: 1927.0     pm 44.0             |  91.0
+                                                            0
+BG: 1340.0     pm 37.0             |  0.0
+                                                            1
+BG: 982.0      pm 31.0             |  0.0
+                                                            1
+BG: 742.0      pm 27.0             |  0.0
+                                                            1
+BG: 541.0      pm 23.0             |  0.0
+                                                            1
+0.025102876215608482
+125  free Nuisance Parameters out of  225
+MapDatasetNuisance
+------------------
+
+  Name                            : 4BXdeyo9 
+
+  Total counts                    : 391226 
+  Total background counts         : 387882.91
+  Total excess counts             : 3343.09
+
+  Predicted counts                : 389427.62
+  Predicted background counts     : 387882.89
+  Predicted excess counts         : 1544.73
+
+  Exposure min                    : 1.39e+00 m2 s
+  Exposure max                    : 2.25e+11 m2 s
+
+  Number of total bins            : 540000 
+  Number of fit bins              : 180540 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : -1008728.28
+
+  Number of models                : 2 
+  Number of parameters            : 12
+  Number of free parameters       : 8
+
+  Component 0: SkyModel
+  
+    Name                      : main source
+    Datasets names            : None
+    Spectral model type       : LogParabolaSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      amplitude               :   1.85e-12   +/- 1.2e-13 1 / (cm2 s TeV)
+      reference    (frozen)   :      1.000       TeV         
+      alpha                   :      2.570   +/-    0.10             
+      beta                    :      0.061   +/-    0.05             
+      lon_0                   :     83.633   +/-    0.01 deg         
+      lat_0                   :     22.027   +/-    0.01 deg         
+      sigma                   :      0.040   +/-    0.01 deg         
+      e            (frozen)   :      0.000                   
+      phi          (frozen)   :      0.000       deg         
+  
+  Component 1: FoVBackgroundModel
+  
+    Name                      : 4BXdeyo9-bkg
+    Datasets names            : ['4BXdeyo9']
+    Spectral model type       : PowerLawNormSpectralModel
+    Parameters:
+      norm                    :      1.000   +/-    0.00             
+      tilt                    :      0.000   +/-    0.00             
+      reference    (frozen)   :      1.000       TeV         
+  
+    Number of Nuisance parameters   : 225
+  Number of free Nuisance parameters: 125
+
+
+ with nuisance
+(without nuisance)
+
+==================================================
+amplitude amplitude
+--------------------------------------------------
+=1.64e-12 pm 2.83e-13
+ 1.85e-12 pm 2.45e-14
+(1.85e-12 pm 1.24e-13)
+
+==================================================
+reference reference
+--------------------------------------------------
+=1.0 pm 0.0
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+
+==================================================
+alpha alpha
+--------------------------------------------------
+=2.51 pm 0.0183
+ 2.57 pm 0.0249
+(2.57 pm 0.0965)
+
+==================================================
+beta beta
+--------------------------------------------------
+=0.103 pm 0.00912
+ 0.0606 pm 0.000251
+(0.0615 pm 0.0458)
+
+==================================================
+lon_0 lon_0
+--------------------------------------------------
+=83.6 pm 0.000635
+ 83.6 pm 0.251
+(83.6 pm 0.00526)
+
+==================================================
+lat_0 lat_0
+--------------------------------------------------
+=22.0 pm 0.000873
+ 22.0 pm 0.251
+(22.0 pm 0.00504)
+
+==================================================
+sigma sigma
+--------------------------------------------------
+=0.0192 pm 0.00427
+ 0.0402 pm 0.00025
+(0.0402 pm 0.00753)
+
+==================================================
+e e
+--------------------------------------------------
+=0.0 pm 0.0
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+phi phi
+--------------------------------------------------
+=0.0 pm 0.0
+ 0.0 pm 0.0
+(0.0 pm 0.0)
+
+==================================================
+norm norm
+--------------------------------------------------
+=1.01 pm 0.0813
+ 1.01 pm 0.025
+(1.01 pm 0.00163)
+
+==================================================
+tilt tilt
+--------------------------------------------------
+=0.00395 pm 0.0883
+ 0.00568 pm 0.0251
+(0.00395 pm 0.0)
+
+==================================================
+reference reference
+--------------------------------------------------
+=1.0 pm 0.0
+ 1.0 pm 0.0
+(1.0 pm 0.0)
+=== JOB_STATISTICS ===
+=== current date     : Sat 11 Jun 2022 01:02:25 PM CEST
+= Job-ID             : 71841 on tinyfat
+= Job-Name           : Testjob
+= Job-Command        : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/submit_tiny_fat.slurm
+= Initial workdir    : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset
+= Queue/Partition    : work
+= Slurm account      : caph with QOS=normal
+= Requested resources: cpu=32,mem=62.50G,node=1,billing=32 for 06:00:00
+= Elapsed runtime    : 00:23:10
+= Total RAM usage    : 2.3 GiB of requested 62.50 GiB (3.7%)   
+= Node list          : tf060
+= Subm/Elig/Start/End: 2022-06-11T12:39:14 / 2022-06-11T12:39:14 / 2022-06-11T12:39:15 / 2022-06-11T13:02:25
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc           16.5G    52.4G   104.9G        N/A  23,749      500K   1,000K        N/A    
+    /home/vault         29.7G   524.3G  1048.6G        N/A      20      200K     400K        N/A    
+    /home/saturn       675.0G     0.0K     0.0K        N/A   9,161                           N/A    
+    /home/woody         52.6G   500.0G   999.0G        N/A     990K                          N/A    
+======================

@@ -13,10 +13,10 @@
 # - Fitting the model and the nuisance parameters to the data
 # - Compare the results to the standard 3D fit
 
-# In[2]:
+# In[1]:
 
 
-#get_ipython().system('jupyter nbconvert --to script 5a-Tutorial_Nui_Par_Fitting.ipynb')
+#get_ipython().system('jupyter nbconvert --to script 5a-Tutorial_Nui_Par_Fitting_Crab.ipynb')
 import pyximport
 
 pyximport.install()
@@ -60,12 +60,12 @@ from  my_fit_19 import Fit
 # ## Standard Analysis
 # Setting up the model
 
-# In[5]:
+# In[2]:
 
 
-source = 'GC'
+source = 'Crab'
 path = '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/2-error_in_dataset'
-
+source_percentage = 5 # percent
 if source == "Crab":
 
     # here the dataset with the fine binning is saved
@@ -84,78 +84,27 @@ if source == "Crab":
     bkg_model.parameters['tilt'].error = best_fit_bgmodel['spectral']['parameters'][1]['error']
     models.append(bkg_model)
     dataset_standard.models = models
+    cutout = 1*u.deg
+    geom = dataset_standard.geoms['geom']
+    bg_counts = dataset_standard.npred_background().cutout(geom.center_skydir, cutout).data.sum()
+    crab_counts = dataset_standard.npred_signal().cutout(geom.center_skydir, cutout).data.sum()
 
-
-    
-if source =="GC":
-    path_GC ='/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/GC_0.19'
-    dataset_standard = MapDataset.read(f'{path_GC}/20220511_dataset002_hess1_muonflagTrue.fits')
-    dataset_standard.stack(MapDataset.read(f'{path_GC}/20220511_dataset002_hess2_muonflagTrue.fits'))
-    dataset_standard = dataset_standard.downsample(4)
-
-
-
-    # Define source model for stacked fit
-    from gammapy.modeling.models import (PointSpatialModel, 
-                                         ExpCutoffPowerLawSpectralModel,
-                                         PowerLawSpectralModel,
-                                         GaussianSpatialModel,TemplateSpatialModel,
-                                        PowerLawNormSpectralModel)
-    spatial_model_center = PointSpatialModel(lon_0=359.9439608*u.deg, lat_0=-0.0418969*u.deg, frame='galactic') 
-    spectral_model_center = ExpCutoffPowerLawSpectralModel(index=2.14, amplitude="2.55e-12 cm-2 s-1 TeV-1", reference="1 TeV", lambda_='0.093 TeV-1')
-    source_model_center = SkyModel(spatial_model=spatial_model_center, spectral_model=spectral_model_center, name="src")
-
-    spatial_model_g09 = PointSpatialModel(lon_0=0.8717549*u.deg, lat_0=0.0767488*u.deg, frame='galactic')
-    spectral_model_g09 = PowerLawSpectralModel(index=2.4, amplitude="0.838e-12 cm-2 s-1 TeV-1", reference="1 TeV") # was 3e-12
-    source_model_g09 = SkyModel(spatial_model=spatial_model_g09, spectral_model=spectral_model_g09, name="g09")
-
-    spatial_model_1745 = GaussianSpatialModel(lon_0=358.6435538*u.deg, lat_0=-0.5617789*u.deg, sigma=0.179*u.deg, frame='galactic')
-    spectral_model_1745 = PowerLawSpectralModel(index=2.57, amplitude="1.73e-12 cm-2 s-1 TeV-1", reference="1 TeV") # 
-    source_model_1745 = SkyModel(spatial_model=spatial_model_1745, spectral_model=spectral_model_1745, name="1745")
-
-    spatial_model_1746 = PointSpatialModel(lon_0=0.1384563*u.deg, lat_0=-0.1112664*u.deg, frame='galactic')
-    spectral_model_1746 = PowerLawSpectralModel(index=2.17, amplitude="0.18e-12 cm-2 s-1 TeV-1", reference="1 TeV") # was 3e-12
-    source_model_1746 = SkyModel(spatial_model=spatial_model_1746, spectral_model=spectral_model_1746, name="1746")
-
-    spatial_model_1746308 = GaussianSpatialModel(lon_0=358.4479799*u.deg, lat_0=-1.1140008*u.deg, sigma=0.162*u.deg, frame='galactic')
-    spectral_model_1746308 = PowerLawSpectralModel(index=3.27, amplitude="0.70e-12 cm-2 s-1 TeV-1", reference="1 TeV") #
-    source_model_1746308 = SkyModel(spatial_model=spatial_model_1746308, spectral_model=spectral_model_1746308, name="1746308")
-
-    spatial_model_1741 = PointSpatialModel(lon_0=358.2753545*u.deg, lat_0=0.0515537*u.deg, frame='galactic')
-    spectral_model_1741 = PowerLawSpectralModel(index=2.30, amplitude="0.21e-12 cm-2 s-1 TeV-1", reference="1 TeV") # was 3e-12
-    source_model_1741 = SkyModel(spatial_model=spatial_model_1741, spectral_model=spectral_model_1741, name="1741")
-
-    diffuse_filename = "/home/saturn/caph/mppi043h/diffusiontemplate/cont_pcut_v3.fits"
-    diffuse_gal = Map.read(diffuse_filename)
-    print(diffuse_gal.geom.axes[0].name)
-    template_diffuse = TemplateSpatialModel(
-            diffuse_gal, normalize=False,
-        filename = diffuse_filename
-        )
-    diffuse_model = SkyModel(
-        spectral_model=PowerLawNormSpectralModel(),
-        spatial_model=template_diffuse,
-        name="Diffuse Emission",)
-    
-    bkg_model = FoVBackgroundModel(dataset_name=dataset_standard.name)
-    bkg_model.parameters['tilt'].frozen  = False
-
-    models = Models([source_model_center, source_model_g09, source_model_1745, source_model_1746, 
-                     source_model_1746308, source_model_1741, diffuse_model, bkg_model ])
+    print("BG counts:",bg_counts )
+    print("Source counts:",crab_counts )
+    source_percentage_crab = crab_counts/bg_counts
+    print(f"The Crab is {source_percentage_crab*100} % of the BG!")
+    while (dataset_standard.npred_signal().cutout(geom.center_skydir, cutout).data.sum() /bg_counts *100 >source_percentage):
+        dataset_standard.models.parameters['amplitude'].value *=0.99
+    models_input = dataset_standard.models.copy()  
+    print("Setting new sources amplitude to ... ")
+    print(dataset_standard.models.parameters['amplitude'].value)
+    print("This is in BG percentage: ")
+    print(dataset_standard.npred_signal().cutout(geom.center_skydir, cutout).data.sum() /bg_counts *100)
+    rng = np.random.RandomState()
+    dataset_standard.counts.data = rng.poisson(dataset_standard.npred().data)
     
     
-    
-    j1745_coord = SkyCoord(358.6435538, -0.5617789, unit='deg',frame='galactic')
-
-    skyregion_1745 = RectangleSkyRegion(center=j1745_coord, width=1*u.deg,height=1*u.deg)
-    geom_2d = dataset_standard.geoms['geom'].drop('energy')
-    dataset_standard.mask_safe.data[:] &= Map.from_geom(geom_2d, 
-                                                        data=geom_2d.region_mask([skyregion_1745], 
-                                                                                          inside=False).data).data
-    
-    dataset_standard.models = models
-    
-dataset_standard.counts.sum_over_axes().plot(add_cbar=1)
+dataset_standard.cutout(geom.center_skydir, cutout).counts.sum_over_axes().plot(add_cbar=1)
 binsize = dataset_standard.geoms["geom"].width[1] / dataset_standard.geoms["geom"].data_shape[1]
 print(
     "spatial binsize = ",
@@ -164,7 +113,7 @@ print(
 
 
 
-# In[6]:
+# In[3]:
 
 
 fit_standarad = Fit(store_trace=False)
@@ -173,19 +122,19 @@ result_standarad = fit_standarad.run([dataset_standard])
 
 # The first two energybins of the dataset are not fitted well ...
 
-# In[12]:
+# In[4]:
 
 
 res_standard = (
     dataset_standard.residuals("diff/sqrt(model)")
-    .slice_by_idx(dict(energy=slice(2, 5)))
+    .slice_by_idx(dict(energy=slice(6, 9)))
     .smooth(0.1 * u.deg)
 )
 vmax = np.nanmax(np.abs(res_standard.data))
 res_standard.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 
-# In[8]:
+# In[5]:
 
 
 kwargs_spectral = dict()
@@ -209,7 +158,7 @@ dataset_standard.plot_residuals(kwargs_spectral=kwargs_spectral);
 
 # ### Systematic Amplitude
 
-# In[9]:
+# In[6]:
 
 
 bg = (
@@ -227,8 +176,13 @@ sysamplitude_percentage = np.loadtxt((f'{path}/{source}/sysamplitude_percentage.
 # Convert to %:
 sysamplitude_percentage /= 100
 print("sysamplitude_percentage:",sysamplitude_percentage)
-
-
+plt.plot(dataset_standard.geoms["geom"].axes[0].center.value,
+         sysamplitude_percentage)
+plt.plot([dataset_standard.geoms["geom"].axes[0].center.value[0],dataset_standard.geoms["geom"].axes[0].center.value[-1]],
+        [source_percentage /100 ]*2, label = "Strength of the Source")
+plt.xscale('log')
+plt.ylabel("Expected Systematic")
+plt.legend()
 #choose between the following:
 sigma = sysamplitude_percentage 
 #sigma = sysamplitude_std 
@@ -257,7 +211,7 @@ for i, e in enumerate(dataset_standard.geoms['geom'].axes[0].center.value):
 
 # ### Downsampling Factor
 
-# In[14]:
+# In[7]:
 
 
 angular_size_file = f'{source}/angular_size.txt'
@@ -300,10 +254,10 @@ geom_down = dataset_standard.downsample(downsampling_factor).geoms['geom']
 # #### Option 1:
 # define start and stop by hand
 
-# In[15]:
+# In[8]:
 
 
-i_start, i_end = 2,11
+i_start, i_end =6,7
 nuisance_mask_hand = (
     dataset_standard.geoms["geom"]
     .energy_mask(
@@ -317,7 +271,7 @@ nuisance_mask_hand = (
 # #### Option 2:
 # Read in the sysamplitudes and only fit the nuisance parameters where sys amplitude >0
 
-# In[16]:
+# In[9]:
 
 
 print('Creating Mask for Nuisance Parameters where sysamplitude==0')
@@ -334,7 +288,7 @@ print(emask)
 
 # ### Nuisance Parameters
 
-# In[17]:
+# In[10]:
 
 
 threshold = 1#10000
@@ -349,7 +303,7 @@ for i in range(len(bg_map_eaxis)):
     print(f" { ((sys * threshold) < stat):>60}")
 
 
-# In[18]:
+# In[11]:
 
 
 # new way to compute correlation matrix to make it symmetric/ invertible
@@ -367,18 +321,18 @@ for ii in np.arange(len(sigma)):
     if np.abs(sigma[ii]) >0.0 and emask[ii]:
         if dataset_standard.npred_background().downsample(downsampling_factor).data[ii,:,:].sum() > 0:
             sys_map.data[e,:,:] *= sigma[ii] **2
-            print(sigma[ii] **2)
+            print(sigma[ii])
         e+=1
 
 
-# In[19]:
+# In[12]:
 
 
 # Freeze Nuisance parameters at the edges of the analysis
 bg_map  = dataset_standard.background.downsample(downsampling_factor)
 bg = bg_map.data[emask].flatten()
 stat_err_ = np.sqrt(bg)
-Nuisance_parameters = [Parameter(name = "db"+str(i), value =1,frozen = False)  
+Nuisance_parameters = [Parameter(name = "db"+str(i), value =0,frozen = False)  
             if sys_map.data.flatten()[i]  * threshold < stat_err_[i] 
             else  Parameter(name = "db"+str(i), value = 0,frozen = True)
       for i in range(ndim_3D_nui)]
@@ -413,7 +367,7 @@ Nuisance_parameters = Parameters( Nuisance_parameters)
 # - `l_corr`: the spatial correlation length in deg. For instance, a Fourier transformation of the residual map of the standard analysis can be used to estimate the correlation length. Generally, it is important to choose a correaltion length greater than the bin size of the counts cube to avoid fitting the nuisance parameters without any correlation which can lead to overfitting the data. 
 # - `sysamplitude`: list of correlation amplitudes for the different energybins. The strength of the systematics can be estimated of the spectral residual points when taking only the OFF regions of all runs into account. Here, these obtained values are divided by the amount of spatial bins they were computed for.   
 
-# In[20]:
+# In[13]:
 
 
 l_corr = 0.08
@@ -421,7 +375,7 @@ l_corr = 0.08
 
 # The spatial correlation matrix is computed with two helper maps to compute the separation angle between two spatial bins. Afterwards, the systematic amplitude is set as the diagonal of the spectral correlation matrix and the kroneker product of the two is returned as the overall correlation matrix. 
 
-# In[21]:
+# In[14]:
 
 
 geom_down = nuisance_mask.geom
@@ -456,7 +410,7 @@ def compute_K_matrix(l_deg):
     return np.kron(corr_matrix_spectral, corr_matrix_spatial)
 
 
-# In[22]:
+# In[15]:
 
 
 correlation_matrix = compute_K_matrix(l_corr)
@@ -473,7 +427,7 @@ fig.colorbar(cax);
 # - ` N_parameters`: The nuisance parameters
 # - `nuisance_mask`: Mask to help evaluating the nuisance parameters in the background prediction
 
-# In[23]:
+# In[16]:
 
 
 dataset_N = MapDatasetNuisance(
@@ -497,7 +451,7 @@ dataset_N.models = models_N
 print(dataset_N)
 
 
-# In[24]:
+# In[17]:
 
 
 dataset_N.N_map().plot_grid(add_cbar =1, vmin = 0, vmax = 1);
@@ -527,7 +481,7 @@ dataset_N.N_map().plot_grid(
 
 # The spectral residual points show again how especially the first two energybins are not fitted well
 
-# In[35]:
+# In[ ]:
 
 
 dataset_standard.plot_residuals(kwargs_spectral=kwargs_spectral);
@@ -535,7 +489,7 @@ dataset_standard.plot_residuals(kwargs_spectral=kwargs_spectral);
 
 # After including the nuisance parameters the model description is much better in the first two energy bins. This indicates that the method worked and has improved out analysis.
 
-# In[36]:
+# In[ ]:
 
 
 res_N = (
@@ -547,7 +501,7 @@ vmax = np.nanmax(np.abs(res_standard.data))
 res_N.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 
-# In[37]:
+# In[ ]:
 
 
 dataset_N.plot_residuals(kwargs_spectral=kwargs_spectral);
@@ -555,7 +509,7 @@ dataset_N.plot_residuals(kwargs_spectral=kwargs_spectral);
 
 # Her a comparison of the distribution of the significance maps in the first two energy bins is shown. With the nuisance parameters the mean of the distribution $\mu$ got closer to zero and the standard deviation $\sigma$ is closer to the expected $1$.
 
-# In[38]:
+# In[ ]:
 
 
 res_standard = (
@@ -595,7 +549,7 @@ plt.ylabel("Amount");
 # 
 # The model errors of the Nuisance dataset have for now to be set by hand. 
 
-# In[39]:
+# In[ ]:
 
 
 import my_dataset_core_19, my_fit_19
@@ -621,43 +575,41 @@ for par in dataset_N.models.parameters:
     par.error = np.sqrt(variance)
 
 
-# In[40]:
+# In[ ]:
 
 
 print(" with nuisance")
 print("(without nuisance)")
 
 
-for p_N, p_stand in zip(dataset_N.models.parameters,dataset_standard.models.parameters ):
+for p_N, p_stand , p_input in zip(dataset_N.models.parameters,dataset_standard.models.parameters, 
+                       models_input.parameters):
     print()
     print('='*50)
     print(p_N.name, p_stand.name)
     print('-'*50)
+    print('={:.3} pm {:.3}'.format(p_input.value, float(p_input.error) )   ) 
+
     print(' {:.3} pm {:.3}'.format(p_N.value, float(p_N.error) )   ) 
     print('({:.3} pm {:.3})'.format(p_stand.value, float(p_stand.error) ))
-
-
-
-# In[41]:
-
-
-import yaml
-save = 1
-if save:
-    # save for now in this folder
-    dataset_N.write(f'{path}/{source}/nui_dataset_008_211.fits', overwrite = True)
-    with open(f'{source}/nui_par_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.N_parameters.to_dict(), outfile, default_flow_style=False)
-    with open(f'{source}/nui_bgmodel_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False)
-    with open(f'{source}/nui_model_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
 
 
 
 # In[ ]:
 
 
+import yaml
+save = 1
+path_sys = '/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/'
+if save:
+    # save for now in this folder
+    dataset_N.write(f'{path_sys}/{source}/nui_dataset_weak.fits', overwrite = True)
+    with open(f'{source}/nui_par_weak.yml', 'w') as outfile:
+            yaml.dump(dataset_N.N_parameters.to_dict(), outfile, default_flow_style=False)
+    with open(f'{source}/nui_bgmodel_weak.yml', 'w') as outfile:
+            yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False)
+    with open(f'{source}/nui_model_weak.yml', 'w') as outfile:
+            yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
 
 
 
