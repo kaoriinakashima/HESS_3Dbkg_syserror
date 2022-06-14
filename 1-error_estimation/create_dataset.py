@@ -16,19 +16,24 @@ warnings.filterwarnings('ignore')
 
 idx=0
 
+ethr_flag = 'edisp'
+muoneff_flag = False
+
 # loading general parameters
 with open("../general_config.yml", "r") as ymlfile:
     cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
 conf=cfg['conf']
 hesseras= ['hess1', 'hess2']
 hessera = 'hess1'
-muoneff_flag= cfg['muoneff_flag']
 
 # defining the geometry for the datasets
 energy_bins = np.logspace(-1, 2, cfg['N_ebins']+1)
 axis = MapAxis.from_edges(energy_bins, unit="TeV", name="energy", interp="log")
 maker = MapDatasetMaker()
-maker_safe_mask = SafeMaskMaker(methods=['offset-max', 'bkg-peak'], offset_max=cfg['offset_cut'] * u.deg)
+maker_safe_mask = SafeMaskMaker(methods=['offset-max'], offset_max=cfg['offset_cut'] * u.deg)
+
+if ethr_flag == 'edisp':
+    maker_safe_mask = SafeMaskMaker(methods=['offset-max', 'bkg-peak', 'edisp-bias'], offset_max=cfg['offset_cut'] * u.deg)
 
 overall_problem = []
 
@@ -63,7 +68,25 @@ for obs in observations:
         geom = WcsGeom.create(skydir=obs.pointing_radec, binsz=cfg['binsz'], width=cfg['width']* u.deg, frame="icrs", axes=[axis])        
         dataset = MapDataset.create(geom=geom)
         dataset = maker.run(dataset, obs)
-        dataset = maker_safe_mask.run(dataset, obs)
+        
+        if muoneff_flag:        
+            # this is to set bkg to 0 when it has unreasonable values in the highest energies
+            spectrum = np.sum((dataset.background).data, axis=(1,2))
+            for i in range(1, 5):
+                if spectrum[-1*i] > spectrum[-1*(i+1)]:
+                    dataset.background.data[-1*i] = 0
+
+            # making mask_safe. Selecting like this the safe range starts from the bkgpeak from the bkg model construction
+            # the reason of doing like this: when using maker_safe_mask('bkg-peak') there was a different values when using spatial
+            # bin size 0.08 and 0.02. Probably a small issue within gammapy. To avoid it, calculate the energy threshold based on bkg peak
+            # from the model itself and then apply it into the chosen axis for analysis. 
+            dataset = maker_safe_mask.run(dataset, obs)
+            idx_bkgpeak = np.argmax(np.sum(obs.bkg.data, axis=(1,2)))
+            idx_bkgpeak_new = np.sum(axis.edges < obs.bkg.axes['energy'].edges[idx_bkgpeak])
+            dataset.mask_safe.data[:idx_bkgpeak_new] = 0
+        else:
+            dataset = maker_safe_mask.run(dataset, obs)
+            
 
         # create here mask_fit
         dataset.mask_fit = Map.from_geom(geom=geom, data=np.ones_like(dataset.counts.data).astype(bool))
@@ -82,11 +105,20 @@ for obs in observations:
             c = np.nansum((dataset.counts * dataset.mask_fit *dataset.mask_safe).data, axis=(1, 2))
             b = np.nansum((dataset.npred() * dataset.mask_fit *dataset.mask_safe).data, axis=(1, 2))
             result_list.append(np.concatenate([[obs.obs_id], c, b]))
-            norm_titl.append([obs.obs_id, dataset.background_model.spectral_model.norm.value, dataset.background_model.spectral_model.tilt.value])
+            norm_tilt.append([obs.obs_id, dataset.background_model.spectral_model.norm.value, dataset.background_model.spectral_model.tilt.value])
     except:
         overall_problem.append(obs.obs_id)
 
 # dividing the result of hess1, because only one file is too big
-np.savetxt(f'results/dataspectrum_muoneff_{hessera}_part{idx}.txt', np.asarray(result_list))
-np.savetxt(f'results/norm_tilt_{hessera}_part{idx}.txt', np.asarray(result_list))
-np.savetxt(f'results/overall_problem.txt', np.asarray(overall_problem))
+
+if ethr_flag!= 'edisp':
+    np.savetxt(f'results/dataspectrum_muoneff_{hessera}_part{idx}.txt', np.asarray(result_list))
+    np.savetxt(f'results/norm_tilt_{hessera}_part{idx}.txt', np.asarray(norm_tilt))
+    np.savetxt(f'results/overall_problem.txt', np.asarray(overall_problem))
+else:
+    if muoneff_flag == False:
+        np.savetxt(f'results/dataspectrum_edisp_NOmuoneff_{hessera}_part{idx}.txt', np.asarray(result_list))
+        np.savetxt(f'results/norm_tilt_edisp_NOmuoneff_{hessera}_part{idx}.txt', np.asarray(norm_tilt))
+    else:
+        np.savetxt(f'results/dataspectrum_edisp_muoneff_{hessera}_part{idx}.txt', np.asarray(result_list))
+        np.savetxt(f'results/norm_tilt_edisp_{hessera}_part{idx}.txt', np.asarray(norm_tilt))
