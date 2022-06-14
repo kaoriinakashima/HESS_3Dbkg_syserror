@@ -125,11 +125,13 @@ if source =="GC":
     spectral_model_1741 = PowerLawSpectralModel(index=2.30, amplitude="0.21e-12 cm-2 s-1 TeV-1", reference="1 TeV") # was 3e-12
     source_model_1741 = SkyModel(spatial_model=spatial_model_1741, spectral_model=spectral_model_1741, name="1741")
 
-    diffuse_gal = Map.read("/home/saturn/caph/mppi043h/diffusiontemplate/cont_pcut_v3.fits")
-    diffuse_gal.geom.axes[0].name= 'energy_true'
+    diffuse_filename = "/home/saturn/caph/mppi043h/diffusiontemplate/cont_pcut_v3.fits"
+    diffuse_gal = Map.read(diffuse_filename)
+    print(diffuse_gal.geom.axes[0].name)
     template_diffuse = TemplateSpatialModel(
-        diffuse_gal, normalize=False
-    )
+            diffuse_gal, normalize=False,
+        filename = diffuse_filename
+        )
     diffuse_model = SkyModel(
         spectral_model=PowerLawNormSpectralModel(),
         spatial_model=template_diffuse,
