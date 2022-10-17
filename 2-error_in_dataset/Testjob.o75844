@@ -1,0 +1,251 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+hi, this is bash
+# conda environments:
+#
+base                  *  /home/hpc/caph/mppi045h/anaconda3
+fermipy                  /home/hpc/caph/mppi045h/anaconda3/envs/fermipy
+gammapy-0.14             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.14
+gammapy-0.18.2           /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.18.2
+gammapy-0.19             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+gammapy-0.20             /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20
+gammapy-dev              /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-dev
+ipykernel_py2            /home/hpc/caph/mppi045h/anaconda3/envs/ipykernel_py2
+testbug2                 /home/hpc/caph/mppi045h/anaconda3/envs/testbug2
+
+no change     /home/hpc/caph/mppi045h/anaconda3/condabin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/conda-env
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/activate
+no change     /home/hpc/caph/mppi045h/anaconda3/bin/deactivate
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.sh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/fish/conf.d/conda.fish
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/Conda.psm1
+no change     /home/hpc/caph/mppi045h/anaconda3/shell/condabin/conda-hook.ps1
+no change     /home/hpc/caph/mppi045h/anaconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/hpc/caph/mppi045h/anaconda3/etc/profile.d/conda.csh
+no change     /home/hpc/caph/mppi045h/.bashrc
+No action taken.
+
+     active environment : gammapy-0.19
+    active env location : /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19
+            shell level : 2
+       user config file : /home/hpc/caph/mppi045h/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : 3.21.4
+         python version : 3.7.10.final.0
+       virtual packages : __linux=5.4.0=0
+                          __glibc=2.31=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/hpc/caph/mppi045h/anaconda3  (writable)
+      conda av data dir : /home/hpc/caph/mppi045h/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/hpc/caph/mppi045h/anaconda3/pkgs
+                          /home/hpc/caph/mppi045h/.conda/pkgs
+       envs directories : /home/hpc/caph/mppi045h/anaconda3/envs
+                          /home/hpc/caph/mppi045h/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.27.1 CPython/3.7.10 Linux/5.4.0-120-generic ubuntu/20.04.4 glibc/2.31
+                UID:GID : 363202:15615
+             netrc file : None
+           offline mode : False
+
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (308.31336955, 21.45056281)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (308.31336955, 21.45056281)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (308.31336955, 21.45056281)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (308.31336955, 21.45056281)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (210.75966099, 89.46939847)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (210.75966099, 89.46939847)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (210.75966099, 89.46939847)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (210.75966099, 89.46939847)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (336.14102277, 73.2797376)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (336.14102277, 73.2797376)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (336.14102277, 73.2797376)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (336.14102277, 73.2797376)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (217.41941158, -79.96818566)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (217.41941158, -79.96818566)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (217.41941158, -79.96818566)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (217.41941158, -79.96818566)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (337.67143775, 45.80316435)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (337.67143775, 45.80316435)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (337.67143775, 45.80316435)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (337.67143775, 45.80316435)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (37.37087502, 65.01620873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (37.37087502, 65.01620873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (37.37087502, 65.01620873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (37.37087502, 65.01620873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (66.31598212, -18.1179048)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (66.31598212, -18.1179048)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (66.31598212, -18.1179048)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (66.31598212, -18.1179048)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (79.07998638, -23.85454963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (79.07998638, -23.85454963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (79.07998638, -23.85454963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (79.07998638, -23.85454963)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.11834989, 70.28253175)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.11834989, 70.28253175)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.11834989, 70.28253175)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.11834989, 70.28253175)> is outside valid IRF map range, using nearest IRF defined within
+/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5-Tutorial_Nui_Par_Fitting.py:185: RuntimeWarning: All-NaN slice encountered
+  vmax = np.nanmax(np.abs(res_standard.data))
+/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5-Tutorial_Nui_Par_Fitting.py:185: RuntimeWarning: All-NaN slice encountered
+  vmax = np.nanmax(np.abs(res_standard.data))
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.19/lib/python3.9/site-packages/astropy/visualization/wcsaxes/core.py:211: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  return super().imshow(X, *args, origin=origin, **kwargs)
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.66064628, -76.10738407)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.66064628, -76.10738407)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (137.18337005, -63.99465796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (137.18337005, -63.99465796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (126.30289508, 88.79100784)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (126.30289508, 88.79100784)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (114.35190421, 71.76073191)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (114.35190421, 71.76073191)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (286.74157179, 86.57757432)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (286.74157179, 86.57757432)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.23073111, -89.41991125)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.23073111, -89.41991125)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.21500383, -84.74187873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.21500383, -84.74187873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.92957035, -50.77284375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.92957035, -50.77284375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (81.73748251, 51.38199951)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (81.73748251, 51.38199951)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.52521649, 32.89388353)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.52521649, 32.89388353)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.66064628, -76.10738407)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (88.66064628, -76.10738407)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (137.18337005, -63.99465796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (137.18337005, -63.99465796)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (126.30289508, 88.79100784)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (126.30289508, 88.79100784)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (114.35190421, 71.76073191)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (114.35190421, 71.76073191)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (286.74157179, 86.57757432)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (286.74157179, 86.57757432)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.23073111, -89.41991125)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (12.23073111, -89.41991125)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.21500383, -84.74187873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (54.21500383, -84.74187873)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.92957035, -50.77284375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (73.92957035, -50.77284375)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (81.73748251, 51.38199951)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (81.73748251, 51.38199951)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.52521649, 32.89388353)> is outside valid IRF map range, using nearest IRF defined within
+Position <SkyCoord (ICRS): (ra, dec) in deg
+    (83.52521649, 32.89388353)> is outside valid IRF map range, using nearest IRF defined within
+slurmstepd-tf082: error: *** JOB 75844 ON tf082 CANCELLED AT 2022-07-06T22:54:35 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-tf082: error: *** STEP 75844.0 ON tf082 CANCELLED AT 2022-07-06T22:54:35 DUE TO TIME LIMIT ***
+=== JOB_STATISTICS ===
+=== current date     : Wed 06 Jul 2022 10:54:38 PM CEST
+= Job-ID             : 75844 on tinyfat
+= Job-Name           : Testjob
+= Job-Command        : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/submit_tiny_fat.slurm
+= Initial workdir    : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset
+= Queue/Partition    : work
+= Slurm account      : caph with QOS=normal
+= Requested resources: cpu=32,mem=62.50G,node=1,billing=32 for 06:00:00
+= Elapsed runtime    : 06:00:02
+= Total RAM usage    : 2.2 GiB of requested 62.50 GiB (3.5%)   
+= Node list          : tf082
+= Subm/Elig/Start/End: 2022-07-06T16:54:33 / 2022-07-06T16:54:33 / 2022-07-06T16:54:33 / 2022-07-06T22:54:35
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc           18.8G    52.4G   104.9G        N/A  25,999      500K   1,000K        N/A    
+    /home/vault         29.7G   524.3G  1048.6G        N/A      20      200K     400K        N/A    
+    /home/woody         52.6G   500.0G   999.0G        N/A     990K                          N/A    
+======================

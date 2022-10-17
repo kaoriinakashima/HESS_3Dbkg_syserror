@@ -63,17 +63,20 @@ from  my_fit_19 import Fit
 # In[5]:
 
 
-source = 'GC'
+source = 'Crab'
 path = '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/2-error_in_dataset'
 
 if source == "Crab":
 
     # here the dataset with the fine binning is saved
-    #dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
+    dataset_standard = MapDataset.read(f'{path}/{source}/stacked.fits')
+    dataset_standard = dataset_standard.downsample(4)
     # This is for now the binning of 0.08 deg
-    dataset_standard = MapDataset.read(f'{source}/stacked.fits')
+    #dataset_standard = MapDataset.read(f'{source}/stacked.fits')
 
     models = Models.read(f"{source}/standard_model.yml")
+    models.parameters['lon_0'].frozen = True
+    models.parameters['lat_0'].frozen = True
     
     with open(f"{source}/nui_bgmodel.yml", "r") as ymlfile:
         best_fit_bgmodel = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -82,6 +85,7 @@ if source == "Crab":
     bkg_model.parameters['tilt'].value = best_fit_bgmodel['spectral']['parameters'][1]['value']
     bkg_model.parameters['norm'].error = best_fit_bgmodel['spectral']['parameters'][0]['error']
     bkg_model.parameters['tilt'].error = best_fit_bgmodel['spectral']['parameters'][1]['error']
+    
     models.append(bkg_model)
     dataset_standard.models = models
 
@@ -303,7 +307,7 @@ geom_down = dataset_standard.downsample(downsampling_factor).geoms['geom']
 # In[15]:
 
 
-i_start, i_end = 2,11
+i_start, i_end = 6,24
 nuisance_mask_hand = (
     dataset_standard.geoms["geom"]
     .energy_mask(
@@ -378,7 +382,7 @@ for ii in np.arange(len(sigma)):
 bg_map  = dataset_standard.background.downsample(downsampling_factor)
 bg = bg_map.data[emask].flatten()
 stat_err_ = np.sqrt(bg)
-Nuisance_parameters = [Parameter(name = "db"+str(i), value =1,frozen = False)  
+Nuisance_parameters = [Parameter(name = "db"+str(i), value =0,frozen = False)  
             if sys_map.data.flatten()[i]  * threshold < stat_err_[i] 
             else  Parameter(name = "db"+str(i), value = 0,frozen = True)
       for i in range(ndim_3D_nui)]
@@ -507,9 +511,33 @@ dataset_N.N_map().plot_grid(add_cbar =1, vmin = 0, vmax = 1);
 
 # In[ ]:
 
-
+#dataset_N.N_parameters.freeze_all()
 fit_N = Fit(store_trace=False)
 result_N = fit_N.run([dataset_N])
+
+import yaml
+save = 1
+path_local_repo = '/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset'
+#path_local_repo = '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/2-error_in_dataset'
+
+
+
+if save:
+    print(f"save in: {path_local_repo}/{source}/nui_dataset_008_624.fits" )
+    print(f"and: {path_local_repo}/{source}/nui_bgmodel_008_624.yml ")
+
+
+    # save for now in this folder
+    dataset_N.write(f'{path_local_repo}/{source}/nui_dataset_008_624.fits', overwrite = True)
+    with open(f'{path_local_repo}/{source}/nui_par_008_624.yml', 'w') as outfile:
+            yaml.dump(dataset_N.N_parameters.to_dict(), outfile, default_flow_style=False)
+    with open(f'{path_local_repo}/{source}/nui_bgmodel_008_624.yml', 'w') as outfile:
+            yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False)
+    with open(f'{path_local_repo}/{source}/nui_model_008_624.yml', 'w') as outfile:
+            yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
+
+
+
 
 
 # The method `N_map()` is a map in the origial geometry with the nuisance parameters as the data. It is used in npred_background() and visualises the best fit nuisance parameters.
@@ -599,7 +627,7 @@ plt.ylabel("Amount");
 
 
 import my_dataset_core_19, my_fit_19
-parameters  = Parameters.from_stack([dataset_N.N_parameters,dataset_N.models.parameters])
+parameters  = Parameters.from_stack([dataset_N.models.parameters, dataset_N.N_parameters,])
 kwargs = fit_N.covariance_opts.copy()
 kwargs["minuit"] = fit_N.minuit
 backend = kwargs.pop("backend", fit_N.backend)
@@ -640,18 +668,6 @@ for p_N, p_stand in zip(dataset_N.models.parameters,dataset_standard.models.para
 
 # In[41]:
 
-
-import yaml
-save = 1
-if save:
-    # save for now in this folder
-    dataset_N.write(f'{path}/{source}/nui_dataset_008_211.fits', overwrite = True)
-    with open(f'{source}/nui_par_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.N_parameters.to_dict(), outfile, default_flow_style=False)
-    with open(f'{source}/nui_bgmodel_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False)
-    with open(f'{source}/nui_model_008_211.yml', 'w') as outfile:
-            yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False)        
 
 
 

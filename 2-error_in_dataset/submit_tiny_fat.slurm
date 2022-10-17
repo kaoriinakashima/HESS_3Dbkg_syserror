@@ -7,7 +7,7 @@
 # do not use hyperthreads
 #SBATCH --hint=nomultithread
 # allocate nodes for 6 hours
-#SBATCH --time=06:00:00
+#SBATCH --time=24:00:00
 # job name 
 #SBATCH --job-name=Testjob
 # do not export environment variables
@@ -29,7 +29,7 @@ conda info
 
 # set number of threads to requested cpus-per-task
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK 
-srun --mpi=pmi2 python /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5a-Tutorial_Nui_Par_Fitting_weak_source.py
+srun --mpi=pmi2 python /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5-Tutorial_Nui_Par_Fitting.py
 
 #sbatch.tinyfat submit_tiny_fat.slurm
 #squeue.tinyfat

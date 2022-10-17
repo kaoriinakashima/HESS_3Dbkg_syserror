@@ -2092,7 +2092,7 @@ class MapDatasetNuisance(MapDataset):
             return background
 
         return background
-                    
+    
     def N_map(self):
         """Map of the Nuisance parameters
 
@@ -2104,24 +2104,34 @@ class MapDatasetNuisance(MapDataset):
             Predicted counts from the nuisance parameters.
         """                                 
         if self.nuisance_mask is not None:
-
+            from scipy.interpolate import interp2d
             N_map = Map.from_geom(self.geoms['geom_down'])
             N_map.data[np.where(self.nuisance_mask== True)] = self.N_parameters.value
             fac = int(self.geoms['geom'].data_shape[1] / self.geoms['geom_down'].data_shape[1])
-            N_map = N_map.upsample(fac,preserve_counts=False)
+            N_map_up = Map.from_geom(self.geoms['geom'])
 
-        return N_map
+            x = self.geoms['geom_down'].to_image().get_idx()[0][0] * fac + fac/2
+            y = self.geoms['geom_down'].to_image().get_idx()[0][0] * fac + fac/2
+            x_new =  self.geoms['geom'].to_image().get_idx()[0][0]  
+            y_new =  self.geoms['geom'].to_image().get_idx()[0][0] 
+
+            for e, z_e in enumerate(N_map.data):
+                f = interp2d(x = x, y= y, z =z_e, kind='cubic',fill_value = None, bounds_error = False )
+                N_map_up.data[e,:,:] = f(x_new, y_new).reshape(
+                    np.shape(N_map_up.data[0,:,:]))
+
+        return N_map_up
     
     def stat_array(self):
         """Likelihood per bin given the current model parameters + Gaussian of N parameters"""
-        G =   np.matmul(self.inv_corr_matrix  ,self.N_parameters.values.flatten() )*self.N_parameters.values.flatten() 
+        G =   np.matmul(self.inv_corr_matrix  ,self.N_parameters.values.ravel() )*self.N_parameters.values.ravel() 
         stat =  cash(n_on=self.counts.data, mu_on=self.npred().data) 
         return  G+stat
     
     def stat_sum(self):
         """Total likelihood given the current model parameters + Gaussian of N parameters."""
         counts, npred = self.counts.data.astype(float), self.npred().data
-        G =  np.matmul(np.matmul(self.inv_corr_matrix   ,self.N_parameters.value.flatten() ),self.N_parameters.value.flatten() )
+        G =  np.matmul(np.matmul(self.inv_corr_matrix   ,self.N_parameters.value.ravel() ),self.N_parameters.value.ravel() )
         if self.mask is not None:
             return cash_sum_cython(counts[self.mask.data], npred[self.mask.data]) + G
         else:
