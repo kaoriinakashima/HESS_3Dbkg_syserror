@@ -24,7 +24,7 @@ unset SLURM_EXPORT_ENV
 conda env list
 conda init bash
 source ~/anaconda3/etc/profile.d/conda.sh
-conda activate gammapy-0.19
+conda activate gammapy-0.20
 conda info
 
 # set number of threads to requested cpus-per-task
