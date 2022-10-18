@@ -4,7 +4,7 @@ repo_path: '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror' #path to
 # this section you might want to change often:
 conf: 'zeta'
 N_ebins: 24 #number of energy bins the analysis will be done. Note, this is a very important parameter. So far we did not change it
-binsz: 0.08 #spatial size in units of deg for the spatial maps in gammapy
+binsz: 0.02 #spatial size in units of deg for the spatial maps in gammapy
 offset_cut: 2.5 #maximum radius you want to include in the analysis in units of deg, parameter used for safe_mask
 width: 5 #width of the individual dataset, parameter in gammapy, units in deg
 
