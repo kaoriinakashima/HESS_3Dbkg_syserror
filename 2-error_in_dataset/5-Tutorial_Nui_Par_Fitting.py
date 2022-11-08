@@ -44,8 +44,14 @@ import sys
 from my_dataset_maps_20 import MapDatasetNuisance
 from  my_fit_20 import Fit
 
-source = 'GC_dataset_zeta_5_muoneffTrue_edispTrue'
-free_parameters = 'centralspectrumfree' # modelfrozen
+#source = 'GC_dataset_zeta_5_muoneffTrue_edispTrue'
+
+source = 'GC_dataset_zeta_5_muoneffTrue_edispTrue_large_sysamplitude'
+source = 'GC_timedependent_'
+time = '6'
+source = source +time
+
+free_parameters = 'centralspectrumfree' # modelfrozen   centralspectrumfree
 print(source, free_parameters)
 path = '/home/vault/caph/mppi062h/repositories/HESS_3Dbkg_syserror/2-error_in_dataset'
 local_path = '/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset'
@@ -135,7 +141,11 @@ if "GC" in source :
     if 'muoneffTrue_edispTrue' in source:
         
         path_GC = '/home/vault/caph/mppi062h/repositories/GC/HESS/datasets_fits'
-        dataset_standard = MapDataset.read(f'{path_GC}/{source[3:]}.fits')
+        if 'large_sysamplitude' in source:
+            dataset_standard = MapDataset.read(f'{path_GC}/{source[3:-19]}.fits')
+        else:    
+            dataset_standard = MapDataset.read(f'{path_GC}/{source[3:]}.fits')
+            
         if free_parameters == 'centralspectrumfree':
             models = Models.read(f'{source}/HESS_fixed_models_centralspectrumfree.yml')
         if free_parameters == 'modelfrozen':
@@ -143,7 +153,46 @@ if "GC" in source :
             
         print(models)
         dataset_standard.models = models
+        
+    if 'GC_timedependent' in source:
+        if time == 'fulltime':
+        
+            path_GC = '/home/vault/caph/mppi062h/repositories/GC/20221101/HESS/datasets_fits'
+            dataset_standard  =  MapDataset.read(f'{path_GC}/dataset_{time}.fits')
+            model_name = '/home/vault/caph/mppi062h/repositories/GC/20221101/HESS/models/all_free_fulltime.yaml'
+            models = Models.read(model_name)
+            bkg_model = FoVBackgroundModel(dataset_name=dataset_standard.name)
+            # set bg model parameters frozen
+            bkg_model.parameters['tilt'].frozen  = True
+            bkg_model.parameters['norm'].frozen  = True
 
+            models.append(bkg_model)
+            dataset_standard.models = models
+
+            #set diffuse emission free:
+            dataset_standard.models['diff-emission'].parameters['tilt'].frozen = False
+    
+        else:
+            print("time:", time)
+            path_GC = '/home/vault/caph/mppi062h/repositories/GC/20221101/HESS/datasets_fits'
+            dataset_standard  =  MapDataset.read(f'{path_GC}/dataset_{time}.fits')
+            # read in the best fit model with the nuisance parameters 
+            # From the fulltime analysis
+            path_best_fit = '/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/GC_timedependent_fulltime/'
+            best_fit_name = 'nui_model_002_424centralspectrumfree.yml'
+            models = Models.read(path_best_fit+ best_fit_name)
+            bkg_model = FoVBackgroundModel(dataset_name=dataset_standard.name)
+            # set bg model parameters frozen
+            bkg_model.parameters['tilt'].frozen  = True
+            bkg_model.parameters['norm'].frozen  = True
+
+            models.append(bkg_model)
+            dataset_standard.models = models
+
+            #set diffuse emission frozen:
+            dataset_standard.models['diff-emission'].parameters['tilt'].frozen = True
+            dataset_standard.models['diff-emission'].parameters['norm'].frozen = True
+            
     print("loaded the models")
         
     
@@ -155,7 +204,7 @@ if "GC" in source :
                                                         data=geom_2d.region_mask([skyregion_1745], 
                                                                                           inside=False).data).data
     dataset_standard.models = models
-    ebins_display = 4, 14
+    ebins_display = 4, 5
     print("masked the dataset")
 
 
@@ -165,6 +214,7 @@ print(
     "spatial binsize = ",
     binsize
 )
+print(dataset_standard.models)
 
 
 fit_standarad = Fit(store_trace=False)
@@ -180,7 +230,15 @@ res_standard = (
     .smooth(0.1 * u.deg)
 )
 vmax = np.nanmax(np.abs(res_standard.data))
-res_standard.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
+try:
+    res_standard.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
+except:
+    res_standard.plot(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
+
+fig = plt.gcf()
+name = f'{source}/plots/res_standard.png'
+fig.savefig(name, dpi=300, bbox_inches = 'tight')    
+
 kwargs_spectral = dict()
 kwargs_spectral["region"] = CircleSkyRegion(
     dataset_standard.geoms["geom"].center_skydir, radius=3 * u.deg
@@ -205,7 +263,16 @@ bg = (
 #sysamplitude_std /= np.sqrt(bg)
 
 
-sysamplitude_percentage = np.loadtxt((f'{local_path}/{source}/sysamplitude_percentage.txt'))
+if 'GC_timedependent' in source:
+    if (time == '7' or time =='8'):
+        name = 'from_dataset_' + time + '_percentage.txt'
+    else:
+        name = 'from_lookuptable_' + time + '_percentage.txt'
+    local_path_ = '/home/vault/caph/mppi062h/repositories/GC/20221101/HESS/systematic_levels'
+    sysamplitude_percentage = np.loadtxt((f'{local_path_}/{name}'))
+    
+else:
+    sysamplitude_percentage = np.loadtxt((f'{local_path}/{source}/sysamplitude_percentage.txt'))
 # Convert to %:
 sysamplitude_percentage /= 100
 print("sysamplitude_percentage:",sysamplitude_percentage)
@@ -253,22 +320,25 @@ downsampling_factor_index = -1
 while (possible_binsizes[downsampling_factor_index] > angular_size):
     downsampling_factor_index -=1
 downsampling_factor =    possible_downsampling_factors[downsampling_factor_index]
+binsize_down = possible_binsizes[downsampling_factor_index]
 
 # ##############################
-#downsampling_factor = 10
+down_hand = 1
+if down_hand :
+    downsampling_factor = 100
+    binsize_down = binsize * downsampling_factor
 # ##############################
 
 
 print()
 print(f"Chosen Downsampling Factor: \n {downsampling_factor}.")
-print(f"This will result in a Binsize of the Nuisance Parameters of \n {possible_binsizes[downsampling_factor_index]} deg.")
+print(f"This will result in a Binsize of the Nuisance Parameters of \n {binsize_down} deg.")
 print(f"Which is smaller than the observed angular size of the systematics of \n {angular_size} deg.")
 
 geom_down = dataset_standard.downsample(downsampling_factor).geoms['geom']
 
 
-
-i_start, i_end = 2,24
+i_start, i_end = 4,24
 nuisance_mask_hand = (
     dataset_standard.geoms["geom"]
     .energy_mask(
@@ -381,8 +451,6 @@ fig.colorbar(cax);
 print("Maximal expected sys amplitude in % of bg:", np.sqrt(correlation_matrix.max() ) * 100)
 print("Maximal sigma:", sigma[emask].max()* 100)
 
-name = f'plots/Example_corr_matrix.png'
-fig.savefig(name, dpi=300, bbox_inches = 'tight')
 
 dataset_N = MapDatasetNuisance(
     background=dataset_standard.background,
@@ -397,13 +465,43 @@ dataset_N = MapDatasetNuisance(
     nuisance_mask=nuisance_mask,
 )
 
-bkg_model = FoVBackgroundModel(dataset_name=dataset_N.name)
-bkg_model.parameters["tilt"].frozen = False
-models_N = models.copy()
-models_N.append(bkg_model)
-dataset_N.models = models_N
+
+if 'GC_timedependent' in source:
+    if time == 'fulltime':
+        
+        model_name = '/home/vault/caph/mppi062h/repositories/GC/20221101/HESS/models/all_free_fulltime.yaml'
+        models_N = Models.read(model_name)
+        bkg_model_N = FoVBackgroundModel(dataset_name=dataset_N.name)
+        # set bg model parameters frozen
+        bkg_model_N.parameters['tilt'].frozen  = True
+        bkg_model_N.parameters['norm'].frozen  = True
+
+        models_N.append(bkg_model_N)
+        dataset_N.models = models_N
+
+        #set diffuse emission free:
+        dataset_N.models['diff-emission'].parameters['tilt'].frozen = False
+    else:
+        models_N = Models(dataset_standard.models.copy())
+        bkg_model_N = FoVBackgroundModel(dataset_name=dataset_N.name)
+        # set bg model parameters frozen
+        bkg_model_N.parameters['tilt'].frozen  = True
+        bkg_model_N.parameters['norm'].frozen  = True
+        models_N.append(bkg_model_N)
+        dataset_N.models= models_N
+else:
+    bkg_model = FoVBackgroundModel(dataset_name=dataset_N.name)
+    bkg_model.parameters["tilt"].frozen = False
+    models_N = models.copy()
+    models_N.append(bkg_model)
+    dataset_N.models = models_N 
+
+    
 dataset_N.npred_background()
 print(dataset_N)
+print(dataset_N.models)
+
+
 ## Check the mask:
 Nuisance_parameters_check = Nuisance_parameters.copy()
 for N in Nuisance_parameters_check.free_parameters:
@@ -438,8 +536,11 @@ res_standard = (
     .smooth(0.1 * u.deg)
 )
 vmax__ = np.nanmax(np.abs(res_standard.data))
-res_standard.plot(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
-
+try:
+    res_standard.plot_grid(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
+except:
+    res_standard.plot(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
+    
 fig = plt.gcf()
 name = f'{source}/plots/res_standard.png'
 fig.savefig(name, dpi=300, bbox_inches = 'tight')
@@ -449,8 +550,11 @@ res_N = (
     .slice_by_idx(dict(energy=slice(i_start, i_end)))
     .smooth(0.1 * u.deg)
 )
-res_N.plot(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
-
+try:
+    res_N.plot_grid(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
+except:
+    res_N.plot(add_cbar=1, vmax=vmax__, vmin=-vmax__, cmap="coolwarm");
+    
 fig = plt.gcf()
 name = f'{source}/plots/res_N.png'
 fig.savefig(name, dpi=300, bbox_inches = 'tight')
@@ -462,7 +566,7 @@ res_N = (
     .smooth(0.1 * u.deg)
 )
 vmax = np.nanmax(np.abs(res_standard.data))
-res_N.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
+#res_N.plot_grid(add_cbar=1, vmax=vmax, vmin=-vmax, cmap="coolwarm");
 
 
 res_standard = (
@@ -513,9 +617,9 @@ print(eax)
 ax.set_xlim(eax[6], eax[-1])
 ax.legend(loc = 'lower right')
 fig = plt.gcf()
-name = f'plots/2_Spectral_Residuals.png'
+name = f'{source}/plots/2_Spectral_Residuals.png'
 fig.savefig(name, dpi=300, bbox_inches = 'tight')
-name = f'plots/2_Spectral_Residuals.pdf'
+name = f'{source}/plots/2_Spectral_Residuals.pdf'
 fig.savefig(name, dpi=300, bbox_inches = 'tight')
 
 
@@ -551,6 +655,8 @@ for p_N, p_stand , p_pseudo in zip(dataset_N.models.parameters,
 
 
 added =  '00'+str(int(binsize[0].value* 100)) + '_' + str(i_start) + str(i_end)
+if down_hand :
+    added += "_down" +str(downsampling_factor)
 print(added)
 
 import yaml
@@ -559,23 +665,23 @@ path_local_repo = '/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserro
 
 
 if save:
-    print(f"save in: {path_local_repo}/{source}/nui_dataset_{added}{free_parameters}.fits" )
-    print(f"and: {path_local_repo}/nui_bgmodel_{added}{free_parameters}.yml ")
+    print(f"save in: {path_local_repo}/{source}/nui_dataset_{added}{free_parameters}{downsampling_factor}.fits" )
+    print(f"and: {path_local_repo}/nui_bgmodel_{added}{free_parameters}{downsampling_factor}.yml ")
 
 
     # save for now in this folder
-    dataset_N.write(f'{path_local_repo}/{source}/nui_dataset_{added}{free_parameters}.fits', overwrite = True)
-    with open(f'{path_local_repo}/{source}/nui_par_{added}{free_parameters}.yml', 'w') as outfile:
+    dataset_N.write(f'{path_local_repo}/{source}/nui_dataset_{added}{free_parameters}{downsampling_factor}.fits', overwrite = True)
+    with open(f'{path_local_repo}/{source}/nui_par_{added}{free_parameters}{downsampling_factor}.yml', 'w') as outfile:
             yaml.dump(dataset_N.N_parameters.to_dict(), outfile, default_flow_style=False,
                      )
-    with open(f'{path_local_repo}/{source}/nui_bgmodel_{added}{free_parameters}.yml', 'w') as outfile:
+    with open(f'{path_local_repo}/{source}/nui_bgmodel_{added}{free_parameters}{downsampling_factor}.yml', 'w') as outfile:
             yaml.dump(dataset_N.background_model.to_dict(), outfile, default_flow_style=False,
                      )
-    with open(f'{path_local_repo}/{source}/nui_model_{added}{free_parameters}.yml', 'w') as outfile:
+    with open(f'{path_local_repo}/{source}/nui_model_{added}{free_parameters}{downsampling_factor}.yml', 'w') as outfile:
             yaml.dump(dataset_N.models.to_dict(), outfile, default_flow_style=False,
                      )        
 
-    with open(f'{path_local_repo}/{source}/pseudo_bgmodel_{added}{free_parameters}.yml', 'w') as outfile:
+    with open(f'{path_local_repo}/{source}/pseudo_bgmodel_{added}{free_parameters}{downsampling_factor}.yml', 'w') as outfile:
             yaml.dump(dataset_pseudo.background_model.to_dict(), outfile, default_flow_style=True)
-    with open(f'{path_local_repo}/{source}/pseudo_model_{added}{free_parameters}.yml', 'w') as outfile:
+    with open(f'{path_local_repo}/{source}/pseudo_model_{added}{free_parameters}{downsampling_factor}.yml', 'w') as outfile:
             yaml.dump(dataset_pseudo.models.to_dict(), outfile, default_flow_style=True)    
