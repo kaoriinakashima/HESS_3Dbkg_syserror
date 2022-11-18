@@ -1,0 +1,330 @@
+### Starting TaskPrologue of job 660894 on w2309 at Fri Nov  4 16:49:30 CET 2022
+#   SLURM_JOB_NODELIST=w2309
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=2
+#   SLURM_NPROCS=2
+#   SLURM_TASKS_PER_NODE=2
+#   SLURM_JOB_CPUS_PER_NODE=16
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 16-31 with govenor powersave
+### Finished TaskPrologue
+/var/tmp/slurmd_spool/job660894/slurm_script: line 24: conda: command not found
+/var/tmp/slurmd_spool/job660894/slurm_script: line 25: conda: command not found
+
+     active environment : gammapy-0.20
+    active env location : /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20
+            shell level : 1
+       user config file : /home/hpc/caph/mppi045h/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : 3.21.4
+         python version : 3.7.10.final.0
+       virtual packages : __linux=4.18.0=0
+                          __glibc=2.28=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/hpc/caph/mppi045h/anaconda3  (writable)
+      conda av data dir : /home/hpc/caph/mppi045h/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/hpc/caph/mppi045h/anaconda3/pkgs
+                          /home/hpc/caph/mppi045h/.conda/pkgs
+       envs directories : /home/hpc/caph/mppi045h/anaconda3/envs
+                          /home/hpc/caph/mppi045h/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.28.1 CPython/3.7.10 Linux/4.18.0-372.19.1.el8_6.x86_64 almalinux/8.6 glibc/2.28
+                UID:GID : 363202:15615
+             netrc file : None
+           offline mode : False
+
+loaded gammapy version: 0.20 
+Supposed to be 0.20 (18-10-2022)
+GC_timedependent_7 centralspectrumfree
+time: 7
+loaded the models
+masked the dataset
+spatial binsize =  [0.02] deg
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.068   +/-    0.06             
+    amplitude                     :   1.86e-12   +/- 8.6e-14 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.105   +/-    0.02 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : j78v1Pl--bkg
+  Datasets names            : ['j78v1Pl-']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+Traceback (most recent call last):
+  File "/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5-Tutorial_Nui_Par_Fitting.py", line 269, in <module>
+    sysamplitude_percentage = np.loadtxt((f'{local_path_}/{name}'))
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/vault/caph/mppi062h/repositories/GC/20221101/HESS/systematic_levels/from_lookuptable_7_percentage.txt not found.
+loaded gammapy version: 0.20 
+Supposed to be 0.20 (18-10-2022)
+GC_timedependent_7 centralspectrumfree
+time: 7
+loaded the models
+masked the dataset
+spatial binsize =  [0.02] deg
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.068   +/-    0.06             
+    amplitude                     :   1.86e-12   +/- 8.6e-14 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.105   +/-    0.02 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : acFO1bv_-bkg
+  Datasets names            : ['acFO1bv_']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+Traceback (most recent call last):
+  File "/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/5-Tutorial_Nui_Par_Fitting.py", line 269, in <module>
+    sysamplitude_percentage = np.loadtxt((f'{local_path_}/{name}'))
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1042, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 532, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /home/vault/caph/mppi062h/repositories/GC/20221101/HESS/systematic_levels/from_lookuptable_7_percentage.txt not found.
+srun: error: w2309: tasks 0-1: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=660894.0
+=== JOB_STATISTICS ===
+=== current date     : Fri Nov  4 16:51:18 CET 2022
+= Job-ID             : 660894 on woody
+= Job-Name           : Testjob
+= Job-Command        : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/submit_tiny_fat.slurm
+= Initial workdir    : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset
+= Queue/Partition    : work
+= Slurm account      : caph with QOS=normal
+= Requested resources: cpu=16,mem=124000M,node=1,billing=16 for 10:00:00
+= Elapsed runtime    : 00:01:57
+= Total RAM usage    : 1.0 GiB of requested 121 GiB (0.8%)   
+= Node list          : w2309
+= Subm/Elig/Start/End: 2022-11-04T16:49:21 / 2022-11-04T16:49:21 / 2022-11-04T16:49:21 / 2022-11-04T16:51:18
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc           41.4G    52.4G   104.9G        N/A  41,269      500K   1,000K        N/A    
+    /home/saturn       687.4G     0.0K     0.0K        N/A   9,666                           N/A    

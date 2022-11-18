@@ -1,0 +1,1728 @@
+### Starting TaskPrologue of job 662153 on w2322 at Mon Nov  7 12:31:40 CET 2022
+#   SLURM_JOB_NODELIST=w2322
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=2
+#   SLURM_NPROCS=2
+#   SLURM_TASKS_PER_NODE=2
+#   SLURM_JOB_CPUS_PER_NODE=16
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-15 with govenor powersave
+### Finished TaskPrologue
+/var/tmp/slurmd_spool/job662153/slurm_script: line 24: conda: command not found
+/var/tmp/slurmd_spool/job662153/slurm_script: line 25: conda: command not found
+
+     active environment : gammapy-0.20
+    active env location : /home/hpc/caph/mppi045h/anaconda3/envs/gammapy-0.20
+            shell level : 1
+       user config file : /home/hpc/caph/mppi045h/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : 3.21.4
+         python version : 3.7.10.final.0
+       virtual packages : __linux=4.18.0=0
+                          __glibc=2.28=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/hpc/caph/mppi045h/anaconda3  (writable)
+      conda av data dir : /home/hpc/caph/mppi045h/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/hpc/caph/mppi045h/anaconda3/pkgs
+                          /home/hpc/caph/mppi045h/.conda/pkgs
+       envs directories : /home/hpc/caph/mppi045h/anaconda3/envs
+                          /home/hpc/caph/mppi045h/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.28.1 CPython/3.7.10 Linux/4.18.0-372.19.1.el8_6.x86_64 almalinux/8.6 glibc/2.28
+                UID:GID : 363202:15615
+             netrc file : None
+           offline mode : False
+
+loaded gammapy version: 0.20 
+Supposed to be 0.20 (18-10-2022)
+GC_timedependent_7 centralspectrumfree
+time: 7
+loaded the models
+masked the dataset
+spatial binsize =  [0.02] deg
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.068   +/-    0.06             
+    amplitude                     :   1.86e-12   +/- 8.6e-14 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.105   +/-    0.02 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : Lm4y15E8-bkg
+  Datasets names            : ['Lm4y15E8']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+sysamplitude_percentage: [        nan         nan         nan  0.10647703 -0.1810161   0.01200137
+ -0.03355345 -0.00341166  0.00948934  0.04480995  0.03323198  0.17657211
+  0.12830584  0.13378425 -0.10535406 -0.22954416 -0.03493649 -0.03393966
+ -0.06455174  0.00729122 -0.20152365 -0.38084919 -0.03636505  2.00441681]
+Estimated systematic uncertainty: 
+
+Ebin               [Counts]    [% BG]
+0.1  : 0.1    TeV:  nan         nan    
+0.1  : 0.2    TeV:  nan         nan    
+0.2  : 0.2    TeV:  nan         nan    
+0.2  : 0.3    TeV:  2441.0      0.106  
+0.3  : 0.4    TeV:  -2672.0     -0.181  
+0.4  : 0.6    TeV:  135.0       0.012  
+0.6  : 0.7    TeV:  -220.0      -0.034  
+0.7  : 1.0    TeV:  -17.0       -0.003  
+1.0  : 1.3    TeV:  29.0        0.009  
+1.3  : 1.8    TeV:  102.0       0.045  
+1.8  : 2.4    TeV:  46.0        0.033  
+2.4  : 3.2    TeV:  148.0       0.177  
+3.2  : 4.2    TeV:  68.0        0.128  
+4.2  : 5.6    TeV:  39.0        0.134  
+5.6  : 7.5    TeV:  -16.0       -0.105  
+7.5  : 10.0   TeV:  -21.0       -0.23  
+10.0 : 13.3   TeV:  -2.0        -0.035  
+13.3 : 17.8   TeV:  -1.0        -0.034  
+17.8 : 23.7   TeV:  -1.0        -0.065  
+23.7 : 31.6   TeV:  0.0         0.007  
+31.6 : 42.2   TeV:  -2.0        -0.202  
+42.2 : 56.2   TeV:  -2.0        -0.381  
+56.2 : 75.0   TeV:  -0.0        -0.036  
+75.0 : 100.0  TeV:  4.0         2.004  
+Current Binning: 400
+Possible downsampling factors: [1, 2, 4, 5, 8, 10, 16, 20, 25, 40, 50, 80, 100, 200]
+Resulting Binsize: [0.02, 0.04, 0.08, 0.1, 0.16, 0.2, 0.32, 0.4, 0.5, 0.8, 1.0, 1.6, 2.0, 4.0]
+
+Chosen Downsampling Factor: 
+ 100.
+This will result in a Binsize of the Nuisance Parameters of 
+ [2.] deg deg.
+Which is smaller than the observed angular size of the systematics of 
+ 0.5 deg.
+Creating Mask for Nuisance Parameters where sysamplitude==0
+nui_mask: [False False False  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True]
+[False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+                                     sys * thresh < stat:
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 22926.0    pm 151.0            |  2441.0
+                                                            0
+BG: 14760.0    pm 121.0            |  2672.0
+                                                            0
+BG: 11278.0    pm 106.0            |  135.0
+                                                            0
+BG: 6563.0     pm 81.0             |  220.0
+                                                            0
+BG: 4918.0     pm 70.0             |  17.0
+                                                            1
+BG: 3099.0     pm 56.0             |  29.0
+loaded gammapy version: 0.20 
+Supposed to be 0.20 (18-10-2022)
+GC_timedependent_7 centralspectrumfree
+time: 7
+loaded the models
+masked the dataset
+spatial binsize =  [0.02] deg
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.068   +/-    0.06             
+    amplitude                     :   1.86e-12   +/- 8.6e-14 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.105   +/-    0.02 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : YtH-3eHV-bkg
+  Datasets names            : ['YtH-3eHV']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+sysamplitude_percentage: [        nan         nan         nan  0.10647703 -0.1810161   0.01200137
+ -0.03355345 -0.00341166  0.00948934  0.04480995  0.03323198  0.17657211
+  0.12830584  0.13378425 -0.10535406 -0.22954416 -0.03493649 -0.03393966
+ -0.06455174  0.00729122 -0.20152365 -0.38084919 -0.03636505  2.00441681]
+Estimated systematic uncertainty: 
+
+Ebin               [Counts]    [% BG]
+0.1  : 0.1    TeV:  nan         nan    
+0.1  : 0.2    TeV:  nan         nan    
+0.2  : 0.2    TeV:  nan         nan    
+0.2  : 0.3    TeV:  2441.0      0.106  
+0.3  : 0.4    TeV:  -2672.0     -0.181  
+0.4  : 0.6    TeV:  135.0       0.012  
+0.6  : 0.7    TeV:  -220.0      -0.034  
+0.7  : 1.0    TeV:  -17.0       -0.003  
+1.0  : 1.3    TeV:  29.0        0.009  
+1.3  : 1.8    TeV:  102.0       0.045  
+1.8  : 2.4    TeV:  46.0        0.033  
+2.4  : 3.2    TeV:  148.0       0.177  
+3.2  : 4.2    TeV:  68.0        0.128  
+4.2  : 5.6    TeV:  39.0        0.134  
+5.6  : 7.5    TeV:  -16.0       -0.105  
+7.5  : 10.0   TeV:  -21.0       -0.23  
+10.0 : 13.3   TeV:  -2.0        -0.035  
+13.3 : 17.8   TeV:  -1.0        -0.034  
+17.8 : 23.7   TeV:  -1.0        -0.065  
+23.7 : 31.6   TeV:  0.0         0.007  
+31.6 : 42.2   TeV:  -2.0        -0.202  
+42.2 : 56.2   TeV:  -2.0        -0.381  
+56.2 : 75.0   TeV:  -0.0        -0.036  
+75.0 : 100.0  TeV:  4.0         2.004  
+Current Binning: 400
+Possible downsampling factors: [1, 2, 4, 5, 8, 10, 16, 20, 25, 40, 50, 80, 100, 200]
+Resulting Binsize: [0.02, 0.04, 0.08, 0.1, 0.16, 0.2, 0.32, 0.4, 0.5, 0.8, 1.0, 1.6, 2.0, 4.0]
+
+Chosen Downsampling Factor: 
+ 100.
+This will result in a Binsize of the Nuisance Parameters of 
+ [2.] deg deg.
+Which is smaller than the observed angular size of the systematics of 
+ 0.5 deg.
+Creating Mask for Nuisance Parameters where sysamplitude==0
+nui_mask: [False False False  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True]
+[False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+                                     sys * thresh < stat:
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 0.0        pm 0.0              |  nan
+                                                            0
+BG: 22926.0    pm 151.0            |  2441.0
+                                                            0
+BG: 14760.0    pm 121.0            |  2672.0
+                                                            0
+BG: 11278.0    pm 106.0            |  135.0
+                                                            0
+BG: 6563.0     pm 81.0             |  220.0
+                                                            0
+BG: 4918.0     pm 70.0             |  17.0
+                                                            1
+BG: 3099.0     pm 56.0             |  29.0
+                                                            1
+BG: 2273.0     pm 48.0             |  102.0
+                                                            0
+BG: 1370.0     pm 37.0             |  46.0
+                                                            0
+BG: 839.0      pm 29.0             |  148.0
+                                                            0
+BG: 528.0      pm 23.0             |  68.0
+                                                            0
+BG: 290.0      pm 17.0             |  39.0
+                                                            0
+BG: 152.0      pm 12.0             |  16.0
+                                                            0
+BG: 93.0       pm 10.0             |  21.0
+                                                            0
+BG: 58.0       pm 8.0              |  2.0
+                                                            1
+BG: 36.0       pm 6.0              |  1.0
+                                                            1
+BG: 22.0       pm 5.0              |  1.0
+                                                            1
+BG: 14.0       pm 4.0              |  0.0
+                                                            1
+BG: 8.0        pm 3.0              |  2.0
+                                                            1
+BG: 5.0        pm 2.0              |  2.0
+                                                            0
+BG: 3.0        pm 2.0              |  0.0
+                                                            1
+BG: 2.0        pm 1.0              |  4.0
+                                                            0
+False False
+False False
+False False
+True False
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+-0.18101610183715822
+0.012001373767852784
+-0.03355344533920288
+-0.0034116604924201966
+0.009489344358444214
+0.04480994701385498
+0.03323198080062866
+0.17657211303710937
+0.12830583572387697
+0.13378424644470216
+-0.10535406112670899
+-0.22954416275024414
+-0.03493649482727051
+-0.03393965721130371
+-0.06455173969268799
+0.007291224598884582
+-0.2015236473083496
+-0.3808491897583008
+-0.03636504888534546
+2.004416809082031
+300  free Nuisance Parameters out of  320
+Maximal expected sys amplitude in % of bg: 200.44168090820312
+Maximal sigma: 200.44168090820312
+MapDatasetNuisance
+------------------
+
+  Name                            : -aamaqy- 
+
+  Total counts                    : 67410 
+  Total background counts         : 65072.74
+  Total excess counts             : 2337.26
+
+  Predicted counts                : 66918.78
+  Predicted background counts     : 65072.73
+  Predicted excess counts         : 1846.05
+
+  Exposure min                    : 2.14e+01 m2 s
+  Exposure max                    : 1.24e+10 m2 s
+
+  Number of total bins            : 3840000 
+  Number of fit bins              : 1546209 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : 347440.82
+
+  Number of models                : 8 
+  Number of parameters            : 44
+  Number of free parameters       : 3
+
+  Number of Nuisance parameters   : 320
+  Number of free Nuisance parameters: 300
+
+
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.000   +/-    0.15             
+    amplitude                     :   1.95e-12   +/- 2.6e-13 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.117   +/-    0.06 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : -aamaqy--bkg
+  Datasets names            : ['-aamaqy-']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+                                                            1
+BG: 2273.0     pm 48.0             |  102.0
+                                                            0
+BG: 1370.0     pm 37.0             |  46.0
+                                                            0
+BG: 839.0      pm 29.0             |  148.0
+                                                            0
+BG: 528.0      pm 23.0             |  68.0
+                                                            0
+BG: 290.0      pm 17.0             |  39.0
+                                                            0
+BG: 152.0      pm 12.0             |  16.0
+                                                            0
+BG: 93.0       pm 10.0             |  21.0
+                                                            0
+BG: 58.0       pm 8.0              |  2.0
+                                                            1
+BG: 36.0       pm 6.0              |  1.0
+                                                            1
+BG: 22.0       pm 5.0              |  1.0
+                                                            1
+BG: 14.0       pm 4.0              |  0.0
+                                                            1
+BG: 8.0        pm 3.0              |  2.0
+                                                            1
+BG: 5.0        pm 2.0              |  2.0
+                                                            0
+BG: 3.0        pm 2.0              |  0.0
+                                                            1
+BG: 2.0        pm 1.0              |  4.0
+                                                            0
+False False
+False False
+False False
+True False
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+True True
+-0.18101610183715822
+0.012001373767852784
+-0.03355344533920288
+-0.0034116604924201966
+0.009489344358444214
+0.04480994701385498
+0.03323198080062866
+0.17657211303710937
+0.12830583572387697
+0.13378424644470216
+-0.10535406112670899
+-0.22954416275024414
+-0.03493649482727051
+-0.03393965721130371
+-0.06455173969268799
+0.007291224598884582
+-0.2015236473083496
+-0.3808491897583008
+-0.03636504888534546
+2.004416809082031
+300  free Nuisance Parameters out of  320
+Maximal expected sys amplitude in % of bg: 200.44168090820312
+Maximal sigma: 200.44168090820312
+MapDatasetNuisance
+------------------
+
+  Name                            : sBNp2eLw 
+
+  Total counts                    : 67410 
+  Total background counts         : 65072.74
+  Total excess counts             : 2337.26
+
+  Predicted counts                : 66918.78
+  Predicted background counts     : 65072.73
+  Predicted excess counts         : 1846.05
+
+  Exposure min                    : 2.14e+01 m2 s
+  Exposure max                    : 1.24e+10 m2 s
+
+  Number of total bins            : 3840000 
+  Number of fit bins              : 1546209 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : 347440.82
+
+  Number of models                : 8 
+  Number of parameters            : 44
+  Number of free parameters       : 3
+
+  Number of Nuisance parameters   : 320
+  Number of free Nuisance parameters: 300
+
+
+DatasetModels
+
+Component 0: SkyModel
+
+  Name                      : HESS J1741-302
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.300                   
+    amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):    358.277       deg         
+    lat_0                 (frozen):      0.049       deg         
+
+Component 1: SkyModel
+
+  Name                      : HESS J1745-290
+  Datasets names            : None
+  Spectral model type       : ExpCutoffPowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                         :      2.000   +/-    0.15             
+    amplitude                     :   1.95e-12   +/- 2.6e-13 1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lambda_                       :      0.117   +/-    0.06 1 / TeV     
+    alpha                 (frozen):      1.000                   
+    lon_0                 (frozen):    359.945       deg         
+    lat_0                 (frozen):     -0.044       deg         
+
+Component 2: SkyModel
+
+  Name                      : HESS J1745-303
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.567                   
+    amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.867       TeV         
+    lon_0                 (frozen):    358.645       deg         
+    lat_0                 (frozen):     -0.564       deg         
+    sigma                 (frozen):      0.179       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 3: SkyModel
+
+  Name                      : HESS J1746-285
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.170                   
+    amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.140       deg         
+    lat_0                 (frozen):     -0.114       deg         
+
+Component 4: SkyModel
+
+  Name                      : HESS J1746-308
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : GaussianSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      3.271                   
+    amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+    reference             (frozen):      0.488       TeV         
+    lon_0                 (frozen):    358.448       deg         
+    lat_0                 (frozen):     -1.114       deg         
+    sigma                 (frozen):      0.162       deg         
+    e                     (frozen):      0.000                   
+    phi                   (frozen):      0.000       deg         
+
+Component 5: SkyModel
+
+  Name                      : HESS J1747-281
+  Datasets names            : None
+  Spectral model type       : PowerLawSpectralModel
+  Spatial  model type       : PointSpatialModel
+  Temporal model type       : 
+  Parameters:
+    index                 (frozen):      2.400                   
+    amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+    reference             (frozen):      1.000       TeV         
+    lon_0                 (frozen):      0.872       deg         
+    lat_0                 (frozen):      0.076       deg         
+
+Component 6: SkyModel
+
+  Name                      : diff-emission
+  Datasets names            : None
+  Spectral model type       : PowerLawNormSpectralModel
+  Spatial  model type       : TemplateSpatialModel
+  Temporal model type       : 
+  Parameters:
+    norm                  (frozen):  21794.206                   
+    tilt                  (frozen):      0.013                   
+    reference             (frozen):      1.000       TeV         
+
+Component 7: FoVBackgroundModel
+
+  Name                      : sBNp2eLw-bkg
+  Datasets names            : ['sBNp2eLw']
+  Spectral model type       : PowerLawNormSpectralModel
+  Parameters:
+    norm                  (frozen):      1.000                   
+    tilt                  (frozen):      0.000                   
+    reference             (frozen):      1.000       TeV         
+
+
+Fittin nui pars
+[1.00000000e-01 1.33352143e-01 1.77827941e-01 2.37137371e-01
+ 3.16227766e-01 4.21696503e-01 5.62341325e-01 7.49894209e-01
+ 1.00000000e+00 1.33352143e+00 1.77827941e+00 2.37137371e+00
+ 3.16227766e+00 4.21696503e+00 5.62341325e+00 7.49894209e+00
+ 1.00000000e+01 1.33352143e+01 1.77827941e+01 2.37137371e+01
+ 3.16227766e+01 4.21696503e+01 5.62341325e+01 7.49894209e+01
+ 1.00000000e+02]
+MapDataset
+----------
+
+  Name                            : FiYiehJl 
+
+  Total counts                    : 67410 
+  Total background counts         : 62937.83
+  Total excess counts             : 4472.17
+
+  Predicted counts                : 64800.23
+  Predicted background counts     : 62937.83
+  Predicted excess counts         : 1862.39
+
+  Exposure min                    : 2.14e+01 m2 s
+  Exposure max                    : 1.24e+10 m2 s
+
+  Number of total bins            : 3840000 
+  Number of fit bins              : 1546209 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : 346867.92
+
+  Number of models                : 8 
+  Number of parameters            : 44
+  Number of free parameters       : 3
+
+  Component 0: SkyModel
+  
+    Name                      : HESS J1741-302
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.300                   
+      amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):    358.277       deg         
+      lat_0                 (frozen):      0.049       deg         
+  
+  Component 1: SkyModel
+  
+    Name                      : HESS J1745-290
+    Datasets names            : None
+    Spectral model type       : ExpCutoffPowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                         :      2.106   +/-    0.15             
+      amplitude                     :   1.92e-12   +/- 2.5e-13 1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lambda_                       :      0.095   +/-    0.06 1 / TeV     
+      alpha                 (frozen):      1.000                   
+      lon_0                 (frozen):    359.945       deg         
+      lat_0                 (frozen):     -0.044       deg         
+  
+  Component 2: SkyModel
+  
+    Name                      : HESS J1745-303
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.567                   
+      amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+      reference             (frozen):      0.867       TeV         
+      lon_0                 (frozen):    358.645       deg         
+      lat_0                 (frozen):     -0.564       deg         
+      sigma                 (frozen):      0.179       deg         
+      e                     (frozen):      0.000                   
+      phi                   (frozen):      0.000       deg         
+  
+  Component 3: SkyModel
+  
+    Name                      : HESS J1746-285
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.170                   
+      amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):      0.140       deg         
+      lat_0                 (frozen):     -0.114       deg         
+  
+  Component 4: SkyModel
+  
+    Name                      : HESS J1746-308
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      3.271                   
+      amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+      reference             (frozen):      0.488       TeV         
+      lon_0                 (frozen):    358.448       deg         
+      lat_0                 (frozen):     -1.114       deg         
+      sigma                 (frozen):      0.162       deg         
+      e                     (frozen):      0.000                   
+      phi                   (frozen):      0.000       deg         
+  
+  Component 5: SkyModel
+  
+    Name                      : HESS J1747-281
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.400                   
+      amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):      0.872       deg         
+      lat_0                 (frozen):      0.076       deg         
+  
+  Component 6: SkyModel
+  
+    Name                      : diff-emission
+    Datasets names            : None
+    Spectral model type       : PowerLawNormSpectralModel
+    Spatial  model type       : TemplateSpatialModel
+    Temporal model type       : 
+    Parameters:
+      norm                  (frozen):  21794.206                   
+      tilt                  (frozen):      0.013                   
+      reference             (frozen):      1.000       TeV         
+  
+  Component 7: FoVBackgroundModel
+  
+    Name                      : FiYiehJl-bkg
+    Datasets names            : ['FiYiehJl']
+    Spectral model type       : PowerLawNormSpectralModel
+    Parameters:
+      norm                  (frozen):      1.000                   
+      tilt                  (frozen):      0.000                   
+      reference             (frozen):      1.000       TeV         
+  
+  
+ with nuisance
+(without nuisance)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.3 +- 0.0 +- 0.0
+(2.3 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 2.1e-13 +- 0.0 +- 0.0
+(2.1e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.3 +- 0.0 +- 0.0
+(358.3 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ 0.04908 +- 0.0 +- 0.0
+(0.04908 +- 0.0)
+
+==================================================
+index False
+--------------------------------------------------
+ 2.105 +- 0.148 +- 0.0304
+(2.0 +- 0.155)
+
+==================================================
+amplitude False
+--------------------------------------------------
+ 1.925e-12 +- 2.51e-13 +- 4.14e-14
+(1.951e-12 +- 2.6e-13)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lambda_ False
+--------------------------------------------------
+ 0.09552 +- 0.0596 +- 0.0147
+(0.1174 +- 0.0632)
+
+==================================================
+alpha True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 359.9 +- 0.0 +- 0.0
+(359.9 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.04391 +- 0.0 +- 0.0
+(-0.04391 +- 0.0)
+
+/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/my_dataset_maps_20.py:1014: RuntimeWarning: invalid value encountered in true_divide
+  yerr = excess_error / np.sqrt(npred_spec.data)
+Template file already exits, and overwrite is False
+Template file already exits, and overwrite is False
+==================================================
+index True
+--------------------------------------------------
+ 2.567 +- 0.0 +- 0.0
+(2.567 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 2.466e-12 +- 0.0 +- 0.0
+(2.466e-12 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 0.867 +- 0.0 +- 0.0
+(0.867 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.6 +- 0.0 +- 0.0
+(358.6 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.5642 +- 0.0 +- 0.0
+(-0.5642 +- 0.0)
+
+==================================================
+sigma True
+--------------------------------------------------
+ 0.1789 +- 0.0 +- 0.0
+(0.1789 +- 0.0)
+
+==================================================
+e True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+phi True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.17 +- 0.0 +- 0.0
+(2.17 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 1.8e-13 +- 0.0 +- 0.0
+(1.8e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 0.14 +- 0.0 +- 0.0
+(0.14 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.114 +- 0.0 +- 0.0
+(-0.114 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 3.271 +- 0.0 +- 0.0
+(3.271 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 7.209e-12 +- 0.0 +- 0.0
+(7.209e-12 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 0.4875 +- 0.0 +- 0.0
+(0.4875 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.4 +- 0.0 +- 0.0
+(358.4 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -1.114 +- 0.0 +- 0.0
+(-1.114 +- 0.0)
+
+==================================================
+sigma True
+--------------------------------------------------
+ 0.1615 +- 0.0 +- 0.0
+(0.1615 +- 0.0)
+
+==================================================
+e True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+phi True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.4 +- 0.0 +- 0.0
+(2.4 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 8.384e-13 +- 0.0 +- 0.0
+(8.384e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 0.872 +- 0.0 +- 0.0
+(0.872 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ 0.076 +- 0.0 +- 0.0
+(0.076 +- 0.0)
+
+==================================================
+norm True
+--------------------------------------------------
+ 2.179e+04 +- 0.0 +- 0.0
+(2.179e+04 +- 0.0)
+
+==================================================
+tilt True
+--------------------------------------------------
+ 0.01272 +- 0.0 +- 0.0
+(0.01272 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+norm True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+tilt True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+002_424_down100
+save in: /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/GC_timedependent_7/nui_dataset_002_424_down100centralspectrumfree100.fits
+and: /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/nui_bgmodel_002_424_down100centralspectrumfree100.yml 
+Fittin nui pars
+[1.00000000e-01 1.33352143e-01 1.77827941e-01 2.37137371e-01
+ 3.16227766e-01 4.21696503e-01 5.62341325e-01 7.49894209e-01
+ 1.00000000e+00 1.33352143e+00 1.77827941e+00 2.37137371e+00
+ 3.16227766e+00 4.21696503e+00 5.62341325e+00 7.49894209e+00
+ 1.00000000e+01 1.33352143e+01 1.77827941e+01 2.37137371e+01
+ 3.16227766e+01 4.21696503e+01 5.62341325e+01 7.49894209e+01
+ 1.00000000e+02]
+MapDataset
+----------
+
+  Name                            : M1wxeRG2 
+
+  Total counts                    : 67410 
+  Total background counts         : 62937.83
+  Total excess counts             : 4472.17
+
+  Predicted counts                : 64800.23
+  Predicted background counts     : 62937.83
+  Predicted excess counts         : 1862.39
+
+  Exposure min                    : 2.14e+01 m2 s
+  Exposure max                    : 1.24e+10 m2 s
+
+  Number of total bins            : 3840000 
+  Number of fit bins              : 1546209 
+
+  Fit statistic type              : cash
+  Fit statistic value (-2 log(L)) : 346867.92
+
+  Number of models                : 8 
+  Number of parameters            : 44
+  Number of free parameters       : 3
+
+  Component 0: SkyModel
+  
+    Name                      : HESS J1741-302
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.300                   
+      amplitude             (frozen):   2.10e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):    358.277       deg         
+      lat_0                 (frozen):      0.049       deg         
+  
+  Component 1: SkyModel
+  
+    Name                      : HESS J1745-290
+    Datasets names            : None
+    Spectral model type       : ExpCutoffPowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                         :      2.106   +/-    0.15             
+      amplitude                     :   1.92e-12   +/- 2.5e-13 1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lambda_                       :      0.095   +/-    0.06 1 / TeV     
+      alpha                 (frozen):      1.000                   
+      lon_0                 (frozen):    359.945       deg         
+      lat_0                 (frozen):     -0.044       deg         
+  
+  Component 2: SkyModel
+  
+    Name                      : HESS J1745-303
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.567                   
+      amplitude             (frozen):   2.47e-12       1 / (cm2 s TeV)
+      reference             (frozen):      0.867       TeV         
+      lon_0                 (frozen):    358.645       deg         
+      lat_0                 (frozen):     -0.564       deg         
+      sigma                 (frozen):      0.179       deg         
+      e                     (frozen):      0.000                   
+      phi                   (frozen):      0.000       deg         
+  
+  Component 3: SkyModel
+  
+    Name                      : HESS J1746-285
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.170                   
+      amplitude             (frozen):   1.80e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):      0.140       deg         
+      lat_0                 (frozen):     -0.114       deg         
+  
+  Component 4: SkyModel
+  
+    Name                      : HESS J1746-308
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : GaussianSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      3.271                   
+      amplitude             (frozen):   7.21e-12       1 / (cm2 s TeV)
+      reference             (frozen):      0.488       TeV         
+      lon_0                 (frozen):    358.448       deg         
+      lat_0                 (frozen):     -1.114       deg         
+      sigma                 (frozen):      0.162       deg         
+      e                     (frozen):      0.000                   
+      phi                   (frozen):      0.000       deg         
+  
+  Component 5: SkyModel
+  
+    Name                      : HESS J1747-281
+    Datasets names            : None
+    Spectral model type       : PowerLawSpectralModel
+    Spatial  model type       : PointSpatialModel
+    Temporal model type       : 
+    Parameters:
+      index                 (frozen):      2.400                   
+      amplitude             (frozen):   8.38e-13       1 / (cm2 s TeV)
+      reference             (frozen):      1.000       TeV         
+      lon_0                 (frozen):      0.872       deg         
+      lat_0                 (frozen):      0.076       deg         
+  
+  Component 6: SkyModel
+  
+    Name                      : diff-emission
+    Datasets names            : None
+    Spectral model type       : PowerLawNormSpectralModel
+    Spatial  model type       : TemplateSpatialModel
+    Temporal model type       : 
+    Parameters:
+      norm                  (frozen):  21794.206                   
+      tilt                  (frozen):      0.013                   
+      reference             (frozen):      1.000       TeV         
+  
+  Component 7: FoVBackgroundModel
+  
+    Name                      : M1wxeRG2-bkg
+    Datasets names            : ['M1wxeRG2']
+    Spectral model type       : PowerLawNormSpectralModel
+    Parameters:
+      norm                  (frozen):      1.000                   
+      tilt                  (frozen):      0.000                   
+      reference             (frozen):      1.000       TeV         
+  
+  
+ with nuisance
+(without nuisance)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.3 +- 0.0 +- 0.0
+(2.3 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 2.1e-13 +- 0.0 +- 0.0
+(2.1e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.3 +- 0.0 +- 0.0
+(358.3 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ 0.04908 +- 0.0 +- 0.0
+(0.04908 +- 0.0)
+
+==================================================
+index False
+--------------------------------------------------
+ 2.105 +- 0.148 +- 0.0304
+(2.0 +- 0.155)
+
+==================================================
+amplitude False
+--------------------------------------------------
+ 1.925e-12 +- 2.51e-13 +- 4.14e-14
+(1.951e-12 +- 2.6e-13)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lambda_ False
+--------------------------------------------------
+ 0.09552 +- 0.0596 +- 0.0147
+(0.1174 +- 0.0632)
+
+==================================================
+alpha True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 359.9 +- 0.0 +- 0.0
+(359.9 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.04391 +- 0.0 +- 0.0
+(-0.04391 +- 0.0)
+
+/home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/my_dataset_maps_20.py:1014: RuntimeWarning: invalid value encountered in true_divide
+  yerr = excess_error / np.sqrt(npred_spec.data)
+Template file already exits, and overwrite is False
+Template file already exits, and overwrite is False
+==================================================
+index True
+--------------------------------------------------
+ 2.567 +- 0.0 +- 0.0
+(2.567 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 2.466e-12 +- 0.0 +- 0.0
+(2.466e-12 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 0.867 +- 0.0 +- 0.0
+(0.867 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.6 +- 0.0 +- 0.0
+(358.6 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.5642 +- 0.0 +- 0.0
+(-0.5642 +- 0.0)
+
+==================================================
+sigma True
+--------------------------------------------------
+ 0.1789 +- 0.0 +- 0.0
+(0.1789 +- 0.0)
+
+==================================================
+e True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+phi True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.17 +- 0.0 +- 0.0
+(2.17 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 1.8e-13 +- 0.0 +- 0.0
+(1.8e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 0.14 +- 0.0 +- 0.0
+(0.14 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -0.114 +- 0.0 +- 0.0
+(-0.114 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 3.271 +- 0.0 +- 0.0
+(3.271 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 7.209e-12 +- 0.0 +- 0.0
+(7.209e-12 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 0.4875 +- 0.0 +- 0.0
+(0.4875 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 358.4 +- 0.0 +- 0.0
+(358.4 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ -1.114 +- 0.0 +- 0.0
+(-1.114 +- 0.0)
+
+==================================================
+sigma True
+--------------------------------------------------
+ 0.1615 +- 0.0 +- 0.0
+(0.1615 +- 0.0)
+
+==================================================
+e True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+phi True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+index True
+--------------------------------------------------
+ 2.4 +- 0.0 +- 0.0
+(2.4 +- 0.0)
+
+==================================================
+amplitude True
+--------------------------------------------------
+ 8.384e-13 +- 0.0 +- 0.0
+(8.384e-13 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+lon_0 True
+--------------------------------------------------
+ 0.872 +- 0.0 +- 0.0
+(0.872 +- 0.0)
+
+==================================================
+lat_0 True
+--------------------------------------------------
+ 0.076 +- 0.0 +- 0.0
+(0.076 +- 0.0)
+
+==================================================
+norm True
+--------------------------------------------------
+ 2.179e+04 +- 0.0 +- 0.0
+(2.179e+04 +- 0.0)
+
+==================================================
+tilt True
+--------------------------------------------------
+ 0.01272 +- 0.0 +- 0.0
+(0.01272 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+norm True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+
+==================================================
+tilt True
+--------------------------------------------------
+ 0.0 +- 0.0 +- 0.0
+(0.0 +- 0.0)
+
+==================================================
+reference True
+--------------------------------------------------
+ 1.0 +- 0.0 +- 0.0
+(1.0 +- 0.0)
+002_424_down100
+save in: /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/GC_timedependent_7/nui_dataset_002_424_down100centralspectrumfree100.fits
+and: /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/syserror_3d_bkgmodel/2-source_dataset/nui_bgmodel_002_424_down100centralspectrumfree100.yml 
+=== JOB_STATISTICS ===
+=== current date     : Mon Nov  7 12:51:58 CET 2022
+= Job-ID             : 662153 on woody
+= Job-Name           : Testjob
+= Job-Command        : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset/submit_tiny_fat.slurm
+= Initial workdir    : /home/hpc/caph/mppi045h/3D_analysis/N_parameters_in_L/HESS_3Dbkg_syserror/2-error_in_dataset
+= Queue/Partition    : work
+= Slurm account      : caph with QOS=normal
+= Requested resources: cpu=16,mem=124000M,node=1,billing=16 for 1-00:00:00
+= Elapsed runtime    : 00:20:21
+= Total RAM usage    : 3.4 GiB of requested 121 GiB (2.8%)   
+= Node list          : w2322
+= Subm/Elig/Start/End: 2022-11-07T12:31:36 / 2022-11-07T12:31:36 / 2022-11-07T12:31:37 / 2022-11-07T12:51:58
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc           42.0G    52.4G   104.9G        N/A  41,347      500K   1,000K        N/A    
+    /home/saturn       687.4G     0.0K     0.0K        N/A   9,666                           N/A    
