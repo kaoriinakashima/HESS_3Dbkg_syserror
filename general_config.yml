@@ -9,7 +9,7 @@ offset_cut: 2.5 #maximum radius you want to include in the analysis in units of 
 width: 5 #width of the individual dataset, parameter in gammapy, units in deg
 
 # this section you might NOT want to change
-FITS_PROD: '/home/vault/caph/shared/data/FITS/HAP/fits_prod05' #for ECAP
+FITS_PROD: '/home/wecapstor1/caph/shared/hess/fits/fits_data/prod05' #for ECAP
 excl_regions_stars: 'fixed_material/datafiles_ExcludedRegions-stars.dat'
 excl_regions_sources: 'fixed_material/datafiles_bgmodel_excluded_regions.dat'
 

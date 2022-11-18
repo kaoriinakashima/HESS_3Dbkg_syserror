@@ -3,18 +3,18 @@ components:
   spatial:
     frame: icrs
     parameters:
-    - error: 0.0006348317540102796
+    - error: 0.0004916784809693744
       name: lon_0
       unit: deg
-      value: 83.6306047271155
-    - error: 0.0008725722724478754
+      value: 83.62921756140312
+    - error: 0.00045665185493712227
       name: lat_0
       unit: deg
-      value: 22.01814057644107
-    - error: 0.004266589035272086
+      value: 22.02014556105327
+    - error: 0.0009251811125134972
       name: sigma
       unit: deg
-      value: 0.0191738503908559
+      value: 0.014106115147075202
     - frozen: true
       name: e
       value: 0.0
@@ -25,29 +25,29 @@ components:
     type: GaussianSpatialModel
   spectral:
     parameters:
-    - error: 2.8310085033739635e-13
+    - error: 2.9275459747660433e-13
       name: amplitude
       unit: cm-2 s-1 TeV-1
-      value: 3.698075933482425e-11
+      value: 3.630527768232657e-11
     - frozen: true
       name: reference
       unit: TeV
       value: 1.0
-    - error: 0.018348416483790368
+    - error: 0.01827811452268416
       name: alpha
-      value: 2.5129640868308187
-    - error: 0.009121164155951066
+      value: 2.5339339887983328
+    - error: 0.009032841878991407
       name: beta
-      value: 0.1031643888189551
+      value: 0.09798051111098609
     type: LogParabolaSpectralModel
   type: SkyModel
 - datasets_names:
-  - BZUsVSzc
+  - y1Xw5U2c
   spectral:
     parameters:
-    - error: 0.0016224536231473417
+    - error: 0.0016844368859682366
       name: norm
-      value: 0.9965459485124857
+      value: 0.9981054737438961
     - frozen: true
       name: tilt
       value: 0.0
